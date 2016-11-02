@@ -1,7 +1,7 @@
 # my_portfolio
 
 #### Author:
-*Lance Takiguchi
+* Lance Takiguchi
 
 #### Version:
 * Dev Master
