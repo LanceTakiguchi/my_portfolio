@@ -20,9 +20,9 @@
   background-image:
   linear-gradient(
     to bottom,
-    #353c3f 20%,
-    #414a4e,
-    #353c3f 80%
+    #050608 20%,
+    #1C2837,
+    #050608 95%
     );
 }
 
@@ -46,6 +46,18 @@ a:visited{
   color: #ff8d3f; /*orange*/
 }
 
+a:hover{
+  /*color: #d5d6d2;*/
+    text-decoration: none;
+  color: #d5d6d2;
+  text-shadow: none;
+  -webkit-transition: 200ms linear 0s;
+  -moz-transition: 200ms linear 0s;
+  -o-transition: 200ms linear 0s;
+  transition: 200ms linear 0s;
+  outline: 0 none;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
 
 html{
   font-family: 'Open Sans', Verdana, sans-serif;
@@ -56,10 +68,14 @@ html{
 }
 
 body{
-  background-color: #353c3f; /*charcoal*/
+  /*background-color: #353c3f;*/ /*charcoal*/
   margin: 0;
   display: inline;
   color: #CD7213;
+
+  background: radial-gradient(ellipse at bottom, #1C2837 0%, #050608 100%);
+  /*background: radial-gradient(circle, #1C2837 20%, #050608 100%);*/
+  background-attachment:fixed;
 }
 
 .space_nav{

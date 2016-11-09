@@ -37,7 +37,6 @@ Version Date: 11/03/2016 Time: 12:59
 	<div id="about" class="set_height">
 		<div class="space_nav"> </div>
 		<h2 class="title"> Welcome </h2>
-		<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/bc502e33018383.569d37341f41d.gif">
 	</div>
 	<div id="applications" class="set_height">
 		<div class="space_nav"> </div>
