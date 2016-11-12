@@ -1,0 +1,59 @@
+ /* Star background */
+ body{
+ 	background: #090A0F; /* For browsers that do not support gradients */
+ 	background: -webkit-radial-gradient(ellipse at bottom,
+ 		#1B2735 0%,
+ 		#090A0F 100%); /* Safari 5.1 to 6.0 */
+ 	background: -o-radial-gradient(ellipse at bottom,
+ 		#1B2735 0%,
+ 		#090A0F 100%); /* For Opera 11.6 to 12.0 */
+ 	background: -moz-radial-gradient(ellipse at bottom,
+ 		#1B2735 0%,
+ 		#090A0F 100%); /* For Firefox 3.6 to 15 */
+ 	background: radial-gradient(ellipse at bottom,
+ 		#1B2735 0%,
+ 		#090A0F 100%);
+ 	background-attachment: fixed; /* Holds background in place */
+ }
+
+/*@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 500s linear infinite;
+  -ms-animation:move-twink-back 500s linear infinite;
+  -o-animation:move-twink-back 500s linear infinite;
+  -webkit-animation:move-twink-back 500s linear infinite;
+  animation:move-twink-back 500s linear infinite;
+}*/

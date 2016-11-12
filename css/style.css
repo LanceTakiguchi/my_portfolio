@@ -4,29 +4,18 @@
 
  .navbar {
  	/*background-color: #16253D;*/ /*midnight blue*/
- 	position: fixed;
+ 	position: block;
  	top: 0;
  	left: 0;
- 	z-index: 1;
+ 	z-index: 2;
  	width: 100%;
  	margin: 0;
  	border: 0;
  	padding: 0;
  }
 
- .gradient {
-  height: 70px;
-  /*background-color: #16253D;*/
-  background-image:
-  linear-gradient(
-    to bottom,
-    #050608 20%,
-    #1C2837,
-    #050608 95%
-    );
-}
 
-.navbar ul{
+ .navbar ul{
   display: flex;
   justify-content: space-between; 	
 }
@@ -40,6 +29,12 @@
 .navbar a{
   text-decoration: none;
   color: #ff8d3f; /*orange*/
+
+  /*Change color*/
+  -webkit-transition: linear 500ms;
+  -moz-transition: linear 500ms;
+  -o-transition: linear 500ms;
+  transition: linear 500ms;
 }
 
 a:visited{
@@ -48,14 +43,14 @@ a:visited{
 
 a:hover{
   /*color: #d5d6d2;*/
-    text-decoration: none;
+  text-decoration: none;
   color: #d5d6d2;
   text-shadow: none;
-  -webkit-transition: 200ms linear 0s;
-  -moz-transition: 200ms linear 0s;
-  -o-transition: 200ms linear 0s;
-  transition: 200ms linear 0s;
   outline: 0 none;
+  -webkit-transition: linear 200ms;
+  -moz-transition: linear 200ms;
+  -o-transition: linear 200ms;
+  transition: linear 200ms;
   text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
@@ -63,7 +58,7 @@ a:hover{
  * Body
  */
 
-html{
+ html{
   font-family: 'Open Sans', Verdana, sans-serif;
   font-size: 22px;
   font-color: #d5d6d2; /*orange*/
@@ -76,14 +71,6 @@ body{
   margin: 0;
   display: inline;
   color: #CD7213;
-
-  background: radial-gradient(ellipse at bottom, #1C2837 0%, #050608 100%);
-  /*background: radial-gradient(circle, #1C2837 20%, #050608 100%);*/
-  background-attachment:fixed;
-}
-
-.space_nav{
-  height: 70px;
 }
 
 .title{
@@ -94,3 +81,5 @@ body{
 .set_height{
   height: 100vh;
 }
+
+
