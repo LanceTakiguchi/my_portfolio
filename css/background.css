@@ -13,10 +13,10 @@
  	background: radial-gradient(ellipse at bottom,
  		#1B2735 0%,
  		#090A0F 100%);
- 	background-attachment: fixed; /* Holds background in place */
+  background-attachment: fixed; /* Holds background in place */
  }
 
-/*@keyframes move-twink-back {
+@keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
@@ -40,20 +40,23 @@
   right:0;
   bottom:0;
   width:100%;
+  background-attachment: fixed; /* Holds background in place */
 }
 
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:0;
+  z-index:-2;
+  background-attachment: fixed; /* Holds background in place */
 }
 
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:1;
+  z-index:-1;
 
   -moz-animation:move-twink-back 500s linear infinite;
   -ms-animation:move-twink-back 500s linear infinite;
   -o-animation:move-twink-back 500s linear infinite;
   -webkit-animation:move-twink-back 500s linear infinite;
   animation:move-twink-back 500s linear infinite;
-}*/
+  background-attachment: fixed; /* Holds background in place */
+}
