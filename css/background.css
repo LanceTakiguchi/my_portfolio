@@ -1,4 +1,8 @@
  /* Star background */
+body{
+  background-color: black; /* Default & when scrolling on mobile (iPhone 6s) bottom of screen */
+}
+
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
