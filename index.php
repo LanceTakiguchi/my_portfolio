@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: 0.7
-Version Objective: Set up the basic background effects
-Version Date: 11/09/2016 Time: 14:17
+Version: 0.9
+Version Objective: Polish Sections to minimum viable product
+Version Date: 11/17/2016 Time: 16:38
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>

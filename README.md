@@ -1,13 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-
-Version: Master
-Description: Final, live version of website
+Date: 2016/11/17
 
 #### Version: 
-* 0.1
+* 0.9
 
 ##### Description:
-* Basic HTML up and running
->>>>>>> v0.5
+* Polish Sections to minimum viable product
