@@ -12,6 +12,7 @@
  	border: 0;
  	padding: 0;
 
+  /* Fade behind nav bar. Dark top to transparent bottom */
   height: 100px; /* Note: Keep the save as  navbar_avoid_padding */
   background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
@@ -70,7 +71,13 @@ p{
   margin: 0;
 }
 
+a{
+  color: #CD7213; /* bronze */
+  text-decoration: none;
+}
+
 a:visited{
+  text-decoration: none;
   color: #CD7213; /* bronze */
 }
 
@@ -86,7 +93,6 @@ a:visited{
 }
 
 a:hover{
-  /*color: #d5d6d2;*/
   text-decoration: none;
   color: #d5d6d2;
   text-shadow: none;
@@ -113,6 +119,12 @@ html{
   font-style: italic;
 }
 
+p
+{
+  margin: 0;
+  padding: 0;
+}
+
 #quote p{
   text-align: center;
   font-size: 50px;
@@ -125,7 +137,6 @@ html{
 }
 .code p{
   margin: 0;
-  line-height: 15px;
 }
 
 .indent_1{

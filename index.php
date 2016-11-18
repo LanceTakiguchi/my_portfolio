@@ -22,6 +22,7 @@ Version Date: 11/17/2016 Time: 16:38
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/background.css">
+	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<title> Lance Takiguchi | Portfolio</title>
 </head>
 <body>
@@ -29,34 +30,39 @@ Version Date: 11/17/2016 Time: 16:38
 	<div class="twinkling"></div>
 	<nav class="navbar">
 		<ul>
-			<li> <a href="#"> About </a> </li>
+			<li> <a href="#"> Home </a> </li>
 			<li> <a href="#applications"> Applications </a> </li>
 			<li> <a href="#skills"> Skills </a> </li>
 			<li> <a href="#contact"> Contact </a> </li>
 		</ul>
 	</nav>
 	
-	<div id="about" class="set_height margin_center navbar_avoid_padding">
+	<div id="home" class="set_height margin_center navbar_avoid_padding">
 		<div id="quote">
 			<p>Astronomy compels the soul to look upward, and leads us from this world to another.</p>
 			<p> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
 		</div>
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
-		<h2 class="title"> Applications </h2>
-		<p> Nullam semper laoreet viverra. Morbi sed cursus libero. Sed eu facilisis arcu. Nullam euismod luctus orci nec ullamcorper. Fusce et nunc laoreet, elementum justo id, feugiat ligula. Donec porttitor diam vel eros consectetur, sed lacinia lorem euismod. Integer sit amet pellentesque nibh. Mauris lacinia, tortor ut malesuada faucibus, arcu libero sagittis nunc, ut suscipit urna augue sit amet odio. Curabitur rutrum quam a condimentum lacinia. Curabitur dignissim felis a ullamcorper dictum. Nulla non placerat quam. Quisque mauris mauris, malesuada rhoncus lorem nec, mattis auctor tellus. Sed vel purus odio. </p>
+		<h2 class="title"><a href="#applications"> Applications </a> </h2>
+		<div id="solar_system">
+			<div id="sun" class="circle">  </div>
+			<div id="saturn" class="circle">  </div>
+		</div>
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
-		<h2 class="title"> Skills </h2>
+		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
 		<div class="code">
-			<p> var <span class="code_name">education</span> = { </p><br>
-			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Web Development</span>",</span></p><br>
-			<p class="indent_1"> <span class="code_name">uc_irvine: "<span class="code_value">Informatics</span>"</span></p><br>
-			<p> }; </p> <br>
-			<p> var <span class="code_name">work_experince</span> = { </p><br>
-			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Code Review</span>"</span>,</p><br>
-			<p> }; </p> <br>
-			<p> var <span class="code_name">skills</span> = [ </p><br>
+			<p> var <span class="code_name">education</span> = { </p>
+			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Web Development</span>",</span></p>
+			<p class="indent_1"> <span class="code_name">uc_irvine: "<span class="code_value">Informatics</span>"</span></p>
+			<p> }; </p>
+			<br>
+			<p> var <span class="code_name">work_experince</span> = { </p>
+			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Code Review</span>"</span>,</p>
+			<p> }; </p>
+			<br>
+			<p> var <span class="code_name">skills</span> = [ </p>
 			<p class="indent_1"> <span class="code_name">"<span class="code_value">HTML</span>",
 				"<span class="code_value">CSS</span>",
 				"<span class="code_value">Javascript</span>", 
@@ -66,16 +72,16 @@ Version Date: 11/17/2016 Time: 16:38
 				"<span class="code_value">Firebase</span>"
 				"<span class="code_value">Bootstrap</span>"
 				"<span class="code_value">PHP</span>"
-			</span> </p><br>
+			</span> </p>
 			<p> ]; </p> 
 		</div>	
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
-		<h2 class="title"> Contacts </h2>
+		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
 		<p> Email: LanceTakiguchi@gmail.com </p>
 		<p> Phone: (909) 815-1863 </p>
-		<p> LinkedIn:  <a>linkedin.com/in/lancetakiguchi</a></p>
-		<p> Github:  <a>github.com/LanceTakiguchi</a></p>
+		<p> LinkedIn:  <a href="https://www.linkedin.com/in/lancetakiguchi">linkedin.com/in/lancetakiguchi</a></p>
+		<p> Github:  <a href="https://github.com/LanceTakiguchi">Github.com/LanceTakiguchi</a></p>
 	</div>
 </body>	
 </html>

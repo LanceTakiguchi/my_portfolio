@@ -1,0 +1,33 @@
+#solar_system{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.circle{
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+}
+
+#sun{
+	left: 50%;
+	top: 50%;
+	margin: auto;
+	box-shadow: 0 0 100px rgba(255, 160, 60, 0.5); /* Sun's glow */
+	background: radial-gradient(circle at 100px 100px, #FB7209, #fbeb09);
+}
+
+#saturn {
+	left: 20%;
+	top: 50%;
+	background-color: brown;
+	margin: 0% auto;
+	width: 40px;
+	height: 40px;
+}
+
+/* http://www.useragentman.com/blog/2013/03/03/animating-circular-paths-using-css3-transitions/ */
