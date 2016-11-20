@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2016/11/17
+Date: 2016/11/19
 
 #### Version: 
 * 0.9
 
 ##### Description:
-* Polish Sections to minimum viable product
+*  Move solar system to the background, have applications section be backholes as links

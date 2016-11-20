@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: 0.9
-Version Objective: Polish Sections to minimum viable product
-Version Date: 11/17/2016 Time: 16:38
+Version: 0.9b
+Version Objective: Move solar system to the background, have applications section be backholes as links
+Version Date: 11/19/2016 Time: 17:58
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
@@ -26,8 +26,15 @@ Version Date: 11/17/2016 Time: 16:38
 	<title> Lance Takiguchi | Portfolio</title>
 </head>
 <body>
+	<!-- The Background -->
 	<div class="stars"></div>
 	<div class="twinkling"></div>
+	<div id="solar_system">
+		<div id="sun" class="circle_body">  </div>
+		<div id="earth" class="circle"> 
+			<div class="circle_body"></div>
+		</div>
+	</div>
 	<nav class="navbar">
 		<ul>
 			<li> <a href="#"> Home </a> </li>
@@ -45,15 +52,6 @@ Version Date: 11/17/2016 Time: 16:38
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"><a href="#applications"> Applications </a> </h2>
-		<div id="solar_system">
-			<div id="app_display"> 
-				<p> The SolApp System </p>
-			</div>
-			<div id="sun" class="circle_body">  </div>
-			<div id="earth" class="circle"> 
-				<div class="circle_body"></div>
-			</div>
-		</div>
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
