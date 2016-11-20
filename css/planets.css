@@ -1,6 +1,6 @@
 #solar_system{
-	height: 81.33%; /* fit in margins */
-	width: 81.33%; /* fit in margins */
+	height: 100%; /* fit in margins */
+	width: 100%; /* fit in margins */
 	position: fixed;
 	z-index: -1;
 }
@@ -52,16 +52,14 @@
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
-	animation-duration: 3s
+	animation-duration: 60s
 }
 
 #earth > .circle_body{
-	/*background-image: url(http://1.bp.blogspot.com/-Smbf4dRBVpk/UWsHBkFFOII/AAAAAAAAAgI/yHbcMC3llMM/s1600/planet.png);*/
 	background:#11abe9;
-	box-shadow: 0 -10px 0 -8px grey;
+	/*box-shadow: 0 -10px 0 -8px grey;*/
 	height: 3vh;
 	width: 3vh;
-	animation-duration: 1s;
 }
 
 @-webkit-keyframes orbit {

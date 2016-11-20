@@ -57,7 +57,7 @@ body{
 }
 
 
-/* Fonts */
+/* Fonts & Text */
 body{
   color: #efb509; /* Golden */
 }
@@ -150,3 +150,9 @@ p
 .code_value{
   color: #EFB509; /* Golden */
 }
+
+.faded_background{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px; 
+  box-shadow: 0 0 60px 2px #000;
+} 

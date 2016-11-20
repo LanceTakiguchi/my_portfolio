@@ -45,7 +45,7 @@ Version Date: 11/19/2016 Time: 17:58
 	</nav>
 	
 	<div id="home" class="set_height margin_center navbar_avoid_padding">
-		<div id="quote">
+		<div id="quote" class="faded_background">
 			<p>Astronomy compels the soul to look upward, and leads us from this world to another.</p>
 			<p> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
 		</div>
@@ -55,7 +55,7 @@ Version Date: 11/19/2016 Time: 17:58
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
-		<div class="code">
+		<div class="code faded_background">
 			<p> var <span class="code_name">education</span> = { </p>
 			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Web Development</span>",</span></p>
 			<p class="indent_1"> <span class="code_name">uc_irvine: "<span class="code_value">Informatics</span>"</span></p>
@@ -81,10 +81,12 @@ Version Date: 11/19/2016 Time: 17:58
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
-		<p> Email: LanceTakiguchi@gmail.com </p>
-		<p> Phone: (909) 815-1863 </p>
-		<p> LinkedIn:  <a href="https://www.linkedin.com/in/lancetakiguchi">linkedin.com/in/lancetakiguchi</a></p>
-		<p> Github:  <a href="https://github.com/LanceTakiguchi">Github.com/LanceTakiguchi</a></p>
+		<div class="faded_background">
+			<p> Email: LanceTakiguchi@gmail.com </p>
+			<p> Phone: (909) 815-1863 </p>
+			<p> LinkedIn:  <a href="https://www.linkedin.com/in/lancetakiguchi">linkedin.com/in/lancetakiguchi</a></p>
+			<p> Github:  <a href="https://github.com/LanceTakiguchi">Github.com/LanceTakiguchi</a></p>
+		</div>
 	</div>
 </body>	
 </html>
