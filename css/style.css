@@ -13,11 +13,11 @@
  	padding: 0;
 
   /* Fade behind nav bar. Dark top to transparent bottom */
-  height: 100px; /* Note: Keep the save as  navbar_avoid_padding */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+  height: 120px; /* Note: Keep the save as  navbar_avoid_padding */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */
 }
 
 .navbar ul{
@@ -53,7 +53,7 @@ body{
 }
 
 .navbar_avoid_padding{
-  padding-top: 100px; /* Note: Keep the save as  navbar height */
+  padding-top: 120px; /* Note: Keep the save as  navbar height */
 }
 
 

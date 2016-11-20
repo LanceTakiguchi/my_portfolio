@@ -46,8 +46,13 @@ Version Date: 11/17/2016 Time: 16:38
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"><a href="#applications"> Applications </a> </h2>
 		<div id="solar_system">
-			<div id="sun" class="circle">  </div>
-			<div id="saturn" class="circle">  </div>
+			<div id="app_display"> 
+				<p> The SolApp System </p>
+			</div>
+			<div id="sun" class="circle_body">  </div>
+			<div id="earth" class="circle"> 
+				<div class="circle_body"></div>
+			</div>
 		</div>
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
