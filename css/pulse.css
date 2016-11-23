@@ -1,14 +1,11 @@
 .container {
-	height: 100%;
 	display: flex;
-	justify-content: space-around; 	
+	justify-content: space-between; 	
 }
 
 /* Circle */
 .app_hover figure {
 	position: relative;
-	display: flex;
-	justify-content: space-around;
 	margin: 0;
 }
 .app_hover div{
@@ -26,19 +23,21 @@
 }
 
 .app_hover img{
-	height: 25vw;
-	width: 25vw;
+	height: 21.17vw;
+	width: 21.17vw;
 
-	-webkit-filter: blur(3px) opacity(95%); /* Safari */
-	filter: blur(3px) opacity(95%);
-	-webkit-transition: .4s ease-in-out;
-	transtion: .4s ease-in-out;
+	-webkit-filter: blur(3px) opacity(95%) brightness(120%); /* Safari */
+	filter: blur(3px) opacity(95%) brightness(120%);
+	-webkit-transition: .3s ease-in-out;
+	transtion: .3s ease-in-out;
 
 	cursor: pointer;
 }
+
+
 .app_hover img:hover{
-	-webkit-filter: blur(0) opacity(100%); /* Safari */
-	filter: blur(0) opacity(100%);
+	-webkit-filter: blur(0) opacity(100%) brightness(170%); /* Safari */
+	filter: blur(0) opacity(100%) brightness(170%);
 }
 
 .app_hover figure::before {
@@ -58,15 +57,26 @@
 	transform: translate(-50%, -50%);
 	opacity: 0;
 
-	-webkit-animation: circle 1.25s infinite;
-	animation: circle 1.25s infinite;
+	-webkit-animation: circle 2s infinite;
+	animation: circle 2s infinite;
 }
-.hover15 figure:hover::before {
+
+.app_hover.app_light img{
+	-webkit-filter: blur(0) opacity(100%) brightness(30%); /* Safari */
+	filter: blur(0) opacity(100%) brightness(30%);
+}
+
+
+.app_hover.app_light img:hover{
+	-webkit-filter: blur(0) opacity(100%) brightness(80%); /* Safari */
+	filter: blur(0) opacity(100%) brightness(80%);
+}
+
+.app_hover figure:hover::before {
 	pointer-events: none;
 
-	/* TODO: Fix fast pulse */
-	/*-webkit-animation: circle .4s infinite;
-	animation: circle .4s infinite;*/
+	-webkit-animation: circle 1s infinite;
+	animation: circle 1s infinite;
 }
 @-webkit-keyframes circle {
 	0% {
@@ -93,4 +103,12 @@
 		height: 140%;
 		opacity: 0;
 	}
+}
+
+/* Special Cases */
+.see_link:hover {
+
+
+	color: #CD7213;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }

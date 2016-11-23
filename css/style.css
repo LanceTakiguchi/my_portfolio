@@ -67,7 +67,7 @@ p{
 }
 .navbar li{
   display: inline-block;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One',  Verdana, cursive;
   margin: 0;
 }
 
@@ -106,12 +106,12 @@ a:hover{
 
 .title{
   color: #CD7213; /* Bronze */
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One',  Verdana, cursive;
   font-size: 42px;
 }
 
 html{
-  font-family: 'Open Sans', Verdana, sans-serif;
+  font-family: 'Raleway', Verdana, sans-serif;
   font-size: 30px;
 }
 
@@ -156,3 +156,13 @@ p
   border-radius: 5px; 
   box-shadow: 0 0 60px 2px #000;
 } 
+
+/* Font/Text Special */
+.not_link a:hover{
+  color: #CD7213;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  text-shadow: none;
+}
