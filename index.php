@@ -55,6 +55,11 @@ Version Date: 11/19/2016 Time: 17:58
 		<h2 class="title"><a href="#applications"> Applications </a> </h2>
 		<div class="container">
 			<div id="rebel_app" class="pulse_hole"></div>
+			<div class="hover15 column">
+				<div>
+					<figure><img src="assets/images/rebel_app.png" /></figure>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">

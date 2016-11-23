@@ -42,3 +42,81 @@
 @-moz-keyframes pulse {to {box-shadow: 0 0 0 4.17vw rgba(64,64,64, 0);}}
 @-ms-keyframes pulse {to {box-shadow: 0 0 0 4.17vw rgba(64,64,64, 0);}}
 @keyframes pulse {to {box-shadow: 0 0 0 4.17vw rgba(64,64,64, 0);}}
+
+
+
+
+/* Circle */
+.hover15 figure {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+}
+
+.hover15 img{
+	height: 16.67vw;
+	width: 16.67vw;
+
+	-webkit-filter: blur(3px) opacity(95%); /* Safari */
+	filter: blur(3px) opacity(95%);
+	-webkit-transition: .4s ease-in-out;
+	transtion: .4s ease-in-out;
+
+	cursor: pointer;
+}
+.hover15 img:hover{
+	-webkit-filter: blur(0) opacity(100%); /* Safari */
+	filter: blur(0) opacity(100%);
+}
+
+.hover15 figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+
+	-webkit-animation: circle 1.25s infinite;
+	animation: circle 1.25s infinite;
+}
+.hover15 figure:hover::before {
+	pointer-events: none;
+
+	-webkit-animation: circle .4s infinite;
+	animation: circle .4s infinite;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 140%;
+		height: 140%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 140%;
+		height: 140%;
+		opacity: 0;
+	}
+}
