@@ -54,10 +54,12 @@ Version Date: 11/19/2016 Time: 17:58
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"><a href="#applications"> Applications </a> </h2>
 		<div class="container">
-			<div id="rebel_app" class="pulse_hole"></div>
-			<div class="hover15 column">
+			<div class="app_hover">
 				<div>
-					<figure><img src="assets/images/rebel_app.png" /></figure>
+					<a href="https://collette-tamez.com/c10_game/"> 
+						<p> Rogue Fighter </p>
+						<figure><img src="assets/images/rebel_app.png" /></figure>
+					</a>
 				</div>
 			</div>
 		</div>
