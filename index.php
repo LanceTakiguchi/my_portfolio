@@ -23,6 +23,7 @@ Version Date: 11/19/2016 Time: 17:58
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
+	<link rel="stylesheet" type="text/css" href="css/pulse.css">
 	<title> Lance Takiguchi | Portfolio</title>
 </head>
 <body>
@@ -52,6 +53,9 @@ Version Date: 11/19/2016 Time: 17:58
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"><a href="#applications"> Applications </a> </h2>
+		<div class="container">
+			<div id="rebel_app" class="pulse_hole"></div>
+		</div>
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
