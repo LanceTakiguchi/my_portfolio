@@ -20,9 +20,9 @@
 .plantoid_body{
 	width: 5vh;
 	height: 5vh;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 
 	background-size:contain;
 	background-repeat: no-repeat;
@@ -38,8 +38,8 @@
 
 #sun{
 	position: absolute;
-	height: 8vh;
-	width: 8vh;
+	height: 10vh;
+	width: 10vh;
 	left: 50%;
 	top: 50%;
 	margin: auto;
@@ -52,7 +52,7 @@
 #mercury {
 	margin: 0% auto;
 	height: 5vh;
-	width: 12vh;
+	width: 16vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -62,14 +62,15 @@
 
 #mercury > .plantoid_body{
 	background: #9f5e26;
-	height: 1.5vh;
-	width: 1.5vh;
+	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 1px rgba(255, 203, 0, 0.13);
+	height: 1.3vh;
+	width: 1.3vh;
 }
 
 #venus {
 	margin: 0% auto;
 	height: 5vh;
-	width: 20vh;
+	width: 24vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -79,14 +80,15 @@
 
 #venus > .plantoid_body{
 	background:#BEB768;
-	height: 2.9vh;
-	width: 2.9vh;
+	box-shadow: 0 0 10px 2px rgba(180, 88, 22, 0.4), 0 0 22px 4px rgba(255, 203, 0, 0.13);
+	height: 2.3vh;
+	width: 2.3vh;
 }
 
 #earth {
 	margin: 0% auto;
 	height: 5vh;
-	width: 30vh;
+	width: 33vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -95,16 +97,25 @@
 }
 
 #earth > .plantoid_body{
-	background:#11abe9;
-	/*box-shadow: 0 -10px 0 -8px grey;*/
-	height: 3vh;
-	width: 3vh;
+	background: #11abe9; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+
+	box-shadow: 0 0 10px 2px rgba(153, 171, 236, 0.4), 0 0 4px 11px rgba(85, 137, 172, 0.13);
+	height: 2.5vh;
+	width: 2.5vh;
 }
 
 #mars {
 	margin: 0% auto;
 	height: 5vh;
-	width: 50vh;
+	width: 50vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -113,17 +124,25 @@
 }
 
 #mars > .plantoid_body{
-	background:#cf3921;
+	background: #cf3921; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
 
-	/*box-shadow: 0 -10px 0 -8px grey;*/
-	height: 2.5vh;
-	width: 2.5vh;
+	box-shadow: 0 0 10px 2px rgba(233, 78, 19, 0.4), 0 0 22px 2px rgba(255, 203, 0, 0.13);
+	height: 2vh;
+	width: 2vh;
 }
 
 #jupiter {
 	margin: 0% auto;
 	height: 5vh;
-	width: 90vh;
+	width: 90vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -134,13 +153,14 @@
 #jupiter > .plantoid_body{
 	background: #c3a992; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
-	background: -webkit-repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh #e9ece2 4vh);
+	background: -webkit-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
 	/* For Opera 11.6 to 12.0 */
-	background: -o-repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh #e9ece2 4vh);
+	background: -o-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
 	/* For Firefox 3.6 to 15 */
-	background: -moz-repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh #e9ece2 4vh);
+	background: -moz-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
 	/* Standard syntax */
-	background: repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh, #e9ece2 4vh);
+	background: repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
+	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.55), 0 0 22px 6px rgba(255, 203, 0, 0.36);
 
 	height: 6vh;
 	width: 6vh;
@@ -149,7 +169,7 @@
 #saturn {
 	margin: 0% auto;
 	height: 5vh;
-	width: 125vh;
+	width: 125vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -158,7 +178,18 @@
 }
 
 #saturn > .plantoid_body{
-	background:#e7c194;
+	background: #e7c194; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+
+
+	box-shadow: 0 0 10px 2px rgba(219, 132, 68, 0.41), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 4.5vh;
 	width: 4.5vh;
 }
@@ -166,7 +197,7 @@
 #uranus {
 	margin: 0% auto;
 	height: 5vh;
-	width: 150vh;
+	width: 150vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -176,6 +207,7 @@
 
 #uranus > .plantoid_body{
 	background: #b5e3e3;
+	box-shadow: 0 0 10px 2px rgba(0, 149, 255, 0.4), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 4.1vh;
 	width: 4.1vh;
 }
@@ -183,7 +215,7 @@
 #neptune {
 	margin: 0% auto;
 	height: 5vh;
-	width: 180vh;
+	width: 180vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -193,6 +225,7 @@
 
 #neptune > .plantoid_body{
 	background: #175e9e;
+	box-shadow: 0 0 10px 2px rgba(0, 55, 255, 0.59), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 3.8vh;
 	width: 3.8vh;
 }
