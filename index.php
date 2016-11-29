@@ -32,9 +32,30 @@ Version Date: 11/28/2016 Time: 18:55
 	<div class="stars"></div>
 	<div class="twinkling"></div>
 	<div id="solar_system">
-		<div id="sun" class="circle_body">  </div>
-		<div id="earth" class="circle"> 
-			<div class="circle_body"></div>
+		<div id="sun" class="plantoid_body">  </div>
+		<div id="mercury" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>	
+		<div id="venus" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>
+		<div id="earth" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>
+		<div id="mars" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>
+		<div id="jupiter" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>
+		<div id="saturn" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>
+		<div id="uranus" class="plantoid"> 
+			<div class="plantoid_body"></div>
+		</div>
+		<div id="neptune" class="plantoid"> 
+			<div class="plantoid_body"></div>
 		</div>
 	</div>
 	<nav class="navbar">

@@ -5,16 +5,19 @@
 	z-index: -1;
 }
 
-.circle{
+.plantoid{
 	position: absolute;
-
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	animation: infinite orbit linear;
+
+	-webkit-animation: infinite orbit linear; /* Safari 4+ */
+	-moz-animation:    infinite orbit linear; /* Fx 5+ */
+	-o-animation:      infinite orbit linear; /* Opera 12+ */
+	animation: 		   infinite orbit linear;
 }
 
-.circle_body{
+.plantoid_body{
 	width: 5vh;
 	height: 5vh;
 	-moz-border-radius: 50px;
@@ -26,7 +29,11 @@
 	position: absolute;
 	top: 50%;
 	transform: translate(0%,-50%);
-	animation: infinite rotate linear;
+
+	-webkit-animation: infinite rotate linear; /* Safari 4+ */
+	-moz-animation:    infinite rotate linear; /* Fx 5+ */
+	-o-animation:      infinite rotate linear; /* Opera 12+ */
+	animation: 		   infinite rotate linear;
 }
 
 #sun{
@@ -42,9 +49,41 @@
 	transform: translate(-50%, -50%);
 }
 
+#mercury {
+	margin: 0% auto;
+	height: 5vh;
+	width: 12vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 7s; /* orbit of 88 earth days */
+}
+
+#mercury > .plantoid_body{
+	background: #9f5e26;
+	height: 1.5vh;
+	width: 1.5vh;
+}
+
+#venus {
+	margin: 0% auto;
+	height: 5vh;
+	width: 20vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 18s; /* orbit of 225 earth days */
+}
+
+#venus > .plantoid_body{
+	background:#BEB768;
+	height: 2.9vh;
+	width: 2.9vh;
+}
+
 #earth {
-	left: 50%;
-	top: 50%;
 	margin: 0% auto;
 	height: 5vh;
 	width: 30vh;
@@ -52,16 +91,111 @@
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
-	animation-duration: 60s
+	animation-duration: 30s; /* orbit of 365 earth days */
 }
 
-#earth > .circle_body{
+#earth > .plantoid_body{
 	background:#11abe9;
 	/*box-shadow: 0 -10px 0 -8px grey;*/
 	height: 3vh;
 	width: 3vh;
 }
 
+#mars {
+	margin: 0% auto;
+	height: 5vh;
+	width: 50vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 56s; /* orbit of 687 earth days */
+}
+
+#mars > .plantoid_body{
+	background:#cf3921;
+
+	/*box-shadow: 0 -10px 0 -8px grey;*/
+	height: 2.5vh;
+	width: 2.5vh;
+}
+
+#jupiter {
+	margin: 0% auto;
+	height: 5vh;
+	width: 90vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 356s; /* orbit of 4331 earth days */
+}
+
+#jupiter > .plantoid_body{
+	background: #c3a992; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh #e9ece2 4vh);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh #e9ece2 4vh);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh #e9ece2 4vh);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#797663 3vh, #e1dcde 2vh, #c3a992 4vh, #e9ece2 4vh);
+
+	height: 6vh;
+	width: 6vh;
+}
+
+#saturn {
+	margin: 0% auto;
+	height: 5vh;
+	width: 125vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 883s; /* orbit of 10,747 earth days */
+}
+
+#saturn > .plantoid_body{
+	background:#e7c194;
+	height: 4.5vh;
+	width: 4.5vh;
+}
+
+#uranus {
+	margin: 0% auto;
+	height: 5vh;
+	width: 150vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 2549s; /* orbit of 30,589 earth days */
+}
+
+#uranus > .plantoid_body{
+	background: #b5e3e3;
+	height: 4.1vh;
+	width: 4.1vh;
+}
+
+#neptune {
+	margin: 0% auto;
+	height: 5vh;
+	width: 180vh;
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 4983s; /* orbit of 59,800 earth days */
+}
+
+#neptune > .plantoid_body{
+	background: #175e9e;
+	height: 3.8vh;
+	width: 3.8vh;
+}
 @-webkit-keyframes orbit {
 	from {
 		transform: translate(-50%,-50%) rotate3D(0,0,1,0deg);
