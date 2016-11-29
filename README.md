@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2016/11/19
+Date: 2016/11/28
 
 #### Version: 
-* 0.9
+* 1.0
 
 ##### Description:
-*  Move solar system to the background, have applications section be backholes as links
+*  Complete minimun viable website

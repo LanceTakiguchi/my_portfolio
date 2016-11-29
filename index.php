@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: 0.9b
-Version Objective: Move solar system to the background, have applications section be backholes as links
-Version Date: 11/19/2016 Time: 17:58
+Version: 1.0
+Version Objective: Complete minimun viable website
+Version Date: 11/28/2016 Time: 18:55
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
@@ -25,7 +25,7 @@ Version Date: 11/19/2016 Time: 17:58
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
-	<title> Lance Takiguchi | Portfolio</title>
+	<title> Lance Takiguchi | Portfolio </title>
 </head>
 <body>
 	<!-- The Background -->
