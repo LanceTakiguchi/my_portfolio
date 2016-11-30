@@ -17,6 +17,18 @@
 	animation: 		   infinite orbit linear;
 }
 
+.plantoid2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	-webkit-animation: infinite orbit2 linear; /* Safari 4+ */
+	-moz-animation:    infinite orbit2 linear; /* Fx 5+ */
+	-o-animation:      infinite orbit2 linear; /* Opera 12+ */
+	animation: 		   infinite orbit2 linear;
+}
+
 .plantoid_body{
 	width: 5vh;
 	height: 5vh;
@@ -29,17 +41,12 @@
 	position: absolute;
 	top: 50%;
 	transform: translate(0%,-50%);
-
-	-webkit-animation: infinite rotate linear; /* Safari 4+ */
-	-moz-animation:    infinite rotate linear; /* Fx 5+ */
-	-o-animation:      infinite rotate linear; /* Opera 12+ */
-	animation: 		   infinite rotate linear;
 }
 
 #sun{
 	position: absolute;
-	height: 10vh;
-	width: 10vh;
+	height: 8vh;
+	width: 8vh;
 	left: 50%;
 	top: 50%;
 	margin: auto;
@@ -52,48 +59,51 @@
 #mercury {
 	margin: 0% auto;
 	height: 5vh;
-	width: 16vh; /* main orbit distance */
+	width: 12vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 7s; /* orbit of 88 earth days */
+	animation-delay: -4.5s; /* starting position */
 }
 
 #mercury > .plantoid_body{
 	background: #9f5e26;
 	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 1px rgba(255, 203, 0, 0.13);
-	height: 1.3vh;
-	width: 1.3vh;
+	height: 1vh;
+	width: 1vh;
 }
 
 #venus {
 	margin: 0% auto;
 	height: 5vh;
-	width: 24vh; /* main orbit distance */
+	width: 19vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 18s; /* orbit of 225 earth days */
+	animation-delay: -9s; /* starting position */
 }
 
 #venus > .plantoid_body{
 	background:#BEB768;
 	box-shadow: 0 0 10px 2px rgba(180, 88, 22, 0.4), 0 0 22px 4px rgba(255, 203, 0, 0.13);
-	height: 2.3vh;
-	width: 2.3vh;
+	height: 1.9vh;
+	width: 1.9vh;
 }
 
 #earth {
 	margin: 0% auto;
 	height: 5vh;
-	width: 33vh; /* main orbit distance */
+	width: 28vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 30s; /* orbit of 365 earth days */
+	animation-delay: -9s; /* starting position */
 }
 
 #earth > .plantoid_body{
@@ -108,19 +118,20 @@
 	background: repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
 
 	box-shadow: 0 0 10px 2px rgba(153, 171, 236, 0.4), 0 0 4px 11px rgba(85, 137, 172, 0.13);
-	height: 2.5vh;
-	width: 2.5vh;
+	height: 2.2vh;
+	width: 2.2vh;
 }
 
 #mars {
 	margin: 0% auto;
 	height: 5vh;
-	width: 50vh; /* main orbit distance */
+	width: 35vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 56s; /* orbit of 687 earth days */
+	animation-delay: -30s; /* starting position */
 }
 
 #mars > .plantoid_body{
@@ -135,19 +146,20 @@
 	background: repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
 
 	box-shadow: 0 0 10px 2px rgba(233, 78, 19, 0.4), 0 0 22px 2px rgba(255, 203, 0, 0.13);
-	height: 2vh;
-	width: 2vh;
+	height: 1.5vh;
+	width: 1.5vh;
 }
 
 #jupiter {
 	margin: 0% auto;
 	height: 5vh;
-	width: 90vh; /* main orbit distance */
+	width: 50vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
-	animation-duration: 356s; /* orbit of 4331 earth days */
+	animation-duration: 356s; /* 356 orbit of 4331 earth days */
+	animation-delay: -348s; /* starting position */
 }
 
 #jupiter > .plantoid_body{
@@ -162,19 +174,20 @@
 	background: repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
 	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.55), 0 0 22px 6px rgba(255, 203, 0, 0.36);
 
-	height: 6vh;
-	width: 6vh;
+	height: 4.5vh;
+	width: 4.5vh;
 }
 
 #saturn {
 	margin: 0% auto;
 	height: 5vh;
-	width: 125vh; /* main orbit distance */
+	width: 75vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 883s; /* orbit of 10,747 earth days */
+	animation-delay: -700s; /* starting position */
 }
 
 #saturn > .plantoid_body{
@@ -196,55 +209,48 @@
 	0 0 0 1vh rgb(219, 132, 68),
 	0 0 0 .8vh rgb(170, 122, 34),
 	0 0 0 .6vh rgb(173, 161, 119);
-	height: 4vh;
-	width: 4vh;
+	height: 3.3vh;
+	width: 3.3vh;
 }
 
 #uranus {
 	margin: 0% auto;
 	height: 5vh;
-	width: 150vh; /* main orbit distance */
+	width: 85vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 2549s; /* orbit of 30,589 earth days */
+	animation-delay: -1150s; /* starting position */
 }
 
 #uranus > .plantoid_body{
 	background: #b5e3e3;
 	box-shadow: 0 0 10px 2px rgba(0, 149, 255, 0.4), 0 0 22px 5px rgba(255, 203, 0, 0.13);
-	height: 3.9vh;
-	width: 3.9vh;
+	height: 3.1vh;
+	width: 3.1vh;
 }
 
 #neptune {
 	margin: 0% auto;
 	height: 5vh;
-	width: 180vh; /* main orbit distance */
+	width: 95vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 4983s; /* orbit of 59,800 earth days */
+	animation-delay: -2691s; /* starting position */
 }
 
 #neptune > .plantoid_body{
 	background: #175e9e;
 	box-shadow: 0 0 10px 2px rgba(0, 55, 255, 0.59), 0 0 22px 5px rgba(255, 203, 0, 0.13);
-	height: 3.7vh;
-	width: 3.7vh;
+	height: 3vh;
+	width: 3vh;
 }
 @-webkit-keyframes orbit {
-	from {
-		transform: translate(-50%,-50%) rotate3D(0,0,1,0deg);
-	}
-	to {
-		transform: translate(-50%,-50%) rotate3D(0,0,1,360deg);
-	}
-} 
-
-@-webkit-keyframes rotate {
 	from {
 		transform: translate(-50%,-50%) rotate3D(0,0,1,0deg);
 	}
