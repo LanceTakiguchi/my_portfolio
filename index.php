@@ -103,7 +103,7 @@ Version Date: 11/28/2016 Time: 18:55
 			</div>
 			<div class="app_hover">
 				<div>
-					<a href="https://collette-tamez.com/c10_game/"> 
+					<a class="see_link" href="https://collette-tamez.com/c10_game/"> 
 						<p> Rogue Fighter </p>
 						<figure><img src="assets/images/apps/rebel_app.png" /></figure>
 					</a>
