@@ -17,18 +17,6 @@
 	animation: 		   infinite orbit linear;
 }
 
-.plantoid2{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
-	-webkit-animation: infinite orbit2 linear; /* Safari 4+ */
-	-moz-animation:    infinite orbit2 linear; /* Fx 5+ */
-	-o-animation:      infinite orbit2 linear; /* Opera 12+ */
-	animation: 		   infinite orbit2 linear;
-}
-
 .plantoid_body{
 	width: 5vh;
 	height: 5vh;
@@ -122,6 +110,25 @@
 	width: 2.2vh;
 }
 
+#moon {
+	margin: 0% auto;
+	height: 5vh;
+	width: 5.2vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 2.25s; /* orbit of 365 earth days */
+	animation-delay: -1.8s; /* starting position */
+}
+
+#moon > .plantoid_body{
+	background: grey; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: .9vh;
+	width: .9vh;
+}
+
 #mars {
 	margin: 0% auto;
 	height: 5vh;
@@ -153,7 +160,7 @@
 #jupiter {
 	margin: 0% auto;
 	height: 5vh;
-	width: 50vh; /* main orbit distance */
+	width: 53vh; /* main orbit distance */
 
 	/* rotate: relative to postive x axis. translate: distance; */
 	transform: rotate(330deg) translateX(100px);
@@ -176,6 +183,80 @@
 
 	height: 4.5vh;
 	width: 4.5vh;
+}
+
+#io {
+	margin: 0% auto;
+	height: 5vh;
+	width: 7vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: .72s; /* orbit of 365 earth days */
+	animation-delay: -.1s; /* starting position */
+}
+
+#io > .plantoid_body{
+	background: yellow; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: .8vh;
+	width: .8vh;
+}
+#europa {
+	margin: 0% auto;
+	height: 5vh;
+	width: 8.5vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 1.2s; /* orbit of 365 earth days */
+	animation-delay: -.35s; /* starting position */
+}
+
+#europa > .plantoid_body{
+	background: orange; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: .75vh;
+	width: .75vh;
+}
+#ganymede {
+	margin: 0% auto;
+	height: 5vh;
+	width: 10vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 2.36s; /* orbit of 365 earth days */
+	animation-delay: -.3s; /* starting position */
+}
+
+#ganymede > .plantoid_body{
+	background: grey; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: 1.2vh;
+	width: 1.2vh;
+}
+
+#callisto {
+	margin: 0% auto;
+	height: 5vh;
+	width: 12vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 5.42s; /* orbit of 10,747 earth days */
+	animation-delay: -3s; /* starting position */
+}
+
+#callisto > .plantoid_body{
+	background: grey;
+
+	height: 1.1vh;
+	width: 1.1vh;
 }
 
 #saturn {

@@ -40,13 +40,30 @@ Version Date: 11/28/2016 Time: 18:55
 			<div class="plantoid_body"></div>
 		</div>
 		<div id="earth" class="plantoid"> 
-			<div class="plantoid_body"></div>
+			<div class="plantoid_body">
+				<div id="moon" class="plantoid">
+					<div class="plantoid_body"></div>
+				</div>
+			</div>
 		</div>
 		<div id="mars" class="plantoid"> 
 			<div class="plantoid_body"></div>
 		</div>
 		<div id="jupiter" class="plantoid"> 
-			<div class="plantoid_body"></div>
+			<div class="plantoid_body">
+				<div id="io" class="plantoid">
+					<div class="plantoid_body"></div>
+				</div>
+				<div id="europa" class="plantoid">
+					<div class="plantoid_body"></div>
+				</div>
+				<div id="ganymede" class="plantoid">
+					<div class="plantoid_body"></div>
+				</div>
+				<div id="callisto" class="plantoid">
+					<div class="plantoid_body"></div>
+				</div>
+			</div>
 		</div>
 		<div id="saturn" class="plantoid"> 
 			<div class="plantoid_body"></div>
