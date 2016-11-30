@@ -1,0 +1,47 @@
+/* for phone only */
+@media only screen and (max-width: 599px) {
+	body {
+	}
+}
+
+/* for tablet portrait up */
+@media only screen and (min-width: 600px) {
+	body {
+	}
+}
+
+/* for tablet landscape up */
+@media only screen and (min-width: 900px) {
+	body {
+	}
+}
+
+/* for desktop up */
+@media only screen and (min-width: 1200px) {
+	body {
+	}
+}
+
+/* for big desktops up */
+@media only screen and (min-width: 1800px) {
+	/* Fonts & Text */
+	p{
+		font-size: 40px;
+	}
+
+	.title{
+		font-size: 56px;
+	}
+
+	html{
+		font-size: 40px;
+	}
+
+	#quote p{
+		font-size: 68px;
+	}
+
+
+	.indent_1{
+		text-indent: 50px;
+	}
