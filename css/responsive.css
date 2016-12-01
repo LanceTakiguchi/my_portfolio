@@ -50,7 +50,7 @@
 
 /* for tablet, portrait up. 854 x 480, 800 x 480, 960 x 540 */
 /* TODO: Create Mobile Nav bar; */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 899px){
 	p{
 		font-size: 15px;
 	}
@@ -100,7 +100,7 @@
 
 /* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
 /* TODO: Create Mobile Nav bar; */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (max-width: 1199px){
 	p{
 		font-size: 20px;
 	}
