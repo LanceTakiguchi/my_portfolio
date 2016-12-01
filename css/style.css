@@ -26,6 +26,9 @@
   justify-content: space-around; 	
 }
 
+ul.nav_list li.menu {
+  display: none;
+}
 
 /**
  * Body

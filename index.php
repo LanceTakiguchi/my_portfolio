@@ -22,10 +22,11 @@ Version Date: 11/30/2016 Time: 16:00
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/style_m.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
+	<script src="js/responsive.js"></script>
 	<title> Lance Takiguchi | Portfolio </title>
 </head>
 <body>
@@ -77,11 +78,14 @@ Version Date: 11/30/2016 Time: 16:00
 		</div>
 	</div>
 	<nav class="navbar">
-		<ul>
+		<ul class="nav_list" id="top_nav">
 			<li> <a href="#"> Home </a> </li>
 			<li> <a href="#applications"> Applications </a> </li>
 			<li> <a href="#skills"> Skills </a> </li>
 			<li> <a href="#contact"> Contact </a> </li>
+			<li class="menu">
+				<a href="javascript:void(0);" onclick="respon_js()">☰</a>
+			</li>
 		</ul>
 	</nav>
 	
