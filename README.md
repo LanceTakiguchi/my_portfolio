@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2016/11/28
+Date: 2016/11/30
 
 #### Version: 
-* 1.0
+* 1.0m
 
 ##### Description:
-*  Complete minimun viable website
+*  Make the webpage responsive to generic media queries
