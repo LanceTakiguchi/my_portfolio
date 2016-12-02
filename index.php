@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: 1.1
-Version Objective: Setup Google Analytics
-Version Date: 12/01/2016 Time: 22:17
+Version: 1.2
+Version Objective: Alter the UI & UX
+Version Date: 12/01/2016 Time: 22:42
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
@@ -18,7 +18,7 @@ Version Date: 12/01/2016 Time: 22:17
 	<meta name="author" content="Lance Takiguchi">
 	<meta name="description" content="Lance Takiguchi's Portfolio Website">
 	<meta name="date" content="11/02/16, November 02, 2016">
-	<link rel="icon" href="assets/images/cirlce_check.png">
+	<link rel="icon" href="assets/images/sun_icon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
