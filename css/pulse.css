@@ -1,6 +1,7 @@
 .container {
 	display: flex;
 	justify-content: space-between; 	
+	flex-wrap: wrap;
 }
 
 /* Circle */
@@ -99,6 +100,9 @@
 /* Special Cases */
 .app_hover .see_link p { 
 	color: #06adff;
+	text-align: center;
+	width: 100%;
+	left: 0;
 	/*font-size: 30px;  NOTE: See style_m*/
 }
 .see_link p:hover {

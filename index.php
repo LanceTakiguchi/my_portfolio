@@ -117,7 +117,7 @@ Version Date: 11/30/2016 Time: 16:00
 			<div class="app_hover app_light">
 				<div>
 					<a class="see_link" href="#applications"> 
-						<p> Student Grade Table </p>
+						<p> Calculator </p>
 						<figure><img src="assets/images/apps/calc_app.png" /></figure>
 					</a>
 				</div>
