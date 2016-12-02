@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2016/11/30
+Date: 2016/12/01
 
 #### Version: 
-* 1.0m
+* 1.1
 
 ##### Description:
-*  Make the webpage responsive to generic media queries
+*  Setup Google Analytics
