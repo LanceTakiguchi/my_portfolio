@@ -79,7 +79,7 @@ Version Date: 11/30/2016 Time: 16:00
 	</div>
 	<nav class="navbar">
 		<ul class="nav_list" id="top_nav">
-			<li> <a href="#"> Home </a> </li>
+			<li id="nav_home"> <a href="#"> Home </a> </li>
 			<li> <a href="#applications"> Applications </a> </li>
 			<li> <a href="#skills"> Skills </a> </li>
 			<li> <a href="#contact"> Contact </a> </li>
