@@ -53,8 +53,8 @@
 	transform: translate(-50%, -50%);
 	opacity: 0;
 
-	-webkit-animation: circle 2s infinite;
-	animation: circle 2s infinite;
+	-webkit-animation: circle 4s infinite;
+	animation: circle 4s infinite;
 }
 .app_hover.app_light img{
 	-webkit-filter: blur(5px) opacity(100%) brightness(30%); /* Safari */
@@ -67,8 +67,8 @@
 .app_hover figure:hover::before {
 	pointer-events: none;
 
-	-webkit-animation: circle 1s infinite;
-	animation: circle 1s infinite;
+	-webkit-animation: circle 0s;
+	animation: circle 0s;
 }
 @-webkit-keyframes circle {
 	0% {
@@ -99,12 +99,11 @@
 
 /* Special Cases */
 .app_hover .see_link p { 
-	color: #06adff;
+	color: #ffc;
 	text-align: center;
 	width: 100%;
 	left: 0;
+	text-shadow: -1px 1px 12px #000, 1px -1px 12px #000;
+
 	/*font-size: 30px;  NOTE: See style_m*/
-}
-.see_link p:hover {
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }

@@ -158,11 +158,24 @@ p
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px; 
   box-shadow: 0 0 60px 2px #000;
+}
+
+p a{
+  color: #2a4775;
+} 
+
+p a:hover{
+  color: #2a4775;
+} 
+
+
+p a:visited{
+  color: #2a4775;
 } 
 
 /* Font/Text Special */
 .not_link a:hover{
-  color: #CD7213;
+  color: #2a4775;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;

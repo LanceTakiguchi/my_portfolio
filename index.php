@@ -164,8 +164,8 @@ Version Date: 12/01/2016 Time: 22:42
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
 		<div class="faded_background">
 			<p class="not_link"> <a> <i class="fa fa-envelope" aria-hidden="true"></i> LanceTakiguchi@gmail.com </a> </p>
-			<p> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></p>
-			<p> <a href="https://github.com/LanceTakiguchi"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></p>
+			<p> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></p>
+			<p> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i> GitHub</a></p>
 		</div>
 	</div>
 </body>	
