@@ -173,6 +173,50 @@ p a:visited{
   color: #2a4775;
 } 
 
+#contact form input, #contact form textarea{
+  background-color: darkgrey;
+  border: none;
+  border-radius: 4px;
+}
+
+#contact form input{
+  height: 20px;
+  width: 50%;
+}
+
+#contact form input::-webkit-input-placeholder {
+   color: #2a4775;
+}
+
+#contact form input:-moz-placeholder { /* Firefox 18- */
+   color: #2a4775;  
+}
+
+#contact form input::-moz-placeholder {  /* Firefox 19+ */
+   color: #2a4775;  
+}
+
+#contact form input:-ms-input-placeholder {  
+   color: #2a4775;  
+}
+
+#contact form textarea::-webkit-input-placeholder {
+   color: #2a4775;
+}
+
+#contact form textarea:-moz-placeholder { /* Firefox 18- */
+   color: #2a4775;  
+}
+
+#contact form textarea::-moz-placeholder {  /* Firefox 19+ */
+   color: #2a4775;  
+}
+
+#contact form textarea:-ms-input-placeholder {  
+   color: #2a4775;  
+}
+
+
 /* Font/Text Special */
 .not_link a:hover{
   color: #2a4775;

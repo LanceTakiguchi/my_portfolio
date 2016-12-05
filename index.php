@@ -163,10 +163,27 @@ Version Date: 12/01/2016 Time: 22:42
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
 		<div class="faded_background">
-			<p class="not_link"> <a> <i class="fa fa-envelope" aria-hidden="true"></i> LanceTakiguchi@gmail.com </a> </p>
-			<p> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></p>
-			<p> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i> GitHub</a></p>
+			<p> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a></p>
+			<p> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p>
 		</div>
+		<form name="contact_form" method="post" action="send_form_email.php">
+			<div class="contact_line">
+				<label for="name">Name</label>
+				<input  type="text" name="name" maxlength="50" size="30" placeholder=" Name">
+			</div>
+			<div class="contact_line">
+				<label for="email">Email</label>
+				<input  type="text" name="email" maxlength="80" size="30" placeholder=" Email">
+			</div>
+			<div class="contact_line">
+
+				<label for="message">Message</label>
+				<textarea  name="message" maxlength="1000" cols="25" rows="6" placeholder=" Message"></textarea>
+			</div>
+			<div class="contact_line">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
 	</div>
 </body>	
 </html>
