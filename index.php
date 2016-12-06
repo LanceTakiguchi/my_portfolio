@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: 1.2
-Version Objective: Alter the UI & UX
-Version Date: 12/01/2016 Time: 22:42
+Version: 1.5
+Version Objective: Make a working contact form
+Version Date: 12/05/2016 Time: 19:32
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
@@ -166,7 +166,7 @@ Version Date: 12/01/2016 Time: 22:42
 			<p> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a></p>
 			<p> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p>
 		</div>
-		<form name="contact_form" method="post" action="send_form_email.php">
+		<form name="contact_form" method="post" action="">
 			<div class="contact_line">
 				<label for="name">Name</label>
 				<input  type="text" name="name" maxlength="50" size="30" placeholder=" Name">

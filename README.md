@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2016/12/01
+Date: 2016/12/05
 
 #### Version: 
-* 1.2
+* 1.5
 
 ##### Description:
-*  Alter the UI & UX
+*  Make a working contact form
