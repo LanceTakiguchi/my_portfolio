@@ -172,50 +172,99 @@ p a:hover{
 p a:visited{
   color: #2a4775;
 } 
-
+#contact {
+  height: 60vh;
+}
 #contact form input, #contact form textarea{
-  background-color: darkgrey;
   border: none;
   border-radius: 4px;
 }
-
 #contact form input{
   height: 20px;
-  width: 50%;
+  width: 90%;
+  display: inline-block;
 }
-
+#contact form input:hover{
+ box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+#contact form input:focus{
+ box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
 #contact form input::-webkit-input-placeholder {
-   color: #2a4775;
+ color: #2a4775;
+ font-family: 'Raleway', Verdana, sans-serif;
 }
 
 #contact form input:-moz-placeholder { /* Firefox 18- */
-   color: #2a4775;  
+ color: #2a4775;  
+ font-family: 'Raleway', Verdana, sans-serif;
 }
 
 #contact form input::-moz-placeholder {  /* Firefox 19+ */
-   color: #2a4775;  
+ color: #2a4775;  
+ font-family: 'Raleway', Verdana, sans-serif;
 }
 
 #contact form input:-ms-input-placeholder {  
-   color: #2a4775;  
+ color: #2a4775;  
+ font-family: 'Raleway', Verdana, sans-serif;
 }
 
 #contact form textarea::-webkit-input-placeholder {
-   color: #2a4775;
+ color: #2a4775;
+ font-family: 'Raleway', Verdana, sans-serif;
 }
 
 #contact form textarea:-moz-placeholder { /* Firefox 18- */
-   color: #2a4775;  
+ color: #2a4775;  
+ font-family: 'Raleway', Verdana, sans-serif;
+
 }
 
 #contact form textarea::-moz-placeholder {  /* Firefox 19+ */
-   color: #2a4775;  
+ color: #2a4775;
+ font-family: 'Raleway', Verdana, sans-serif;
+
 }
 
 #contact form textarea:-ms-input-placeholder {  
-   color: #2a4775;  
+ color: #2a4775;  
+ font-family: 'Raleway', Verdana, sans-serif;
+
 }
 
+#contact form textarea {
+ color: #2a4775;  
+ font-family: 'Raleway', Verdana, sans-serif;
+ resize: none;
+ margin-top: 1.5%;
+}
+#contact form textarea:hover {
+ box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+#contact form textarea:focus {
+ box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+#contact form #form_message {
+  width: 94.5%;
+  height: 30vh;
+}
+#contact form table{
+  width: 100%
+}
+#contact form #form_submit {
+ color: #2a4775; 
+ background-color: white; 
+ font-family: 'Raleway', Verdana, sans-serif;
+ cursor: pointer;
+}
+#contact form #form_submit:hover {
+ box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+#contact_links {
+  text-align: center;
+  width: 94.5%;
+}
 
 /* Font/Text Special */
 .not_link a:hover{
