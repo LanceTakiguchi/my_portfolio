@@ -1,0 +1,3 @@
+[submodule "apps/rogue_fighter"]
+	path = apps/rogue_fighter
+	url = https://github.com/bournecreative/c10_game.git
