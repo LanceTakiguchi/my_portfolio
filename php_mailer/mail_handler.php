@@ -25,7 +25,7 @@ if (empty($message['message'])) {
 	$output['messages'][] = 'missing message key';
 }
 if ($output['success'] !== null) {
-	http_response_code(400);
+	// http_response_code(400);
 	echo json_encode($output);
 	exit();
 }

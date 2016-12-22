@@ -162,7 +162,7 @@ Version Date: 12/06/2016 Time: 20:53
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
 		<div class="faded_background">
-			<form name="contact_form" method="post" action="">
+			<form name="contact_form" method="post" action="php_mailer/mail_handler.php">
 				<table>
 					<tr>
 						<td><input id="form_name"  type="text" name="name" maxlength="50" size="30" placeholder=" Name" required="required"></td>
