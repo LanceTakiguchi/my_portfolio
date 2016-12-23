@@ -172,7 +172,7 @@ Version Date: 12/06/2016 Time: 20:53
 						<td colspan="2"><textarea id="form_message" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea></td>
 					</tr>
 					<tr>
-						<td><input id="form_submit" type="submit" value="Submit"></td>
+						<td><button id="form_submit" type="submit" value="Submit"></button>
 					</tr>
 					<tr>
 						<td colspan="2" > <p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
