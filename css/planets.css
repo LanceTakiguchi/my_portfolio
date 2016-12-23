@@ -4,7 +4,7 @@
 	position: fixed;
 	z-index: -1;
 }
-.plantoid{
+.planetoid{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -16,7 +16,7 @@
 	-ms-animation: 	   infinite orbit linear;
 	animation: 		   infinite orbit linear;
 }
-.plantoid_body{
+.planetoid_body{
 	width: 5vh;
 	height: 5vh;
 	-moz-border-radius: 50%;
@@ -52,7 +52,7 @@
 	animation-duration: 7s; /* orbit of 88 earth days */
 	animation-delay: -4.5s; /* starting position */
 }
-#mercury > .plantoid_body{
+#mercury > .planetoid_body{
 	background: #9f5e26;
 	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 1px rgba(255, 203, 0, 0.13);
 	height: 1vh;
@@ -69,7 +69,7 @@
 	animation-duration: 18s; /* orbit of 225 earth days */
 	animation-delay: -9s; /* starting position */
 }
-#venus > .plantoid_body{
+#venus > .planetoid_body{
 	background:#BEB768;
 	box-shadow: 0 0 10px 2px rgba(180, 88, 22, 0.4), 0 0 22px 4px rgba(255, 203, 0, 0.13);
 	height: 1.9vh;
@@ -86,7 +86,7 @@
 	animation-duration: 30s; /* orbit of 365 earth days */
 	animation-delay: -9s; /* starting position */
 }
-#earth > .plantoid_body{
+#earth > .planetoid_body{
 	background: #11abe9; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	background: -webkit-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
@@ -112,7 +112,7 @@
 	animation-duration: 2.25s; /* orbit of 365 earth days */
 	animation-delay: -1.8s; /* starting position */
 }
-#moon > .plantoid_body{
+#moon > .planetoid_body{
 	background: grey; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	height: .9vh;
@@ -129,7 +129,7 @@
 	animation-duration: 56s; /* orbit of 687 earth days */
 	animation-delay: -30s; /* starting position */
 }
-#mars > .plantoid_body{
+#mars > .planetoid_body{
 	background: #cf3921; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	background: -webkit-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
@@ -155,7 +155,7 @@
 	animation-duration: 356s; /* 356 orbit of 4331 earth days */
 	animation-delay: -348s; /* starting position */
 }
-#jupiter > .plantoid_body{
+#jupiter > .planetoid_body{
 	background: #c3a992; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	background: -webkit-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
@@ -181,7 +181,7 @@
 	animation-duration: .72s; /* orbit of 365 earth days */
 	animation-delay: -.1s; /* starting position */
 }
-#io > .plantoid_body{
+#io > .planetoid_body{
 	background: yellow; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	height: .8vh;
@@ -198,7 +198,7 @@
 	animation-duration: 1.2s; /* orbit of 365 earth days */
 	animation-delay: -.35s; /* starting position */
 }
-#europa > .plantoid_body{
+#europa > .planetoid_body{
 	background: orange; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	height: .75vh;
@@ -215,7 +215,7 @@
 	animation-duration: 2.36s; /* orbit of 365 earth days */
 	animation-delay: -.3s; /* starting position */
 }
-#ganymede > .plantoid_body{
+#ganymede > .planetoid_body{
 	background: grey; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	height: 1.2vh;
@@ -232,7 +232,7 @@
 	animation-duration: 5.42s; /* orbit of 10,747 earth days */
 	animation-delay: -3s; /* starting position */
 }
-#callisto > .plantoid_body{
+#callisto > .planetoid_body{
 	background: grey;
 
 	height: 1.1vh;
@@ -249,7 +249,7 @@
 	animation-duration: 883s; /* orbit of 10,747 earth days */
 	animation-delay: -700s; /* starting position */
 }
-#saturn > .plantoid_body{
+#saturn > .planetoid_body{
 	background: #e7c194; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
 	background: -webkit-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
@@ -282,7 +282,7 @@
 	animation-duration: 2549s; /* orbit of 30,589 earth days */
 	animation-delay: -1150s; /* starting position */
 }
-#uranus > .plantoid_body{
+#uranus > .planetoid_body{
 	background: #b5e3e3;
 	box-shadow: 0 0 10px 2px rgba(0, 149, 255, 0.4), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 3.1vh;
@@ -299,7 +299,7 @@
 	animation-duration: 4983s; /* orbit of 59,800 earth days */
 	animation-delay: -2691s; /* starting position */
 }
-#neptune > .plantoid_body{
+#neptune > .planetoid_body{
 	background: #175e9e;
 	box-shadow: 0 0 10px 2px rgba(0, 55, 255, 0.59), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 3vh;

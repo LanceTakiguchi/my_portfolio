@@ -43,47 +43,47 @@ Version Date: 12/06/2016 Time: 20:53
 	<div class="stars"></div>
 	<div class="twinkling"></div>
 	<div id="solar_system">
-		<div id="sun" class="plantoid_body">  </div>
-		<div id="mercury" class="plantoid"> 
-			<div class="plantoid_body"></div>
+		<div id="sun" class="planetoid_body">  </div>
+		<div id="mercury" class="planetoid"> 
+			<div class="planetoid_body"></div>
 		</div>	
-		<div id="venus" class="plantoid"> 
-			<div class="plantoid_body"></div>
+		<div id="venus" class="planetoid"> 
+			<div class="planetoid_body"></div>
 		</div>
-		<div id="earth" class="plantoid"> 
-			<div class="plantoid_body">
-				<div id="moon" class="plantoid">
-					<div class="plantoid_body"></div>
+		<div id="earth" class="planetoid"> 
+			<div class="planetoid_body">
+				<div id="moon" class="planetoid">
+					<div class="planetoid_body"></div>
 				</div>
 			</div>
 		</div>
-		<div id="mars" class="plantoid"> 
-			<div class="plantoid_body"></div>
+		<div id="mars" class="planetoid"> 
+			<div class="planetoid_body"></div>
 		</div>
-		<div id="jupiter" class="plantoid"> 
-			<div class="plantoid_body">
-				<div id="io" class="plantoid">
-					<div class="plantoid_body"></div>
+		<div id="jupiter" class="planetoid"> 
+			<div class="planetoid_body">
+				<div id="io" class="planetoid">
+					<div class="planetoid_body"></div>
 				</div>
-				<div id="europa" class="plantoid">
-					<div class="plantoid_body"></div>
+				<div id="europa" class="planetoid">
+					<div class="planetoid_body"></div>
 				</div>
-				<div id="ganymede" class="plantoid">
-					<div class="plantoid_body"></div>
+				<div id="ganymede" class="planetoid">
+					<div class="planetoid_body"></div>
 				</div>
-				<div id="callisto" class="plantoid">
-					<div class="plantoid_body"></div>
+				<div id="callisto" class="planetoid">
+					<div class="planetoid_body"></div>
 				</div>
 			</div>
 		</div>
-		<div id="saturn" class="plantoid"> 
-			<div class="plantoid_body"></div>
+		<div id="saturn" class="planetoid"> 
+			<div class="planetoid_body"></div>
 		</div>
-		<div id="uranus" class="plantoid"> 
-			<div class="plantoid_body"></div>
+		<div id="uranus" class="planetoid"> 
+			<div class="planetoid_body"></div>
 		</div>
-		<div id="neptune" class="plantoid"> 
-			<div class="plantoid_body"></div>
+		<div id="neptune" class="planetoid"> 
+			<div class="planetoid_body"></div>
 		</div>
 	</div>
 	<nav class="navbar">
