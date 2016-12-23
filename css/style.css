@@ -257,6 +257,11 @@ p a:visited{
  background-color: white; 
  font-family: 'Raleway', Verdana, sans-serif;
  cursor: pointer;
+
+ width: 45%;
+ height: 20px;
+ border: none;
+ border-radius: 4px;
 }
 #contact form #form_submit:hover {
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
