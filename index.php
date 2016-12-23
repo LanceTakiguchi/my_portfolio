@@ -165,17 +165,19 @@ Version Date: 12/06/2016 Time: 20:53
 			<form name="contact_form" method="post" action="php_mailer/mail_handler.php">
 				<table>
 					<tr>
-						<td><input id="form_name"  type="text" name="name" maxlength="50" size="30" placeholder=" Name" required="required"></td>
-						<td><input id="form_email" type="text" name="email" maxlength="80" size="30" placeholder=" Email" required="required"></td>
+						<td><input id="form_name" class="width_restrict" type="text" name="name" maxlength="50" size="30" placeholder=" Name" required="required"></td>
 					</tr>
 					<tr>
-						<td colspan="2"><textarea id="form_message" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea></td>
+						<td><input id="form_email" class="width_restrict" type="text" name="email" maxlength="80" size="30" placeholder=" Email" required="required"></td>
 					</tr>
 					<tr>
-						<td><button id="form_submit" type="submit" value="Submit">Submit</button>
+						<td><textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea></td>
 					</tr>
 					<tr>
-						<td colspan="2" > <p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
+						<td><button id="form_submit" class="width_restrict" type="submit" value="Submit">Submit</button></td>
+					</tr>
+					<tr>
+						<td><p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
 					</tr>
 				</table>
 			</form>
