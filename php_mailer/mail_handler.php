@@ -63,7 +63,7 @@ $mail->addReplyTo($message['email'], $message['name']);/*email address of the pe
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(false);                                  // Set email format to HTML
 
-$mail->Subject = 'Here is the subject';
+$mail->Subject = 'lancetakiguchi.com FORM MESSAGE from ' . $message['name'] . ' at ' . $message['email'];
 $mail->Body    = $message['message'];
 $mail->AltBody = htmlentities($message['message']);
 
