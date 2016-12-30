@@ -6,7 +6,7 @@ function email_status(message) {
 $(document).ready(function(){
     $('#form_submit').click(function(){
         console.log('A Email Form is being submitted');
-        // alert("A Email Form is being submitted");
+        alert("A Email Form is being submitted");
         $.ajax({
             url: 'php_mailer/mail_handler.php',
             type: "POST",
@@ -35,6 +35,6 @@ $(document).ready(function(){
                 email_status("Email failed to send")
             }
         });
-// alert("End of Email Form JS Ajax function");
+alert("End of Email Form JS Ajax function");
 });
 });

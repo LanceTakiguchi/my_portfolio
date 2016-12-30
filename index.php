@@ -26,6 +26,7 @@ Version Date: 12/06/2016 Time: 20:53
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script src="js/responsive.js"></script>
 	<script src="js/email_ajax.js"></script>
 	<script>
@@ -176,7 +177,7 @@ Version Date: 12/06/2016 Time: 20:53
 						<td><textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea></td>
 					</tr>
 					<tr>
-						<td><button id="form_submit" class="width_restrict" type="submit" value="Submit">Submit</button></td>
+						<td><button id="form_submit" class="width_restrict" type="button">Submit</button></td>
 					</tr>
 					<tr>
 						<td><p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
