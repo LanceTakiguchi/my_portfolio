@@ -26,7 +26,9 @@ Version Date: 12/06/2016 Time: 20:53
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/responsive.js"></script>
+	<script src="js/email_ajax.js"></script>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -162,7 +164,8 @@ Version Date: 12/06/2016 Time: 20:53
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
 		<div class="faded_background">
-			<form name="contact_form" method="post" action="php_mailer/mail_handler.php">
+			<form name="contact_form">
+				<!-- <form name="contact_form" method="post" action="php_mailer/mail_handler.php"> -->
 				<table>
 					<tr>
 						<td><input id="form_name" class="width_restrict" type="text" name="name" maxlength="50" size="30" placeholder=" Name" required="required"></td>
@@ -174,7 +177,7 @@ Version Date: 12/06/2016 Time: 20:53
 						<td><textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea></td>
 					</tr>
 					<tr>
-						<td><button id="form_submit" class="width_restrict" type="submit" value="Submit">Submit</button></td>
+						<td><button id="form_submit" class="width_restrict">Submit</button></td>
 					</tr>
 					<tr>
 						<td><p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
