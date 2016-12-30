@@ -30,8 +30,8 @@ if ($output['success'] !== null) {
 	exit();
 }
 $mail = new PHPMailer;
-$mail->SMTPDebug = 4;                               // Enable verbose debug output
-$mail->Debugoutput = 'html';
+$mail->SMTPDebug = false;                               // Enable verbose debug output
+$mail->Debugoutput = 'echo';
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -48,7 +48,7 @@ $mail->SMTPOptions = array(
 		'allow_self_signed' => true
 		)
 	);
-print_r($mail->SMTPOptions);
+// print_r($mail->SMTPOptions);
 
 // $mail->smtpConnect($options);
 $mail->From = $message['email'];//your email sending account
