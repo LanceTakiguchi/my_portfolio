@@ -3,14 +3,14 @@
  */
 
  .navbar {
- 	position: fixed;
- 	top: 0;
- 	left: 0;
- 	z-index: 3;
- 	width: 100%;
- 	margin: 0;
- 	border: 0;
- 	padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
 
   /* Fade behind nav bar. Dark top to transparent bottom */
   height: 120px; /* Note: Keep the save as  navbar_avoid_padding */
@@ -23,7 +23,7 @@
 .navbar ul{
   padding: 0;
   display: flex;
-  justify-content: space-around; 	
+  justify-content: space-around;  
 }
 
 ul.nav_list li.menu {
@@ -170,8 +170,17 @@ p a:visited{
   color: #2a4775;
 } 
 
+#contact_bulletin {
+  width: 100%;
+  text-align: center;
+  height: 6vh; 
+  min-height: 6vh;
+}
+#contact_bulletin h4 {
+  height: 100%;
+}
 #contact {
-  height: 60vh;
+  height: 90vh;
 }
 #contact form input, #contact form textarea {
   border: none;
