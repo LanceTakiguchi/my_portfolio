@@ -3,19 +3,32 @@ function email_status(result, message) {
     $("#contact_bulletin h5").text(message);
     return;
 }
+function email_clear(){
+    name: $("#form_name").val(""),
+    email: $("#form_email").val(""),
+    message: $("#form_message").val("")
+}
 function email_result(func_called, success, error_log){
+    email_status("", ""); // Clears out previous email reuslt & message from HTML
     if(func_called){
         if(success){
             email_status("Email sent, thank you!");
+            email_clear();
         }else{
             if(error_log[0] === "SMTP connect() failed."){
-              email_status("Email failed to send", "Server caught an error.");  
+              email_status("Email failed to send", "Server Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience");  
           }
-          //TODO Fix for different possible errors. 
-      }
-  }else{
-    email_status("Email failed to send due to unknown error.",
-       "Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
+          var reasons = "";
+          for(error_index in error_log){
+            reasons += error_log[error_index] + " ";
+        }
+        reasons += ". Please fix the errored input(s) and try again or email me at lancetakiguchi@gmail.com";
+    }
+    email_status("Email failed to send", reasons);  
+}
+}else{
+    email_status("Email failed to send",
+       "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
 }
 }
 $(document).ready(function(){
@@ -39,6 +52,7 @@ $(document).ready(function(){
                 console.log('AJAX Success function called, with the following result:');
                 console.log(result.success);
                 email_result(true, result.success, result.message);
+
             },
             error: function(result) {
                 // console.log("name:", $("#form_name").val());
