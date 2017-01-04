@@ -162,7 +162,10 @@ Version Date: 12/06/2016 Time: 20:53
 		</div>	
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
-		<div id="contact_bulletin"> <h4>  </h4> <div>
+		<div id="contact_bulletin">
+			<h4>  </h4> 
+			<h5>  </h5>
+		</div>
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
 		<div class="faded_background">
 			<form name="contact_form">
