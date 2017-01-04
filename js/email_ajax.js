@@ -45,22 +45,16 @@ $(document).ready(function(){
                 message: $("#form_message").val()
             },
             success: function(result) {
-                // console.log("name:", $("#form_name").val());
-                // console.log("email:", $("#form_email").val());
-                // console.log("message:", $("#form_message").val());
                 // alert("AJAX Success function called: " );
-                console.log('AJAX Success function called, with the following result:');
-                console.log(result.success);
+                // console.log('AJAX Success function called, with the following result:');
+                // console.log(result.success);
                 email_result(true, result.success, result.messages);
 
             },
             error: function(result) {
-                // console.log("name:", $("#form_name").val());
-                // console.log("email:", $("#form_email").val());
-                // console.log("message:", $("#form_message").val());
                 // alert("AJAX Error function called");
-                console.log("AJAX Error function called, with the following result: ");
-                console.log(result.success);
+                // console.log("AJAX Error function called, with the following result: ");
+                // console.log(result.success);
                 email_result(false, result.success, result.messages);
             }
         });
