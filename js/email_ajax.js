@@ -1,5 +1,5 @@
 function email_status(message) {
-    $("#contact_bulletin h3").text(message);
+    $("#contact_bulletin h4").text(message);
     return;
 }
 $(document).ready(function(){
@@ -30,7 +30,7 @@ $(document).ready(function(){
                 // console.log("message:", $("#form_message").val());
                 console.log("AJAX Error function called, with the following result: ");
                 console.log(result.success);
-                alert("AJAX Success function called");
+                alert("AJAX Error function called");
                 email_status("Email failed to send");
             }
         });
