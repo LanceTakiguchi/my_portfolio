@@ -4,9 +4,9 @@ function email_status(result, message) {
     return;
 }
 function email_clear(){
-    name: $("#form_name").val(""),
-    email: $("#form_email").val(""),
-    message: $("#form_message").val("")
+    $("#form_name").val("");
+    $("#form_email").val("");
+    $("#form_message").val("");
 }
 function email_result(func_called, success, error_log){
     email_status("", ""); // Clears out previous email reuslt & message from HTML
