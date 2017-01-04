@@ -50,7 +50,7 @@ $(document).ready(function(){
                 // alert("AJAX Success function called: " );
                 console.log('AJAX Success function called, with the following result:');
                 console.log(result.success);
-                email_result(true, result.success, result.message);
+                email_result(true, result.success, result.messages);
 
             },
             error: function(result) {
@@ -60,7 +60,7 @@ $(document).ready(function(){
                 // alert("AJAX Error function called");
                 console.log("AJAX Error function called, with the following result: ");
                 console.log(result.success);
-                email_result(false, result.success, result.message);
+                email_result(false, result.success, result.messages);
             }
         });
 // alert("End of Email Form JS Ajax function");
