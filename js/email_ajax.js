@@ -17,18 +17,19 @@ function email_result(func_called, success, error_log){
         }else{
             if(error_log[0] === "SMTP connect() failed."){
               email_status("Email failed to send", "Server Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience");  
-          }
-          var reasons = "";
-          for(error_index in error_log){
-            reasons += error_log[error_index] + " ";
-        }
-        reasons += ". Please fix the errored input(s) and try again or email me at lancetakiguchi@gmail.com";
+          }else{
+            var reasons = "";
+            for(error_index in error_log){
+                reasons += error_log[error_index] + " ";
+            }
+            reasons += ". Please fix the errored input(s) and try again or email me at lancetakiguchi@gmail.com";
+            email_status("Email failed to send", reasons);
+        }  
     }
-    email_status("Email failed to send", reasons);  
 }else{
     email_status("Email failed to send",
-     "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
-    }
+       "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
+}
 }
 $(document).ready(function(){
     $('#form_submit').click(function(){
