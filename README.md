@@ -4,7 +4,7 @@ Author: Lance Takiguchi
 Date: 2017/01/04
 
 #### Version: 
-* v1.7
+* v1.8
 
 ##### Description:
-*  Open links in a new tab
+*  Make some major changes to the UI of the website

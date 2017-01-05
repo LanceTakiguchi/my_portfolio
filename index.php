@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: v1.7
-Version Objective: Open links in a new tab
-Version Date: 01/04/2017 Time: 16:13
+Version: v1.8
+Version Objective: Make some major changes to the UI of the website
+Version Date: 01/04/2017 Time: 16:49
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
