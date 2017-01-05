@@ -50,7 +50,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 14s; /* orbit of 88 earth days */
-	animation-delay: -9s; /* starting position */
+	animation-delay: -12s; /* starting position */
 }
 #mercury > .planetoid_body{
 	background: #9f5e26;
@@ -67,7 +67,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 36s; /* orbit of 225 earth days */
-	animation-delay: -18s; /* starting position */
+	animation-delay: -23.5s; /* starting position */
 }
 #venus > .planetoid_body{
 	background:#BEB768;
@@ -84,7 +84,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 60s; /* orbit of 365 earth days */
-	animation-delay: -18s; /* starting position */
+	animation-delay: -46.5s; /* starting position */
 }
 #earth > .planetoid_body{
 	background: #11abe9; /* For browsers that do not support gradients */
@@ -110,7 +110,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 4.5s; /* orbit of 365 earth days */
-	animation-delay: -3.6s; /* starting position */
+	animation-delay: -3.1s; /* starting position */
 }
 #moon > .planetoid_body{
 	background: grey; /* For browsers that do not support gradients */
@@ -127,7 +127,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 112s; /* orbit of 687 earth days */
-	animation-delay: -60s; /* starting position */
+	animation-delay: -62s; /* starting position */
 }
 #mars > .planetoid_body{
 	background: #cf3921; /* For browsers that do not support gradients */
@@ -153,7 +153,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 712s; /* 356 orbit of 4331 earth days */
-	animation-delay: -696s; /* starting position */
+	animation-delay: -13s; /* starting position */
 }
 #jupiter > .planetoid_body{
 	background: #c3a992; /* For browsers that do not support gradients */
@@ -247,7 +247,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 1766s; /* orbit of 10,747 earth days */
-	animation-delay: -1400s; /* starting position */
+	animation-delay: -370s; /* starting position */
 }
 #saturn > .planetoid_body{
 	background: #e7c194; /* For browsers that do not support gradients */
@@ -280,7 +280,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 5098s; /* orbit of 30,589 earth days */
-	animation-delay: -2300s; /* starting position */
+	animation-delay: -2850s; /* starting position */
 }
 #uranus > .planetoid_body{
 	background: #b5e3e3;
@@ -297,7 +297,7 @@
 	transform: rotate(330deg) translateX(100px);
 
 	animation-duration: 9966s; /* orbit of 59,800 earth days */
-	animation-delay: -5382s; /* starting position */
+	animation-delay: -4550s; /* starting position */
 }
 #neptune > .planetoid_body{
 	background: #175e9e;
