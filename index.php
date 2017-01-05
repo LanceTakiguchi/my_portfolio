@@ -111,7 +111,7 @@ Version Date: 01/04/2017 Time: 16:13
 		<div class="container">
 			<div class="app_hover app_light">
 				<div>
-					<a class="see_link" href="#applications"> 
+					<a class="see_link" href="#applications" target="_blank"> 
 						<p> Student Grade Table </p>
 						<figure><img src="assets/images/apps/sgt_app.png" /></figure>
 					</a>
@@ -119,7 +119,7 @@ Version Date: 01/04/2017 Time: 16:13
 			</div>
 			<div class="app_hover">
 				<div>
-					<a class="see_link" href="apps/rogue_fighter"> 
+					<a class="see_link" href="apps/rogue_fighter" target="_blank"> 
 						<p> Rogue Fighter </p>
 						<figure><img src="assets/images/apps/rebel_app.png" /></figure>
 					</a>
@@ -127,7 +127,7 @@ Version Date: 01/04/2017 Time: 16:13
 			</div>
 			<div class="app_hover app_light">
 				<div>
-					<a class="see_link" href="#applications"> 
+					<a class="see_link" href="#applications" target="_blank"> 
 						<p> Calculator </p>
 						<figure><img src="assets/images/apps/calc_app.png" /></figure>
 					</a>
@@ -187,7 +187,7 @@ Version Date: 01/04/2017 Time: 16:13
 						<td><button id="form_submit" class="width_restrict" type="button">Submit</button></td>
 					</tr>
 					<tr>
-						<td><p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
+						<td><p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi" target="_blank"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
 					</tr>
 				</table>
 			</form>
