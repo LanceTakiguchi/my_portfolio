@@ -70,7 +70,8 @@ p{
 }
 .navbar li{
   display: inline-block;
-  font-family: 'Poiret One',  Verdana, cursive;
+  font-family: 'Crimson Text',  Verdana, serif;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -108,12 +109,14 @@ a:hover{
 }
 .title{
   color: #CD7213; /* Bronze */
-  font-family: 'Poiret One',  Verdana, cursive;
+  font-family: 'Crimson Text',  Verdana, serif;
+  font-weight: normal;
   font-size: 42px;
   text-align: center;
 }
 html{
-  font-family: 'Raleway', Verdana, sans-serif;
+  font-family: 'Crimson Text', Verdana, sans-serif;
+  font-weight: normal;
   font-size: 30px;
 }
 
@@ -131,6 +134,9 @@ p
   text-align: center;
   font-size: 50px;
   padding-top: 8.33%;
+}
+#quote #plato {
+  font-family: 'Lora', serif;
 }
 
 .code{

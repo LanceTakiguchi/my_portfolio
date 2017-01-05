@@ -20,7 +20,8 @@ Version Date: 01/04/2017 Time: 16:49
 	<meta name="date" content="11/02/16, November 02, 2016">
 	<link rel="icon" href="assets/images/sun_icon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/background.css">
@@ -103,7 +104,7 @@ Version Date: 01/04/2017 Time: 16:49
 	<div id="home" class="set_height margin_center navbar_avoid_padding">
 		<div id="quote" class="faded_background">
 			<p>Astronomy compels the soul to look upward, and leads us from this world to another.</p>
-			<p> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
+			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
 		</div>
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
