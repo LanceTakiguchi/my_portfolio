@@ -102,7 +102,7 @@ Version Date: 01/04/2017 Time: 16:49
 	</nav>
 	
 	<div id="home" class="set_height margin_center navbar_avoid_padding">
-		<div id="quote" class="faded_background">
+		<div id="quote">
 			<p id="astronomy">Astronomy compels the soul to look upward, and leads us from this world to another.</p>
 			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
 		</div>
@@ -138,7 +138,7 @@ Version Date: 01/04/2017 Time: 16:49
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
-		<div class="code faded_background">
+		<div class="code">
 			<p> var <span class="code_name">education</span> = { </p>
 			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Web Development</span>",</span></p>
 			<p class="indent_1"> <span class="code_name">uc_irvine: "<span class="code_value">Informatics</span>"</span></p>
@@ -172,7 +172,7 @@ Version Date: 01/04/2017 Time: 16:49
 			</div>
 		</div>
 		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
-		<div class="faded_background">
+		<div>
 			<form name="contact_form">
 				<table>
 					<tr>

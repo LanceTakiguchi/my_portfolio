@@ -83,12 +83,13 @@ a{
 a:visited{
   text-decoration: none;
   color: #DE8D47; /* bronze */
+  text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
 }
 
 .navbar a{
   text-decoration: none;
   color: #DE8D47; /* bronze */
-
+  text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
   /*Change color*/
   -webkit-transition: linear 500ms;
   -moz-transition: linear 500ms;
@@ -105,7 +106,7 @@ a:hover{
   -moz-transition: linear 200ms;
   -o-transition: linear 200ms;
   transition: linear 200ms;
-  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+  text-shadow: -3px 3px 8px #ffc, 3px -3px 8px #fff;
 }
 .title{
   color: #DE8D47; /* Bronze */
@@ -134,6 +135,7 @@ p
   text-align: center;
   font-size: 50px;
   padding-top: 8.33%;
+  text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
 }
 #quote #plato {
   font-family: 'Lora', serif;
@@ -157,12 +159,6 @@ p
 
 .code_value{
   color: #DCDCDC; /* Golden */
-}
-
-.faded_background{
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px; 
-  box-shadow: 0 0 60px 2px #000;
 }
 
 p a{
