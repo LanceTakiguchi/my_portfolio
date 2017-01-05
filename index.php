@@ -103,7 +103,7 @@ Version Date: 01/04/2017 Time: 16:49
 	
 	<div id="home" class="set_height margin_center navbar_avoid_padding">
 		<div id="quote" class="faded_background">
-			<p>Astronomy compels the soul to look upward, and leads us from this world to another.</p>
+			<p id="astronomy">Astronomy compels the soul to look upward, and leads us from this world to another.</p>
 			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
 		</div>
 	</div>

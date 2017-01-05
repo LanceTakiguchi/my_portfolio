@@ -62,7 +62,7 @@ body{
 
 /* Fonts & Text */
 body{
-  color: #efb509; /* Golden */
+  color: #DCDCDC; /* Golden */
 }
 
 p{
@@ -76,18 +76,18 @@ p{
 }
 
 a{
-  color: #CD7213; /* bronze */
+  color: #DE8D47; /* bronze */
   text-decoration: none;
 }
 
 a:visited{
   text-decoration: none;
-  color: #CD7213; /* bronze */
+  color: #DE8D47; /* bronze */
 }
 
 .navbar a{
   text-decoration: none;
-  color: #CD7213; /* bronze */
+  color: #DE8D47; /* bronze */
 
   /*Change color*/
   -webkit-transition: linear 500ms;
@@ -108,7 +108,7 @@ a:hover{
   text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 .title{
-  color: #CD7213; /* Bronze */
+  color: #DE8D47; /* Bronze */
   font-family: 'Crimson Text',  Verdana, serif;
   font-weight: normal;
   font-size: 42px;
@@ -141,7 +141,7 @@ p
 
 .code{
   font-family: Consolas, Verdana, sans-serif;
-  color: #2a4775; /* midnight blue lightened */
+  color: #868685; /* midnight blue lightened */
 }
 .code p{
   margin: 0;
@@ -152,11 +152,11 @@ p
 }
 
 .code_name{
-  color: #CD7213; /* Bronze */
+  color: #DE8D47; /* Bronze */
 }
 
 .code_value{
-  color: #EFB509; /* Golden */
+  color: #DCDCDC; /* Golden */
 }
 
 .faded_background{
@@ -166,14 +166,14 @@ p
 }
 
 p a{
-  color: #2a4775;
+  color: #868685;
 } 
 
 p a:hover{
-  color: #2a4775;
+  color: #868685;
 } 
 p a:visited{
-  color: #2a4775;
+  color: #868685;
 } 
 
 #contact_bulletin {
@@ -201,42 +201,42 @@ p a:visited{
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 #contact form input::-webkit-input-placeholder {
- color: #2a4775;
+ color: #868685;
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form input:-moz-placeholder { /* Firefox 18- */
- color: #2a4775;  
+ color: #868685;  
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form input::-moz-placeholder {  /* Firefox 19+ */
- color: #2a4775;  
+ color: #868685;  
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form input:-ms-input-placeholder {  
- color: #2a4775;  
+ color: #868685;  
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form textarea::-webkit-input-placeholder {
- color: #2a4775;
+ color: #868685;
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form textarea:-moz-placeholder { /* Firefox 18- */
- color: #2a4775;  
+ color: #868685;  
  font-family: 'Raleway', Verdana, sans-serif;
 
 }
 #contact form textarea::-moz-placeholder {  /* Firefox 19+ */
- color: #2a4775;
+ color: #868685;
  font-family: 'Raleway', Verdana, sans-serif;
 
 }
 #contact form textarea:-ms-input-placeholder {  
- color: #2a4775;  
+ color: #868685;  
  font-family: 'Raleway', Verdana, sans-serif;
 
 }
 #contact form textarea {
- color: #2a4775;  
+ color: #868685;  
  font-family: 'Raleway', Verdana, sans-serif;
  resize: none;
  margin-top: 1.5%;
@@ -255,7 +255,7 @@ p a:visited{
   width: 100%
 }
 #contact form #form_submit { /* Submit button */
- color: #2a4775; 
+ color: #868685; 
  background-color: white; 
  font-family: 'Raleway', Verdana, sans-serif;
  cursor: pointer;
@@ -284,7 +284,7 @@ p a:visited{
 
 /* Font/Text Special */
 .not_link a:hover{
-  color: #2a4775;
+  color: #868685;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
