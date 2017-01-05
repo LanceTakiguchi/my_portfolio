@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2016/12/06
+Date: 2017/01/04
 
 #### Version: 
-* 1.6
+* v1.7
 
 ##### Description:
-*  Bring apps online onto the website
+*  Open links in a new tab
