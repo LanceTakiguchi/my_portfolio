@@ -1,10 +1,10 @@
 # my_portfolio
 
 Author: Lance Takiguchi
-Date: 2017/01/04
+Date: 2017/01/010
 
 #### Version: 
-* v1.8
+* v1.9
 
 ##### Description:
-*  Make some major changes to the UI of the website
+*  Create a box scheme for the skills section
