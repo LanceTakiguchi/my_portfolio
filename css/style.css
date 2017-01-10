@@ -62,7 +62,7 @@ body{
 
 /* Fonts & Text */
 body{
-  color: #DCDCDC; /* Golden */
+  color: #EEE9D6; /* Solarized Base2 White */
 }
 
 p{
@@ -70,25 +70,25 @@ p{
 }
 .navbar li{
   display: inline-block;
-  font-family: 'Crimson Text',  Verdana, serif;
-  font-weight: normal;
+  font-family: 'Poiret One',  Verdana, serif;
+  font-weight: bolder;
   margin: 0;
 }
 
 a{
-  color: #DE8D47; /* bronze */
+  color: #C94C16; /* Solarized Orange */
   text-decoration: none;
 }
 
 a:visited{
   text-decoration: none;
-  color: #DE8D47; /* bronze */
+  color: #C94C16; /* Solarized Orange */
   text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
 }
 
 .navbar a{
   text-decoration: none;
-  color: #DE8D47; /* bronze */
+  color: #C94C16; /* Solarized Orange */
   text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
   /*Change color*/
   -webkit-transition: linear 500ms;
@@ -109,15 +109,14 @@ a:hover{
   text-shadow: -3px 3px 8px #ffc, 3px -3px 8px #fff;
 }
 .title{
-  color: #DE8D47; /* Bronze */
-  font-family: 'Crimson Text',  Verdana, serif;
-  font-weight: normal;
+  color: #C94C16; /* Solarized Orange */
+  font-family: 'Poiret One',  Verdana, serif;
+  font-weight: bolder;
   font-size: 42px;
   text-align: center;
 }
 html{
   font-family: 'Crimson Text', Verdana, sans-serif;
-  font-weight: normal;
   font-size: 30px;
 }
 
@@ -143,7 +142,7 @@ p
 
 .code{
   font-family: Consolas, Verdana, sans-serif;
-  color: #868685; /* midnight blue lightened */
+  color: #93A1A1; /* Solarized Grey */ /* midnight blue lightened */
 }
 .code p{
   margin: 0;
@@ -154,22 +153,22 @@ p
 }
 
 .code_name{
-  color: #DE8D47; /* Bronze */
+  color: #C94C16; /* Solarized Orange */
 }
 
 .code_value{
-  color: #DCDCDC; /* Golden */
+  color: #EEE9D6; /* Solarized Base2 White */
 }
 
 p a{
-  color: #868685;
+  color: #93A1A1; /* Solarized Grey */
 } 
 
 p a:hover{
-  color: #868685;
+  color: #93A1A1; /* Solarized Grey */
 } 
 p a:visited{
-  color: #868685;
+  color: #93A1A1; /* Solarized Grey */
 } 
 
 #contact_bulletin {
@@ -197,42 +196,42 @@ p a:visited{
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 #contact form input::-webkit-input-placeholder {
- color: #868685;
+ color: #93A1A1; /* Solarized Grey */
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form input:-moz-placeholder { /* Firefox 18- */
- color: #868685;  
+ color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form input::-moz-placeholder {  /* Firefox 19+ */
- color: #868685;  
+ color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form input:-ms-input-placeholder {  
- color: #868685;  
+ color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form textarea::-webkit-input-placeholder {
- color: #868685;
+ color: #93A1A1; /* Solarized Grey */
  font-family: 'Raleway', Verdana, sans-serif;
 }
 #contact form textarea:-moz-placeholder { /* Firefox 18- */
- color: #868685;  
+ color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
 
 }
 #contact form textarea::-moz-placeholder {  /* Firefox 19+ */
- color: #868685;
+ color: #93A1A1; /* Solarized Grey */
  font-family: 'Raleway', Verdana, sans-serif;
 
 }
 #contact form textarea:-ms-input-placeholder {  
- color: #868685;  
+ color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
 
 }
 #contact form textarea {
- color: #868685;  
+ color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
  resize: none;
  margin-top: 1.5%;
@@ -251,7 +250,7 @@ p a:visited{
   width: 100%
 }
 #contact form #form_submit { /* Submit button */
- color: #868685; 
+ color: #93A1A1; /* Solarized Grey */ 
  background-color: white; 
  font-family: 'Raleway', Verdana, sans-serif;
  cursor: pointer;
@@ -280,7 +279,7 @@ p a:visited{
 
 /* Font/Text Special */
 .not_link a:hover{
-  color: #868685;
+  color: #93A1A1; /* Solarized Grey */
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
