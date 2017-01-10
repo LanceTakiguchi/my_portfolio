@@ -138,28 +138,8 @@ Version Date: 01/10/2017 Time: 14:27
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
-		<div class="code">
-			<p> var <span class="code_name">education</span> = { </p>
-			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Web Development</span>",</span></p>
-			<p class="indent_1"> <span class="code_name">uc_irvine: "<span class="code_value">Informatics</span>"</span></p>
-			<p> }; </p>
-			<br>
-			<p> var <span class="code_name">work_experince</span> = { </p>
-			<p class="indent_1"> <span class="code_name">learning_fuze: "<span class="code_value">Code Review</span>"</span>,</p>
-			<p> }; </p>
-			<br>
-			<p> var <span class="code_name">skills</span> = [ </p>
-			<p class="indent_1"> <span class="code_name">"<span class="code_value">HTML</span>",
-				"<span class="code_value">CSS</span>",
-				"<span class="code_value">Javascript</span>", 
-				"<span class="code_value">jQuery</span>", 
-				"<span class="code_value">git</span>"
-				"<span class="code_value">AngularJS</span>", 
-				"<span class="code_value">Firebase</span>"
-				"<span class="code_value">Bootstrap</span>"
-				"<span class="code_value">PHP</span>"
-			</span> </p>
-			<p> ]; </p> 
+		<div class="skill_box">
+
 		</div>	
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">

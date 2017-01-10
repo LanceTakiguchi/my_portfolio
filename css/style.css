@@ -116,7 +116,6 @@ p
   margin: 0;
   padding: 0;
 }
-
 #quote p{
   text-align: center;
   font-size: 50px;
@@ -126,38 +125,21 @@ p
 #quote #plato {
   font-family: 'Lora', serif;
 }
-
-.code{
-  font-family: Consolas, Verdana, sans-serif;
-  color: #93A1A1; /* Solarized Grey */ /* midnight blue lightened */
-}
-.code p{
-  margin: 0;
-}
-
-.indent_1{
-  text-indent: 50px;
-}
-
-.code_name{
-  color: #C94C16; /* Solarized Orange */
-}
-
-.code_value{
-  color: #EEE9D6; /* Solarized Base2 White */
-}
-
+/**
+ * Skills
+ */
 p a{
   color: #93A1A1; /* Solarized Grey */
 } 
-
 p a:hover{
   color: #93A1A1; /* Solarized Grey */
 } 
 p a:visited{
   color: #93A1A1; /* Solarized Grey */
 } 
-
+/**
+ * Contacts
+ */
 #contact_bulletin {
   width: 100%;
   text-align: center;
