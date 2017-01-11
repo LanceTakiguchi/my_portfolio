@@ -138,8 +138,37 @@ Version Date: 01/10/2017 Time: 14:27
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
-		<div class="skill_box">
-
+		<div id="skill_box">
+			<div id="Experience" class="third">
+				<h4> Experience </h4>
+				<ul>
+					<li> LearningFuze: Web Development </li>
+					<li> LearningFuze: Code Review </li>
+					<li> UC Irvine: Informatics </li>
+				</ul>
+			</div>
+			<div id="Web Development" class="third">
+				<h4> Web Development </h4>
+				<ul>
+					<li> HTML </li>
+					<li> CSS </li>
+					<li> Javascript </li>
+					<li> jQuery </li>
+					<li> git </li>
+					<li> AngularJS </li>
+					<li> Firebase </li>
+					<li> Bootstrap </li>
+					<li> PHP </li>
+				</ul>
+			</div>
+			<div id="Development Tools" class="third">
+				<h4> Development Tools </h4>
+				<ul>
+					<li> phpStorm </li>
+					<li> Sublime </li>
+					<li> Visual Studio </li>
+				</ul>
+			</div>
 		</div>	
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">

@@ -29,195 +29,223 @@
 		width: 50vw;
 	}
 
-	p {
+/*	p {
 		font-size: 20px;
-	}
-	.title {
-		font-size: 28px;
-	}
-	html { 
-		font-size: 20px;
-	}
-	#quote p {
-		font-size: 33px;
-	}
-	.indent_1 {
+		}*/
+		.third h4 {
+			font-size: 20px;
+		}
+		.third li{
+			font-size: 16px;
+		}
+		.title {
+			font-size: 28px;
+		}
+		html { 
+			font-size: 20px;
+		}
+		#quote p {
+			font-size: 33px;
+		}
+/*	.indent_1 {
 		text-indent: 33px;
-	}
-	.app_hover .see_link p { 
-		font-size: 18px;
-	}
-	ul.nav_list li#nav_home {
-		padding-top: 2%
-	}
-	ul.nav_list li.menu {
-		font-size: 30px;
-	}
-	/* Mobile Nav Bar Menu */
-	.navbar .responsive {
-		height: 240px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */
-	}
-	ul.nav_list li:not(:first-child) {display: none;}
-	ul.nav_list li.menu {
-		display: inline-block;
-		float: right;
-	}
-	ul.nav_list {
-		display: block;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
-	}
-	ul.nav_list.responsive li.menu {
-		position: absolute;
-		right: 0;
-		top: 0;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
-	}
-	ul.nav_list.responsive li {
-		float: none;
-		display: inline;
-	}
-	ul.nav_list.responsive li a {
-		display: block;
-		text-align: left;
-		padding-top: 2%;
-	}
-	#contact #contact_bulletin {
-		height: 13vh; 
-		min-height: 13vh;
-	}
-	#contact #contact_bulletin h4{
-		font-size: 18px;
-	}
-	#contact #contact_bulletin h5{
-		font-size: 14px;
-	}
-	#contact_links {
-		margin-top: 1vh;
-		margin-bottom: 1vh;
-	}
-}
-
-/* for tablet, portrait up. 854 x 480, 800 x 480, 960 x 540 */
-/* TODO: Create Mobile Nav bar; */
-@media only screen and (min-width: 600px) and (max-width: 899px){
-	.container .app_hover {
-		height: 40vw;
-		width: 40vw;
-		margin: auto;
-	}
-	.app_hover figure img {
-		height: 40vw;
-		width: 40vw;
-	}
-	.navbar{
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
-	}
-	.navbar_avoid_padding{
-		padding-top: 80px; /* Note: Keep the save as  navbar height */
-	}
-	p{
-		font-size: 30px;
-	}
-	.title{
-		font-size: 42px;
-	}
-	html{
-		font-size: 30px;
-	}
-	#quote p{
-		font-size: 50px;
-	}
-	.indent_1{
-		text-indent: 50px;
-	}
-	.app_hover .see_link p { 
-		font-size: 30px;
-	}
-	ul.nav_list li#nav_home {
-		padding-top: 2%
-	}
-	ul.nav_list li.menu {
-		font-size: 40px;
+		}*/
+		.third {
+			min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
+			height: 33vh;
+			width: 100%;
+		}
+		.third h4 {
+			font-size: 16px;
+		}
+		.third li{
+			font-size: 12px;
+		}
+		.app_hover .see_link p { 
+			font-size: 18px;
+		}
+		ul.nav_list li#nav_home {
+			padding-top: 2%
+		}
+		ul.nav_list li.menu {
+			font-size: 30px;
+		}
+		/* Mobile Nav Bar Menu */
+		.navbar .responsive {
+			height: 240px; 
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+		}
+		ul.nav_list li:not(:first-child) {display: none;}
+		ul.nav_list li.menu {
+			display: inline-block;
+			float: right;
+		}
+		ul.nav_list {
+			display: block;
+			padding: 1%;
+			margin: 0 4.17% 0 4.17%;
+		}
+		ul.nav_list.responsive li.menu {
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 1%;
+			margin: 0 4.17% 0 4.17%;
+		}
+		ul.nav_list.responsive li {
+			float: none;
+			display: inline;
+		}
+		ul.nav_list.responsive li a {
+			display: block;
+			text-align: left;
+			padding-top: 2%;
+		}
+		#contact #contact_bulletin {
+			height: 13vh; 
+			min-height: 13vh;
+		}
+		#contact #contact_bulletin h4{
+			font-size: 18px;
+		}
+		#contact #contact_bulletin h5{
+			font-size: 14px;
+		}
+		#contact_links {
+			margin-top: 1vh;
+			margin-bottom: 1vh;
+		}
 	}
 
-	/* Mobile Nav Bar Menu */
-	.navbar .responsive{
-		height: 380px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */
-	}
-	ul.nav_list li:not(:first-child) {display: none;}
-	ul.nav_list li.menu {
-		display: inline-block;
-		float: right;
-	}
-	ul.nav_list {
-		display: block;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
-	}
-	ul.nav_list.responsive li.menu {
-		position: absolute;
-		right: 0;
-		top: 0;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
-	}
-	ul.nav_list.responsive li {
-		float: none;
-		display: inline;
-	}
-	ul.nav_list.responsive li a {
-		display: block;
-		text-align: left;
-		padding-top: 2%;
-	}
-}
+	/* for tablet, portrait up. 854 x 480, 800 x 480, 960 x 540 */
+	/* TODO: Create Mobile Nav bar; */
+	@media only screen and (min-width: 600px) and (max-width: 899px){
+		.container .app_hover {
+			height: 40vw;
+			width: 40vw;
+			margin: auto;
+		}
+		.app_hover figure img {
+			height: 40vw;
+			width: 40vw;
+		}
+		.navbar{
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
+		}
+		.navbar_avoid_padding{
+			padding-top: 80px; /* Note: Keep the save as  navbar height */
+		}
+		p{
+			font-size: 30px;
+		}
+		.title{
+			font-size: 42px;
+		}
+		html{
+			font-size: 30px;
+		}
+		#quote p{
+			font-size: 50px;
+		}
+		.indent_1{
+			text-indent: 50px;
+		}
+		.third {
+			min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
+			height: 33vh;
+			width: 100%;
+		}
+		.third h4 {
+			font-size: 24px;
+		}
+		.third li{
+			font-size: 20px;
+		}
+		.app_hover .see_link p { 
+			font-size: 30px;
+		}
+		ul.nav_list li#nav_home {
+			padding-top: 2%
+		}
+		ul.nav_list li.menu {
+			font-size: 40px;
+		}
 
-/* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
-/* TODO: Create Mobile Nav bar; */
-@media only screen and (min-width: 900px) and (max-width: 1199px){
-	.navbar{
-		height: 130px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
-	}
-	.navbar_avoid_padding{
-		padding-top: 100px; /* Note: Keep the save as  navbar height */
-	}
-	p{
-		font-size: 30px;
-	}
-	.title{
-		font-size: 42px;
-	}
-	html{
-		font-size: 30px;
-	}
-	#quote p{
-		font-size: 50px;
-	}
-	.indent_1{
-		text-indent: 50px;
-	}
-	.app_hover .see_link p { 
-		font-size: 25px;
+		/* Mobile Nav Bar Menu */
+		.navbar .responsive{
+			height: 380px; 
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+		}
+		ul.nav_list li:not(:first-child) {display: none;}
+		ul.nav_list li.menu {
+			display: inline-block;
+			float: right;
+		}
+		ul.nav_list {
+			display: block;
+			padding: 1%;
+			margin: 0 4.17% 0 4.17%;
+		}
+		ul.nav_list.responsive li.menu {
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 1%;
+			margin: 0 4.17% 0 4.17%;
+		}
+		ul.nav_list.responsive li {
+			float: none;
+			display: inline;
+		}
+		ul.nav_list.responsive li a {
+			display: block;
+			text-align: left;
+			padding-top: 2%;
+		}
 	}
 
-	/* Mobile Nav Bar Menu */
+	/* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
+	/* TODO: Create Mobile Nav bar; */
+	@media only screen and (min-width: 900px) and (max-width: 1199px){
+		.navbar{
+			height: 130px; 
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
+		}
+		.navbar_avoid_padding{
+			padding-top: 100px; /* Note: Keep the save as  navbar height */
+		}
+		p{
+			font-size: 30px;
+		}
+		.title{
+			font-size: 42px;
+		}
+		html{
+			font-size: 30px;
+		}
+		#quote p{
+			font-size: 50px;
+		}
+		.indent_1{
+			text-indent: 50px;
+		}
+		.app_hover .see_link p { 
+			font-size: 25px;
+		}
+
+		/* Mobile Nav Bar Menu */
 /*	ul.nav_list li:not(:first-child) {display: none;}
 	ul.nav_list li.menu {
 		display: inline-block;
