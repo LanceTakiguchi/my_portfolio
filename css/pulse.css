@@ -112,11 +112,9 @@
 
 /* Special Cases */
 .app_hover .see_link p { 
-	color: #ffc;
+	color: #EEE9D6; /* Solarized Base2 White */
 	text-align: center;
 	width: 100%;
 	left: 0;
 	text-shadow: -1px 1px 12px #000, 1px -1px 12px #000;
-
-	/*font-size: 30px;  NOTE: See style_m*/
 }

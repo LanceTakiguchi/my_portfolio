@@ -14,10 +14,10 @@ Version Date: 01/10/2017 Time: 14:27
 <head>
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage">
+	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
 	<meta name="author" content="Lance Takiguchi">
 	<meta name="description" content="Lance Takiguchi's Portfolio Website">
-	<meta name="date" content="11/02/16, November 02, 2016">
+	<meta name="date" content="01/11/17, January 11, 2017">
 	<link rel="icon" href="assets/images/sun_icon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
@@ -103,12 +103,12 @@ Version Date: 01/10/2017 Time: 14:27
 	
 	<div id="home" class="set_height margin_center navbar_avoid_padding">
 		<div id="quote">
-			<p id="astronomy">Astronomy compels the soul to look upward, and leads us from this world to another.</p>
-			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE.</span></p>
+			<p id="astronomy"> Astronomy compels the soul to look upward, and leads us from this world to another. </p>
+			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE. </span></p>
 		</div>
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
-		<h2 class="title"><a href="#applications"> Applications </a> </h2>
+		<h2 class="title"> <a href="#applications"> Applications </a> </h2>
 		<div class="container">
 			<div class="app_hover app_light">
 				<div>
