@@ -32,12 +32,6 @@
 /*	p {
 		font-size: 20px;
 		}*/
-		.third h4 {
-			font-size: 20px;
-		}
-		.third li{
-			font-size: 16px;
-		}
 		.title {
 			font-size: 28px;
 		}
@@ -52,14 +46,24 @@
 		}*/
 		.third {
 			min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
-			height: 33vh;
+			height: 28vh;
 			width: 100%;
 		}
 		.third h4 {
-			font-size: 16px;
+			font-size: 18px;
+			margin: 1vh;
 		}
 		.third li{
-			font-size: 12px;
+			font-size: 15px;
+		}
+		.third ul {
+			-moz-column-count: 2;
+			-moz-column-gap: 10vw;
+			-webkit-column-count: 2;
+			-webkit-column-gap: 10vw;
+			column-count: 2;
+			column-gap: 10vw;
+			padding-left: 8vw;
 		}
 		.app_hover .see_link p { 
 			font-size: 18px;
@@ -158,14 +162,23 @@
 		}
 		.third {
 			min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
-			height: 33vh;
+			height: 27vh;
 			width: 100%;
 		}
 		.third h4 {
-			font-size: 24px;
+			font-size: 32px;
+			margin: 1.1vh;
 		}
 		.third li{
-			font-size: 20px;
+			font-size: 28px;
+		}
+		.third ul {
+			-moz-column-count: 2;
+			-moz-column-gap: 10vw;
+			-webkit-column-count: 2;
+			-webkit-column-gap: 10vw;
+			column-count: 2;
+			column-gap: 10vw;
 		}
 		.app_hover .see_link p { 
 			font-size: 30px;

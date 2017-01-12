@@ -143,7 +143,7 @@ Version Date: 01/10/2017 Time: 14:27
 				<h4> Experience </h4>
 				<ul>
 					<li> LearningFuze: Web Development </li>
-					<li> LearningFuze: Code Review </li>
+					<li> LearningFuze: Code Reviewer </li>
 					<li> UC Irvine: Informatics </li>
 				</ul>
 			</div>
