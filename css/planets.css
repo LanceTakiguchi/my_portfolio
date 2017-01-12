@@ -11,9 +11,6 @@
 	transform: translate(-50%, -50%);
 
 	-webkit-animation: infinite orbit linear; /* Safari 4+ */
-	-moz-animation:    infinite orbit linear; /* Fx 5+ */
-	-o-animation:      infinite orbit linear; /* Opera 12+ */
-	-ms-animation: 	   infinite orbit linear;
 	animation: 		   infinite orbit linear;
 }
 .planetoid_body{
@@ -307,9 +304,9 @@
 }
 @-webkit-keyframes orbit {
 	0% {
-		transform: translate(-50%,-50%) rotate3D(0,0,1,360deg);
+		/*transform: translate(-50%,-50%) rotate3D(0,0,1,360deg);*/
 		/*-ms-transform: translate(-50%,-50%) rotate3D(0,0,1,360deg);*/ /* IE 9 */
-		/*-webkit-transform: translate(-50%,-50%) rotate(0,0,1,360deg);*/ /* Chrome, Safari, Opera */
+		-webkit-transform: translate(-50%,-50%) rotate(0,0,1,360deg); /* Chrome, Safari, Opera */
 	}
 	100% {
 		transform: translate(-50%,-50%) rotate3D(0,0,1,0deg);
