@@ -13,6 +13,9 @@
 
 	-webkit-animation: infinite orbit linear; /* Safari 4+ */
 	animation: 		   infinite orbit linear;
+	animation-name: orbit;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
 }
 .planetoid_body{
 	width: 5vh;
