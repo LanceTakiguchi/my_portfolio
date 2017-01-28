@@ -8,8 +8,6 @@
 * Description: Create a box scheme for the skills section
 
 ## Web Development Utilized 
-* AngularJS 
-* Firebase
 * HTML
 * CSS
 * JavaScript
