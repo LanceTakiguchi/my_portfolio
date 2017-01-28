@@ -152,7 +152,7 @@ Version Date: 01/10/2017 Time: 14:27
 				<ul>
 					<li> HTML </li>
 					<li> CSS </li>
-					<li> Javascript </li>
+					<li> JavaScript </li>
 					<li> jQuery </li>
 					<li> git </li>
 					<li> AngularJS </li>

@@ -1,10 +1,17 @@
 # my_portfolio
+* Date: 2017/01/10
+* Author: Lance Takiguchi
+* Description: My website to showcase my Web Development skills and applications
 
-Author: Lance Takiguchi
-Date: 2017/01/010
+## Version v1.9
+* Date: 
+* Description: Create a box scheme for the skills section
 
-#### Version: 
-* v1.9
-
-##### Description:
-*  Create a box scheme for the skills section
+## Web Development Utilized 
+* AngularJS 
+* Firebase
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* git
