@@ -112,7 +112,7 @@ Version Date: 01/10/2017 Time: 14:27
 		<div class="container">
 			<div class="app_hover app_light">
 				<div>
-					<a class="see_link" href="#applications" target="_blank"> 
+					<a class="see_link" href="apps/sgt_app/" target="_blank"> 
 						<p> Student Grade Table </p>
 						<figure><img src="assets/images/apps/sgt_app.png" /></figure>
 					</a>
@@ -120,7 +120,7 @@ Version Date: 01/10/2017 Time: 14:27
 			</div>
 			<div class="app_hover">
 				<div>
-					<a class="see_link" href="apps/rogue_fighter" target="_blank"> 
+					<a class="see_link" href="apps/rogue_fighter/" target="_blank"> 
 						<p> Rogue Fighter </p>
 						<figure><img src="assets/images/apps/rebel_app.png" /></figure>
 					</a>
