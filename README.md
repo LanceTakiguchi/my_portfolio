@@ -1,12 +1,15 @@
 # my_portfolio
+* Date: 2017/01/10
+* Author: Lance Takiguchi
+* Description: My website to showcase my Web Development skills and applications
 
-#### Author:
-* Lance Takiguchi
+## Version v1.9
+* Date: 
+* Description: Create a box scheme for the skills section
 
-#### Version:
-* Dev Master
-
-##### Description:
-* Dev branch
-* Final test before merging to master.
-* Check to see ever thing merges together
+## Web Development Utilized 
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* git

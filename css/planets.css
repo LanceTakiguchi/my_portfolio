@@ -1,0 +1,366 @@
+#solar_system{
+	height: 100%; /* fit in margins */
+	width: 100%; /* fit in margins */
+	position: fixed;
+	z-index: -1;
+}
+.planetoid{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	-webkit-animation: infinite orbit linear; /* Safari 4+ */
+	animation: 		   infinite orbit linear;
+	animation-name: orbit;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+}
+.planetoid_body{
+	width: 5vh;
+	height: 5vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(0%,-50%);
+}
+#sun{
+	position: absolute;
+	height: 8vh;
+	width: 8vh;
+	left: 50%;
+	top: 50%;
+	margin: auto;
+	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 11px rgba(255, 203, 0, 0.13);
+
+	background:radial-gradient(circle at center, #ffd000 1%,#f9b700 39%,#f9b700 39%,#e06317 100%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+#mercury {
+	margin: 0% auto;
+	height: 5vh;
+	width: 12vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+	
+	animation-duration: 14s; /* orbit of 88 earth days */
+	animation-delay: -12s; /* starting position */
+}
+#mercury > .planetoid_body{
+	background: #9f5e26;
+	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 1px rgba(255, 203, 0, 0.13);
+	height: 1vh;
+	width: 1vh;
+}
+#venus {
+	margin: 0% auto;
+	height: 5vh;
+	width: 19vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 36s; /* orbit of 225 earth days */
+	animation-delay: -23.5s; /* starting position */
+}
+#venus > .planetoid_body{
+	background:#BEB768;
+	box-shadow: 0 0 10px 2px rgba(180, 88, 22, 0.4), 0 0 22px 4px rgba(255, 203, 0, 0.13);
+	height: 1.9vh;
+	width: 1.9vh;
+}
+#earth {
+	margin: 0% auto;
+	height: 5vh;
+	width: 28vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 60s; /* orbit of 365 earth days */
+	animation-delay: -46.5s; /* starting position */
+}
+#earth > .planetoid_body{
+	background: #11abe9; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+
+	box-shadow: 0 0 10px 2px rgba(153, 171, 236, 0.4), 0 0 4px 11px rgba(85, 137, 172, 0.13);
+	height: 2.2vh;
+	width: 2.2vh;
+}
+#moon {
+	margin: 0% auto;
+	height: 5vh;
+	width: 5.2vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 4.5s; /* orbit of 365 earth days */
+	animation-delay: -3.1s; /* starting position */
+}
+#moon > .planetoid_body{
+	background: grey; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: .9vh;
+	width: .9vh;
+}
+#mars {
+	margin: 0% auto;
+	height: 5vh;
+	width: 35vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 112s; /* orbit of 687 earth days */
+	animation-delay: -62s; /* starting position */
+}
+#mars > .planetoid_body{
+	background: #cf3921; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+
+	box-shadow: 0 0 10px 2px rgba(233, 78, 19, 0.4), 0 0 22px 2px rgba(255, 203, 0, 0.13);
+	height: 1.5vh;
+	width: 1.5vh;
+}
+#jupiter {
+	margin: 0% auto;
+	height: 5vh;
+	width: 53vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 712s; /* 356 orbit of 4331 earth days */
+	animation-delay: -13s; /* starting position */
+}
+#jupiter > .planetoid_body{
+	background: #c3a992; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#797663 20%, #e1dcde 20%, #c3a992 41%, #e9ece2 7%);
+	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.55), 0 0 22px 6px rgba(255, 203, 0, 0.36);
+
+	height: 4.5vh;
+	width: 4.5vh;
+}
+#io {
+	margin: 0% auto;
+	height: 5vh;
+	width: 7vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: .72s; /* orbit of 365 earth days */
+	animation-delay: -.1s; /* starting position */
+}
+#io > .planetoid_body{
+	background: yellow; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: .8vh;
+	width: .8vh;
+}
+#europa {
+	margin: 0% auto;
+	height: 5vh;
+	width: 8.5vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 1.2s; /* orbit of 365 earth days */
+	animation-delay: -.35s; /* starting position */
+}
+#europa > .planetoid_body{
+	background: orange; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: .75vh;
+	width: .75vh;
+}
+#ganymede {
+	margin: 0% auto;
+	height: 5vh;
+	width: 10vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 2.36s; /* orbit of 365 earth days */
+	animation-delay: -.3s; /* starting position */
+}
+#ganymede > .planetoid_body{
+	background: grey; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	height: 1.2vh;
+	width: 1.2vh;
+}
+#callisto {
+	margin: 0% auto;
+	height: 5vh;
+	width: 12vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 5.42s; /* orbit of 10,747 earth days */
+	animation-delay: -3s; /* starting position */
+}
+#callisto > .planetoid_body{
+	background: grey;
+
+	height: 1.1vh;
+	width: 1.1vh;
+}
+#saturn {
+	margin: 0% auto;
+	height: 5vh;
+	width: 75vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 1766s; /* orbit of 10,747 earth days */
+	animation-delay: -370s; /* starting position */
+}
+#saturn > .planetoid_body{
+	background: #e7c194; /* For browsers that do not support gradients */
+	/* For Safari 5.1 to 6.0 */
+	background: -webkit-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	/* For Opera 11.6 to 12.0 */
+	background: -o-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	/* Standard syntax */
+	background: repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+
+	border: .7vh solid rgba(0, 0, 0, 1);
+	box-shadow: 0 0 0 2px rgb(219, 132, 68),
+	0 0 0 .6vh rgba(205, 162, 41, 0.01),
+	0 0 0 .5vh rgb(173, 161, 119),
+	0 0 0 .7vh rgba(205, 162, 41, 0.01),
+	0 0 0 1vh rgb(219, 132, 68),
+	0 0 0 .8vh rgb(170, 122, 34),
+	0 0 0 .6vh rgb(173, 161, 119);
+	height: 3.3vh;
+	width: 3.3vh;
+}
+#uranus {
+	margin: 0% auto;
+	height: 5vh;
+	width: 85vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 5098s; /* orbit of 30,589 earth days */
+	animation-delay: -2850s; /* starting position */
+}
+#uranus > .planetoid_body{
+	background: #b5e3e3;
+	box-shadow: 0 0 10px 2px rgba(0, 149, 255, 0.4), 0 0 22px 5px rgba(255, 203, 0, 0.13);
+	height: 3.1vh;
+	width: 3.1vh;
+}
+#neptune {
+	margin: 0% auto;
+	height: 5vh;
+	width: 95vh; /* main orbit distance */
+
+	/* rotate: relative to postive x axis. translate: distance; */
+	-webkit-transform: rotate(330deg) translateX(100px);
+	transform: rotate(330deg) translateX(100px);
+
+	animation-duration: 9966s; /* orbit of 59,800 earth days */
+	animation-delay: -4550s; /* starting position */
+}
+#neptune > .planetoid_body{
+	background: #175e9e;
+	box-shadow: 0 0 10px 2px rgba(0, 55, 255, 0.59), 0 0 22px 5px rgba(255, 203, 0, 0.13);
+	height: 3vh;
+	width: 3vh;
+}
+@-webkit-keyframes orbit {
+	0% {
+		transform: translate3d(-50%,-50%, 0px) rotate3D(0,0,1,360deg);
+		/*-ms-transform: translate(-50%,-50%) rotate3D(0,0,1,360deg);*/ 
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) rotate3D(0,0,1,360deg); 
+	}
+	100% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,0deg);
+		/*-ms-transform: translate(-50%,-50%) rotate3D(0,0,1,0deg);*/ 
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) rotate3D(0,0,1,0deg); 
+	}
+}
+@-webkit-keyframes orbit {
+	0% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,360deg);
+		/*-ms-transform: translate(-50%,-50%) rotate3D(0,0,1,360deg);*/ 
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) -webkit-rotate3D(0,0,1,360deg); 
+	}
+	100% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,0deg);
+		/*-ms-transform: translate(-50%,-50%) rotate3D(0,0,1,0deg);*/ 
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) -webkit-rotate3D(0,0,1,0deg); 
+	}
+}
+@keyframes orbit {
+	0% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,360deg);
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) rotate3D(0,0,1,360deg);
+	}
+	100% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,0deg);
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) rotate3D(0,0,1,0deg);
+	}
+}
+@keyframes orbit {
+	0% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,360deg);
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) -webkit-rotate3D(0,0,1,360deg);
+	}
+	100% {
+		transform: translate3d(-50%,-50%,0px) rotate3D(0,0,1,0deg);
+		-webkit-transform: -webkit-translate3d(-50%,-50%,0px) -webkit-rotate3D(0,0,1,0deg);
+	}
+}
