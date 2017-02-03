@@ -14,11 +14,10 @@
 }
 .app_hover div p {
 	cursor: pointer;
-
 	position: absolute;
 	top: 40%;
 	left: 25%;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	z-index: 1;
 }
 .app_hover div p:hover + figure img { /* Clears up img when hover over text */
@@ -114,6 +113,10 @@
 .app_hover .see_link p { 
 	color: #EEE9D6; /* Solarized Base2 White */
 	text-align: center;
+	font-size: 1.6em;
+	line-height: 1.625em;
+	margin-top: 0.8125em;
+	margin-bottom: 0em;
 	width: 100%;
 	left: 0;
 	text-shadow: -1px 1px 12px #000, 1px -1px 12px #000;

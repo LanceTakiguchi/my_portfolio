@@ -8,6 +8,12 @@
 		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
 		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
 	}
+	.navbar a{
+		font-size: 1.6em;
+		line-height: 1.425em;
+		margin-top: 0em;
+		margin-bottom: 0em;
+	}
 	.navbar_avoid_padding{
 		padding-top: 60px; /* Note: Keep the save as  navbar height */
 	}
@@ -29,13 +35,21 @@
 		width: 50vw;
 	}
 	.title {
-		font-size: 28px;
+		/*font-size: 28px;*/
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0em;
 	}
 	html { 
-		font-size: 20px;
+		/*font-size: 20px;*/
 	}
 	#quote p {
-		font-size: 33px;
+		/*font-size: 33px;*/
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0em;
 	}
 	.third {
 		min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
@@ -43,11 +57,21 @@
 		width: 100%;
 	}
 	.third h4 {
-		font-size: 18px;
+		/*font-size: 18px;*/
 		margin: 1vh;
+		font-size: 1em;
+		line-height: 1.3em;
+		margin-top: 1.3em;
+		margin-bottom: 0em;
 	}
 	.third li{
-		font-size: 15px;
+		/*font-size: 15px;*/
+		margin: 1vh;
+		font-size: .6em;
+		line-height: 1.2em;
+		margin-top: .6em;
+		margin-bottom: 0em;
+
 	}
 	.third ul {
 		-moz-column-count: 2;
@@ -58,18 +82,22 @@
 		column-gap: 10vw;
 		padding-left: 8vw;
 	}
-	.app_hover .see_link p { 
-		font-size: 18px;
+	body .app_hover .see_link p { 
+		/*font-size: 18px;*/
+		font-size: 1em;
+		line-height: 1.3em;
+		margin-top: 1.3em;
+		margin-bottom: 0em;
 	}
 	ul.nav_list li#nav_home {
 		padding-top: 2%
 	}
 	ul.nav_list li.menu {
-		font-size: 30px;
+		/*font-size: 30px;*/
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive {
-		height: 240px; 
+		height: 360px; 
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
@@ -106,14 +134,26 @@
 		min-height: 13vh;
 	}
 	#contact #contact_bulletin h4{
-		font-size: 18px;
+		/*font-size: 18px;*/
 	}
-	#contact #contact_bulletin h5{
+	/*#contact #contact_bulletin h5{*/
 		font-size: 14px;
 	}
 	#contact_links {
 		margin-top: 1vh;
 		margin-bottom: 1vh;
+	}
+	#contact form input {
+		height: 20px;
+	}
+	#contact form input, #contact form textarea {
+		font-size: 14px;
+	}
+	#contact form #form_submit {
+		font-size: 14px;
+		line-height: 1.3em;
+		margin-top: 1.3em;
+		margin-bottom: 0em;
 	}
 }
 
@@ -139,13 +179,13 @@
 		padding-top: 80px; /* Note: Keep the save as  navbar height */
 	}
 	.title{
-		font-size: 42px;
+		/*font-size: 42px;*/
 	}
 	html{
-		font-size: 30px;
+		/*font-size: 30px;*/
 	}
 	#quote p{
-		font-size: 50px;
+		/*font-size: 50px;*/
 	}
 	.third {
 		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
@@ -157,7 +197,7 @@
 		margin: 1.1vh;
 	}
 	.third li{
-		font-size: 28px;
+		/*font-size: 28px;*/
 	}
 	.third ul {
 		-moz-column-count: 2;
@@ -168,13 +208,16 @@
 		column-gap: 10vw;
 	}
 	.app_hover .see_link p { 
-		font-size: 30px;
+		font-size: 1.3em;
+		line-height: 1.3em;
+		margin-top: 1.3em;
+		margin-bottom: 0em;
 	}
 	ul.nav_list li#nav_home {
 		padding-top: 2%
 	}
 	ul.nav_list li.menu {
-		font-size: 40px;
+		/*font-size: 40px;*/
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive{
@@ -212,7 +255,6 @@
 	}
 }
 /* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
-/* TODO: Create Mobile Nav bar; */
 @media only screen and (min-width: 900px) and (max-width: 1199px){
 	.navbar{
 		height: 130px; 
@@ -225,31 +267,35 @@
 		padding-top: 100px; /* Note: Keep the save as  navbar height */
 	}
 	.title{
-		font-size: 42px;
+		/*font-size: 42px;*/
 	}
 	html{
-		font-size: 30px;
+		/*font-size: 30px;*/
 	}
 	#quote p{
-		font-size: 50px;
+		/*font-size: 50px;*/
 	}
-	.app_hover .see_link p { 
-		font-size: 25px;
+	body .app_hover .see_link p { 
+		/*font-size: 25px;*/
+		font-size: 1.3em;
+		line-height: 1.3em;
+		margin-top: 1.3em;
+		margin-bottom: 0em;
 	}
 }
 /* for desktop up. 1366x768. 1280x1024, 1280 x 800, 1280 x 720 */
 @media only screen and (min-width: 1200px) {
 	.title{
-		font-size: 35px;
+		/*font-size: 35px;*/
 	}
 	html{
-		font-size: 25px;
+		/*font-size: 25px;*/
 	}
 	#quote p{
-		font-size: 42px;
+		/*font-size: 42px;*/
 	}
 	.app_hover .see_link p { 
-		font-size: 25px;
+		/*font-size: 25px;*/
 	}
 }
 
@@ -257,16 +303,16 @@
 @media only screen and (min-width: 1800px) {
 	/* Fonts & Text */
 	.title{
-		font-size: 42px;
+		/*font-size: 42px;*/
 	}
 	html{
-		font-size: 30px;
+		/*font-size: 30px;*/
 	}
 	#quote p{
-		font-size: 50px;
+		/*font-size: 50px;*/
 	}
 	.app_hover .see_link p { 
-		font-size: 30px;
+		/*font-size: 30px;*/
 	}
 }
 /* for extremely big desktops up. 2560x1440, 2560 x 1600*/
@@ -283,21 +329,21 @@
 	}
 	/* Fonts & Text */
 	.third h4 {
-		font-size: 42px;
+		/*font-size: 42px;*/
 	}
 	.third li{
-		font-size: 34px;
+		/*font-size: 34px;*/
 	}
 	.title{
-		font-size: 70px;
+		/*font-size: 70px;*/
 	}
 	html{
-		font-size: 50px;
+		/*font-size: 50px;*/
 	}
 	#quote p{
-		font-size: 83px;
+		/*font-size: 83px;*/
 	}
 	.app_hover .see_link p { 
-		font-size: 50px;
+		/*font-size: 50px;*/
 	}
 }
