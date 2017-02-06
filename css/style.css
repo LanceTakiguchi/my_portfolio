@@ -18,6 +18,7 @@
   /* Fade behind nav bar. Dark top to transparent bottom */
   height: 120px; /* Note: Keep the save as  navbar_avoid_padding */
   background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+  background:  -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safair 4+, Chrome */
   background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */
@@ -27,7 +28,7 @@
   display: flex;
   justify-content: space-around;  
 }
-ul.nav_list li.menu {
+.nav_list .menu {
   display: none;
 }
 /**
@@ -83,7 +84,7 @@ a:visited{
   font-size: 1.6em;
   line-height: 1.625em;
   margin-top: 0.8125em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   text-decoration: none;
   color: #C94C16; /* Solarized Orange */
   text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
@@ -96,7 +97,6 @@ a:visited{
 a:hover{
   text-decoration: none;
   color: #d5d6d2;
-  text-shadow: none;
   outline: 0 none;
   -webkit-transition: linear 200ms;
   -moz-transition: linear 200ms;
@@ -152,10 +152,11 @@ p{
   height: 58vh;
   width: 28%;
   display: inline-block;
+  background-color: rgb(7, 53, 66); /* Solarized Base02 mid dark */ 
   background-color: rgba(7, 53, 66, 0.5); /* Solarized Base02 mid dark */ 
   border-radius: 4px;
-  padding: 1vw;
-  margin: 1vw;
+  padding: .40625em;
+  margin: .40625em;
   min-width: 200px;
 }
 .third h4 {
@@ -163,15 +164,15 @@ p{
   font-size: 1.6em;
   line-height: 1.625em;
   margin-top: 0.8125em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   text-align: center;
   width: 100%;
 }
 .third li{
   font-family: 'Raleway',  Verdana, serif;
   /*font-size: 24px;*/
-  margin-top: 0em;
-  margin-bottom: 1.3em;
+  margin-top: 0;
+  margin-bottom: 1em; /* Was 1.3em */
 }
 /**
  * Contacts
@@ -260,7 +261,7 @@ p{
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 1.3em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   color: #073542; /* Solarized base02 dark */ 
   background-color: #EEE9D6; /* Solarized Base2 White */
   font-family: 'Raleway', Verdana, sans-serif;
@@ -283,7 +284,7 @@ p{
   font-size: 1.6em;
   line-height: 1.625em;
   margin-top: 0.8125em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   color: #93A1A1; /* Solarized Grey */  
 }
 .width_restrict {
