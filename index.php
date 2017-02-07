@@ -4,9 +4,9 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: v1.9
-Version Objective: Create a box scheme for the skills section
-Version Date: 01/10/2017 Time: 14:27
+Version: v1.9d
+Version Objective: Fixing the font & colors
+Version Date: 02/03/2017 Time: 10:59
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
@@ -47,45 +47,45 @@ Version Date: 01/10/2017 Time: 14:27
 	<div class="twinkling"></div>
 	<div id="solar_system">
 		<div id="sun" class="planetoid_body">  </div>
-		<div id="mercury" class="planetoid"> 
+		<div id="mercury" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>	
-		<div id="venus" class="planetoid"> 
+		<div id="venus" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>
-		<div id="earth" class="planetoid"> 
+		<div id="earth" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body">
-				<div id="moon" class="planetoid">
+				<div id="moon" class="planetoid planetoid_satellite">
 					<div class="planetoid_body"></div>
 				</div>
 			</div>
 		</div>
-		<div id="mars" class="planetoid"> 
+		<div id="mars" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>
-		<div id="jupiter" class="planetoid"> 
+		<div id="jupiter" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body">
-				<div id="io" class="planetoid">
+				<div id="io" class="planetoid planetoid_satellite">
 					<div class="planetoid_body"></div>
 				</div>
-				<div id="europa" class="planetoid">
+				<div id="europa" class="planetoid planetoid_satellite">
 					<div class="planetoid_body"></div>
 				</div>
-				<div id="ganymede" class="planetoid">
+				<div id="ganymede" class="planetoid planetoid_satellite">
 					<div class="planetoid_body"></div>
 				</div>
-				<div id="callisto" class="planetoid">
+				<div id="callisto" class="planetoid planetoid_satellite">
 					<div class="planetoid_body"></div>
 				</div>
 			</div>
 		</div>
-		<div id="saturn" class="planetoid"> 
+		<div id="saturn" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>
-		<div id="uranus" class="planetoid"> 
+		<div id="uranus" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>
-		<div id="neptune" class="planetoid"> 
+		<div id="neptune" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>
 	</div>

@@ -1,12 +1,36 @@
+@media only screen and (max-width: 599px) and (orientation: landscape){
+	body .app_hover div figure {
+		height: 40vw;
+		width: 40vw;
+	}
+	body .app_hover figure img {
+		height: 40vw;
+		width: 40vw;
+	}
+	body #applications {
+		height: 150vw;
+	}
+	body #skills {
+		height: 120vw;
+	}
+	body .third {
+		height: 30vw;
+		width: 100%;
+	}
+}
 /* for phone only. 480 x 854, 480 x 800, 540 x 960, 320 x 480, 480, x 320*/
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (max-width: 599px) {
 	.navbar {
 		height: 100px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
+	}
+	.navbar a{
+		font-size: 1.3em;
+		line-height: 1.425em;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: .4em;
+		padding-right: .4em;
 	}
 	.navbar_avoid_padding{
 		padding-top: 60px; /* Note: Keep the save as  navbar height */
@@ -23,19 +47,22 @@
 		width: 50vw;
 		margin: auto;
 	}
-
 	.app_hover figure img {
 		height: 50vw;
 		width: 50vw;
 	}
 	.title {
-		font-size: 28px;
-	}
-	html { 
-		font-size: 20px;
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
 	}
 	#quote p {
-		font-size: 33px;
+		/*font-size: 33px;*/
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
 	}
 	.third {
 		min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
@@ -43,33 +70,44 @@
 		width: 100%;
 	}
 	.third h4 {
-		font-size: 18px;
 		margin: 1vh;
+		font-size: 1em;
+		line-height: 1.3em;
+		margin-top: .5em;
+		margin-bottom: 0;
 	}
 	.third li{
-		font-size: 15px;
+		margin: 1vh;
+		font-size: .6em;
+		line-height: 1.5em;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 	.third ul {
 		-moz-column-count: 2;
 		-moz-column-gap: 10vw;
+		-ms-column-count: 2;
+		-ms-column-gap: 10vw;
 		-webkit-column-count: 2;
 		-webkit-column-gap: 10vw;
 		column-count: 2;
 		column-gap: 10vw;
 		padding-left: 8vw;
 	}
-	.app_hover .see_link p { 
-		font-size: 18px;
-	}
-	ul.nav_list li#nav_home {
-		padding-top: 2%
+	body .app_hover .see_link p { 
+		font-size: 1em;
+		line-height: 1.3em;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 	ul.nav_list li.menu {
-		font-size: 30px;
+		padding-right: .21em;
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive {
-		height: 240px; 
+		height: 330px; 
+		width: 100%;
+		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
@@ -82,15 +120,15 @@
 	}
 	ul.nav_list {
 		display: block;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
+		padding: 2% 4% 2% 4%;
+		margin: 0;
 	}
 	ul.nav_list.responsive li.menu {
 		position: absolute;
 		right: 0;
 		top: 0;
 		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
+		margin: 1% 4.17% 0 4.17%;
 	}
 	ul.nav_list.responsive li {
 		float: none;
@@ -98,25 +136,70 @@
 	}
 	ul.nav_list.responsive li a {
 		display: block;
-		text-align: left;
-		padding-top: 2%;
+	}
+	.navbar li {
+		padding: 0;
+		margin: 0;
 	}
 	#contact #contact_bulletin {
 		height: 13vh; 
 		min-height: 13vh;
 	}
-	#contact #contact_bulletin h4{
-		font-size: 18px;
-	}
-	#contact #contact_bulletin h5{
-		font-size: 14px;
-	}
 	#contact_links {
 		margin-top: 1vh;
 		margin-bottom: 1vh;
 	}
+	#contact form input {
+		height: 20px;
+	}
+	body #contact form input, #contact form textarea {
+		font-size: 14px;
+	}
+	#contact form #form_submit {
+		font-size: 14px;
+		line-height: 1.3em;
+		margin-top: 1.3em;
+		margin-bottom: 0;
+	}
 }
-
+@media only screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape){
+	body .container .app_hover {
+		height: 40vh;
+		width: 40vh;
+	}
+	body .app_hover figure img {
+		height: 40vh;
+		width: 40vh;
+	}
+	body .app_hover .see_link p {
+		font-size: 1em !important;
+		line-height: 1.3em !important;
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	#skills {
+		height: 125vw;
+	}
+	body .third {
+		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
+		height: 35vw;
+		width: 100%;
+	}
+	body .navbar a {
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0; 
+		margin-bottom: 0;
+		padding-left: .5em;
+		text-decoration: none;
+		color: #C94C16;
+		text-shadow: 0 0 10px #201F1D, 0 0 20px #201F1D, 0 0 30px #201F1D, 0 0 40px #201F1D, 0 0 70px #201F1D, 0 0 80px #201F1D, 0 0 100px #201F1D;
+		-webkit-transition: linear 500ms;
+		-moz-transition: linear 500ms;
+		-o-transition: linear 500ms;
+		transition: linear 500ms;
+	}
+}
 /* for tablet, portrait up. 854 x 480, 800 x 480, 960 x 540 */
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (min-width: 600px) and (max-width: 899px){
@@ -129,23 +212,14 @@
 		height: 40vw;
 		width: 40vw;
 	}
-	.navbar{
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
-	}
 	.navbar_avoid_padding{
 		padding-top: 80px; /* Note: Keep the save as  navbar height */
 	}
-	.title{
-		font-size: 42px;
-	}
-	html{
-		font-size: 30px;
-	}
 	#quote p{
-		font-size: 50px;
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: -.1em; /* was 0.5 em */
+		margin-bottom: 0.5em;
 	}
 	.third {
 		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
@@ -157,28 +231,32 @@
 		margin: 1.1vh;
 	}
 	.third li{
-		font-size: 28px;
+		font-size: 1em;
+		line-height: 1.5em; /* was 1.3em */
+		margin-top: 0; /* was 1.3em */
+		margin-bottom: 0;
+		margin-right: .5em;
 	}
 	.third ul {
 		-moz-column-count: 2;
 		-moz-column-gap: 10vw;
+		-ms-column-count: 2;
+		-ms-column-gap: 10vw;
 		-webkit-column-count: 2;
 		-webkit-column-gap: 10vw;
 		column-count: 2;
 		column-gap: 10vw;
 	}
-	.app_hover .see_link p { 
-		font-size: 30px;
-	}
-	ul.nav_list li#nav_home {
-		padding-top: 2%
-	}
-	ul.nav_list li.menu {
-		font-size: 40px;
+	body .app_hover .see_link p { 
+		font-size: 1.3em;
+		line-height: 1.3em;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive{
 		height: 380px; 
+		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
@@ -191,15 +269,13 @@
 	}
 	ul.nav_list {
 		display: block;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
+		padding: 0;
+		margin: 0;
 	}
 	ul.nav_list.responsive li.menu {
 		position: absolute;
 		right: 0;
 		top: 0;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
 	}
 	ul.nav_list.responsive li {
 		float: none;
@@ -208,96 +284,126 @@
 	ul.nav_list.responsive li a {
 		display: block;
 		text-align: left;
-		padding-top: 2%;
 	}
 }
 /* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
-/* TODO: Create Mobile Nav bar; */
-@media only screen and (min-width: 900px) and (max-width: 1199px){
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
 	.navbar{
-		height: 130px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
+		height: 130px; 	
 	}
 	.navbar_avoid_padding{
 		padding-top: 100px; /* Note: Keep the save as  navbar height */
 	}
-	.title{
-		font-size: 42px;
-	}
-	html{
-		font-size: 30px;
-	}
 	#quote p{
-		font-size: 50px;
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: -.1em; /* was 0.5 em */
+		margin-bottom: 0.5em;
 	}
-	.app_hover .see_link p { 
-		font-size: 25px;
+	.third h4 {
+		font-size: 1.6em;
+		line-height: 1.2em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.third li {
+		font-size: 1em;
+		line-height: 1.5em;
+		margin-top: .2em;
+		margin-bottom: 0;
+	}
+	body .app_hover .see_link p { 
+		font-size: 1.3em;
+		line-height: 1.3em;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#contact form input {
+		height: 20px;
+	}
+	body #contact form input, #contact form textarea {
+		font-size: 14px;
 	}
 }
 /* for desktop up. 1366x768. 1280x1024, 1280 x 800, 1280 x 720 */
-@media only screen and (min-width: 1200px) {
-	.title{
-		font-size: 35px;
+/*@media only screen and (min-width: 1200px) {
+	}*/
+	/* for big desktops up. 1920x1080, 2048 x 1536*/
+/*@media only screen and (min-width: 1800px) {
+	}*/
+	/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
+	@media only screen and (min-width: 2100px) {
+		.navbar{
+			height: 200px; 
+		}
+		.navbar_avoid_padding{
+			padding-top: 200px; /* Note: Keep the save as  navbar height */
+		}
+		.navbar ul {
+			margin-top: 2em;
+		}
+		/* Fonts & Text */
+		.navbar a {
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+		.third {
+			padding: 1.6em;
+			margin: .8125em;
+		}
+		.third h4 {
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+		.third li{
+			font-size: 1.6em;
+			line-height: 1.625em;
+			margin-top: 0.8125em;
+			margin-bottom: 0;
+		}
+		.title{
+			font-size: 4.25em;
+			line-height: 1.22352941em;
+			margin-top: 0.30588235em;
+			margin-bottom: 0.6117647em;
+		}
+		html{
+		}
+		#quote p{
+		}
+		body .app_hover .see_link p { 
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0;
+			margin-bottom: 0.5em;
+		}
+		.width_restrict {
+			max-width: 900px;
+			margin: auto;
+		}
+		#contact form input {
+			height: 1.8em;
+		}
+		#contact form input, #contact form textarea {
+			font-size: 1.3em;
+		}
+		#contact form #form_submit {
+			font-size: 1.6em;
+			line-height: 1.625em;
+			margin-top: 0.8125em;
+			margin-bottom: 0;
+			height: 1.8em;
+		}
+		#contact_links a {
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
 	}
-	html{
-		font-size: 25px;
-	}
-	#quote p{
-		font-size: 42px;
-	}
-	.app_hover .see_link p { 
-		font-size: 25px;
-	}
-}
-
-/* for big desktops up. 1920x1080, 2048 x 1536*/
-@media only screen and (min-width: 1800px) {
-	/* Fonts & Text */
-	.title{
-		font-size: 42px;
-	}
-	html{
-		font-size: 30px;
-	}
-	#quote p{
-		font-size: 50px;
-	}
-	.app_hover .see_link p { 
-		font-size: 30px;
-	}
-}
-/* for extremely big desktops up. 2560x1440, 2560 x 1600*/
-@media only screen and (min-width: 2100px) {
-	.navbar{
-		height: 200px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
-	}
-	.navbar_avoid_padding{
-		padding-top: 200px; /* Note: Keep the save as  navbar height */
-	}
-	/* Fonts & Text */
-	.third h4 {
-		font-size: 42px;
-	}
-	.third li{
-		font-size: 34px;
-	}
-	.title{
-		font-size: 70px;
-	}
-	html{
-		font-size: 50px;
-	}
-	#quote p{
-		font-size: 83px;
-	}
-	.app_hover .see_link p { 
-		font-size: 50px;
-	}
-}
