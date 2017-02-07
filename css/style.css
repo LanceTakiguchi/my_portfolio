@@ -2,7 +2,6 @@
  * https://www.gridlover.net/try
  * font size: 20
  */
-
 /**
  * Navbar
  */
@@ -119,7 +118,6 @@ a:hover{
 }
 html{ /* Works on Quote */
   font-family: 'Crimson Text', Verdana, sans-serif;
-  /*font-size: 30px;*/
 }
 .italic{
   font-style: italic;
@@ -130,7 +128,6 @@ p{
 }
 #quote p{
   text-align: center;
-  /*font-size: 50px;*/
   font-family: 'Crimson Text', Verdana, sans-serif;
   font-size: 4.25em;
   line-height: 1.22352941em;
@@ -162,7 +159,6 @@ p{
   min-width: 200px;
 }
 .third h4 {
-  /*font-size: 26px;*/
   font-size: 1.6em;
   line-height: 1.625em;
   margin-top: 0.8125em;
@@ -172,7 +168,6 @@ p{
 }
 .third li{
   font-family: 'Raleway',  Verdana, serif;
-  /*font-size: 24px;*/
   margin-top: 0;
   margin-bottom: 1em; /* Was 1.3em */
 }

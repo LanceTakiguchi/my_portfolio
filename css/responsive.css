@@ -52,7 +52,6 @@
 		width: 50vw;
 	}
 	.title {
-		/*font-size: 28px;*/
 		font-size: 1.6em;
 		line-height: 1.625em;
 		margin-top: 0.8125em;
@@ -78,13 +77,11 @@
 		margin-bottom: 0;
 	}
 	.third li{
-		/*font-size: 15px;*/
 		margin: 1vh;
 		font-size: .6em;
 		line-height: 1.5em;
 		margin-top: 0;
 		margin-bottom: 0;
-
 	}
 	.third ul {
 		-moz-column-count: 2;
@@ -98,7 +95,6 @@
 		padding-left: 8vw;
 	}
 	body .app_hover .see_link p { 
-		/*font-size: 18px;*/
 		font-size: 1em;
 		line-height: 1.3em;
 		margin-top: 0;
@@ -140,7 +136,6 @@
 	}
 	ul.nav_list.responsive li a {
 		display: block;
-		/*padding-top: .1em;*/
 	}
 	.navbar li {
 		padding: 0;
@@ -149,9 +144,6 @@
 	#contact #contact_bulletin {
 		height: 13vh; 
 		min-height: 13vh;
-	}
-	#contact #contact_bulletin h4{
-		/*font-size: 18px;*/
 	}
 	#contact_links {
 		margin-top: 1vh;
@@ -208,7 +200,6 @@
 		transition: linear 500ms;
 	}
 }
-
 /* for tablet, portrait up. 854 x 480, 800 x 480, 960 x 540 */
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (min-width: 600px) and (max-width: 899px){
@@ -223,12 +214,6 @@
 	}
 	.navbar_avoid_padding{
 		padding-top: 80px; /* Note: Keep the save as  navbar height */
-	}
-	.title{
-		/*font-size: 42px;*/
-	}
-	html{
-		/*font-size: 30px;*/
 	}
 	#quote p{
 		font-size: 2.6em;
@@ -268,12 +253,6 @@
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-	ul.nav_list #nav_home {
-		/*padding-top: 2%*/
-	}
-	ul.nav_list li.menu {
-		/*font-size: 40px;*/
-	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive{
 		height: 380px; 
@@ -297,18 +276,15 @@
 		position: absolute;
 		right: 0;
 		top: 0;
-/*		padding: 1%;
-margin: 0 4.17% 0 4.17%;*/
-}
-ul.nav_list.responsive li {
-	float: none;
-	display: inline;
-}
-ul.nav_list.responsive li a {
-	display: block;
-	text-align: left;
-	/*padding-top: .1em;*/
-}
+	}
+	ul.nav_list.responsive li {
+		float: none;
+		display: inline;
+	}
+	ul.nav_list.responsive li a {
+		display: block;
+		text-align: left;
+	}
 }
 /* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
@@ -318,14 +294,11 @@ ul.nav_list.responsive li a {
 	.navbar_avoid_padding{
 		padding-top: 100px; /* Note: Keep the save as  navbar height */
 	}
-	.title{
-		/*font-size: 42px;*/
-	}
-	html{
-		/*font-size: 30px;*/
-	}
 	#quote p{
-		/*font-size: 50px;*/
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: -.1em; /* was 0.5 em */
+		margin-bottom: 0.5em;
 	}
 	.third h4 {
 		font-size: 1.6em;
@@ -342,7 +315,6 @@ ul.nav_list.responsive li a {
 		margin-bottom: 0;
 	}
 	body .app_hover .see_link p { 
-		/*font-size: 25px;*/
 		font-size: 1.3em;
 		line-height: 1.3em;
 		margin-top: 0;
@@ -356,108 +328,82 @@ ul.nav_list.responsive li a {
 	}
 }
 /* for desktop up. 1366x768. 1280x1024, 1280 x 800, 1280 x 720 */
-@media only screen and (min-width: 1200px) {
-	.title{
-		/*font-size: 35px;*/
+/*@media only screen and (min-width: 1200px) {
+	}*/
+	/* for big desktops up. 1920x1080, 2048 x 1536*/
+/*@media only screen and (min-width: 1800px) {
+	}*/
+	/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
+	@media only screen and (min-width: 2100px) {
+		.navbar{
+			height: 200px; 
+		}
+		.navbar_avoid_padding{
+			padding-top: 200px; /* Note: Keep the save as  navbar height */
+		}
+		.navbar ul {
+			margin-top: 2em;
+		}
+		/* Fonts & Text */
+		.navbar a {
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+		.third {
+			padding: 1.6em;
+			margin: .8125em;
+		}
+		.third h4 {
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+		.third li{
+			font-size: 1.6em;
+			line-height: 1.625em;
+			margin-top: 0.8125em;
+			margin-bottom: 0;
+		}
+		.title{
+			font-size: 4.25em;
+			line-height: 1.22352941em;
+			margin-top: 0.30588235em;
+			margin-bottom: 0.6117647em;
+		}
+		html{
+		}
+		#quote p{
+		}
+		body .app_hover .see_link p { 
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0;
+			margin-bottom: 0.5em;
+		}
+		.width_restrict {
+			max-width: 900px;
+			margin: auto;
+		}
+		#contact form input {
+			height: 1.8em;
+		}
+		#contact form input, #contact form textarea {
+			font-size: 1.3em;
+		}
+		#contact form #form_submit {
+			font-size: 1.6em;
+			line-height: 1.625em;
+			margin-top: 0.8125em;
+			margin-bottom: 0;
+			height: 1.8em;
+		}
+		#contact_links a {
+			font-size: 2.6em;
+			line-height: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
 	}
-	html{
-		/*font-size: 25px;*/
-	}
-	#quote p{
-		/*font-size: 42px;*/
-	}
-	.app_hover .see_link p { 
-		/*font-size: 25px;*/
-	}
-}
-
-/* for big desktops up. 1920x1080, 2048 x 1536*/
-@media only screen and (min-width: 1800px) {
-	/* Fonts & Text */
-	.title{
-		/*font-size: 42px;*/
-	}
-	html{
-		/*font-size: 30px;*/
-	}
-	#quote p{
-		/*font-size: 50px;*/
-	}
-	.app_hover .see_link p { 
-		/*font-size: 30px;*/
-	}
-}
-/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
-@media only screen and (min-width: 2100px) {
-	.navbar{
-		height: 200px; 
-	}
-	.navbar_avoid_padding{
-		padding-top: 200px; /* Note: Keep the save as  navbar height */
-	}
-	.navbar ul {
-		margin-top: 2em;
-	}
-	/* Fonts & Text */
-	.navbar a {
-		font-size: 2.6em;
-		line-height: 1em;
-		margin-top: 0.5em;
-		margin-bottom: 0.5em;
-	}
-	.third {
-		padding: 1.6em;
-		margin: .8125em;
-	}
-	.third h4 {
-		font-size: 2.6em;
-		line-height: 1em;
-		margin-top: 0.5em;
-		margin-bottom: 0.5em;
-	}
-	.third li{
-		font-size: 1.6em;
-		line-height: 1.625em;
-		margin-top: 0.8125em;
-		margin-bottom: 0;
-	}
-	.title{
-		font-size: 4.25em;
-		line-height: 1.22352941em;
-		margin-top: 0.30588235em;
-		margin-bottom: 0.6117647em;
-	}
-	html{
-	}
-	#quote p{
-	}
-	body .app_hover .see_link p { 
-		font-size: 2.6em;
-		line-height: 1em;
-		margin-top: 0;
-		margin-bottom: 0.5em;
-	}
-	.width_restrict {
-		max-width: 900px;
-		margin: auto;
-	}
-	#contact form input {
-		height: 1.8em;
-	}
-	#contact form input, #contact form textarea {
-		font-size: 1.3em;
-	}
-	#contact form #form_submit {
-		font-size: 1.6em;
-		line-height: 1.625em;
-		margin-top: 0.8125em;
-		margin-bottom: 0;
-		height: 1.8em;
-	}
-	#contact_links a {
-		font-size: 2.6em;
-		line-height: 1em;
-		margin-top: 0.5em;
-		margin-bottom: 0.5em;
-	}
-}
