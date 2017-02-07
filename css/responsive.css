@@ -181,7 +181,7 @@
 		height: 40vh;
 		width: 40vh;
 	}
-	body .app_hover .see_link p{
+	body .app_hover .see_link p {
 		font-size: 1em !important;
 		line-height: 1.3em !important;
 		margin-top: 0 !important;
@@ -195,7 +195,7 @@
 		height: 35vw;
 		width: 100%;
 	}
-	.navbar a {
+	body .navbar a {
 		font-size: 1.6em;
 		line-height: 1.625em;
 		margin-top: 0; 
@@ -271,7 +271,7 @@
 		margin-bottom: 0;
 	}
 	ul.nav_list #nav_home {
-		padding-top: 2%
+		/*padding-top: 2%*/
 	}
 	ul.nav_list li.menu {
 		/*font-size: 40px;*/
@@ -292,15 +292,15 @@
 	}
 	ul.nav_list {
 		display: block;
-		padding: 1%;
+		padding: 0;
 		margin: 0;
 	}
 	ul.nav_list.responsive li.menu {
 		position: absolute;
 		right: 0;
 		top: 0;
-		padding: 1%;
-		margin: 0 4.17% 0 4.17%;
+/*		padding: 1%;
+		margin: 0 4.17% 0 4.17%;*/
 	}
 	ul.nav_list.responsive li {
 		float: none;
@@ -309,7 +309,7 @@
 	ul.nav_list.responsive li a {
 		display: block;
 		text-align: left;
-		padding-top: .1em;
+		/*padding-top: .1em;*/
 	}
 }
 /* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
