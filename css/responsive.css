@@ -267,7 +267,7 @@
 	body .app_hover .see_link p { 
 		font-size: 1.3em;
 		line-height: 1.3em;
-		margin-top: 1.3em;
+		margin-top: 0;
 		margin-bottom: 0;
 	}
 	ul.nav_list #nav_home {
@@ -347,7 +347,7 @@
 		/*font-size: 25px;*/
 		font-size: 1.3em;
 		line-height: 1.3em;
-		margin-top: 1.3em;
+		margin-top: 0;
 		margin-bottom: 0;
 	}
 	#contact form input {
@@ -436,7 +436,7 @@
 	body .app_hover .see_link p { 
 		font-size: 2.6em;
 		line-height: 1em;
-		margin-top: 0.5em;
+		margin-top: 0;
 		margin-bottom: 0.5em;
 	}
 	.width_restrict {
