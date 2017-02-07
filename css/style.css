@@ -169,7 +169,8 @@ p{
 .third li{
   font-family: 'Raleway',  Verdana, serif;
   margin-top: 0;
-  margin-bottom: 1em; /* Was 1.3em */
+  margin-bottom: .5em; /* Was 1.3em */
+  line-height: 1em;
 }
 /**
  * Contacts
