@@ -18,16 +18,11 @@
 		width: 100%;
 	}
 }
-
 /* for phone only. 480 x 854, 480 x 800, 540 x 960, 320 x 480, 480, x 320*/
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (max-width: 599px) {
 	.navbar {
 		height: 100px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
 	}
 	.navbar a{
 		font-size: 1.6em;
@@ -107,7 +102,7 @@
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-	ul.nav_list li#nav_home {
+	ul.nav_list #nav_home {
 		padding-top: 2%
 	}
 	ul.nav_list li.menu {
@@ -117,6 +112,7 @@
 	.navbar .responsive {
 		height: 380px; 
 		width: 100%;
+		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
@@ -173,7 +169,7 @@
 		font-size: 14px;
 		line-height: 1.3em;
 		margin-top: 1.3em;
-		margin-bottom: 0em;
+		margin-bottom: 0;
 	}
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape){
@@ -227,12 +223,6 @@
 		height: 40vw;
 		width: 40vw;
 	}
-	.navbar{
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
-	}
 	.navbar_avoid_padding{
 		padding-top: 80px; /* Note: Keep the save as  navbar height */
 	}
@@ -260,13 +250,15 @@
 	.third li{
 		font-size: 1em;
 		line-height: 1.5em; /* was 1.3em */
-		margin-top: 0em; /* was 1.3em */
+		margin-top: 0; /* was 1.3em */
 		margin-bottom: 0;
 		margin-right: .5em;
 	}
 	.third ul {
 		-moz-column-count: 2;
 		-moz-column-gap: 10vw;
+		-ms-column-count: 2;
+		-ms-column-gap: 10vw;
 		-webkit-column-count: 2;
 		-webkit-column-gap: 10vw;
 		column-count: 2;
@@ -276,9 +268,9 @@
 		font-size: 1.3em;
 		line-height: 1.3em;
 		margin-top: 1.3em;
-		margin-bottom: 0em;
+		margin-bottom: 0;
 	}
-	ul.nav_list li#nav_home {
+	ul.nav_list #nav_home {
 		padding-top: 2%
 	}
 	ul.nav_list li.menu {
@@ -287,6 +279,7 @@
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive{
 		height: 380px; 
+		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
@@ -322,11 +315,7 @@
 /* for tablet landscape up. 1024x768, 1024 x 600, 540 x 960*/
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
 	.navbar{
-		height: 130px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
+		height: 130px; 	
 	}
 	.navbar_avoid_padding{
 		padding-top: 100px; /* Note: Keep the save as  navbar height */
@@ -359,7 +348,7 @@
 		font-size: 1.3em;
 		line-height: 1.3em;
 		margin-top: 1.3em;
-		margin-bottom: 0em;
+		margin-bottom: 0;
 	}
 	#contact form input {
 		height: 20px;
@@ -404,10 +393,6 @@
 @media only screen and (min-width: 2100px) {
 	.navbar{
 		height: 200px; 
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* Standard syntax (must be last) */	
 	}
 	.navbar_avoid_padding{
 		padding-top: 200px; /* Note: Keep the save as  navbar height */
@@ -436,7 +421,7 @@
 		font-size: 1.6em;
 		line-height: 1.625em;
 		margin-top: 0.8125em;
-		margin-bottom: 0em;
+		margin-bottom: 0;
 	}
 	.title{
 		font-size: 4.25em;
@@ -468,7 +453,7 @@
 		font-size: 1.6em;
 		line-height: 1.625em;
 		margin-top: 0.8125em;
-		margin-bottom: 0em;
+		margin-bottom: 0;
 		height: 1.8em;
 	}
 	#contact_links a {
