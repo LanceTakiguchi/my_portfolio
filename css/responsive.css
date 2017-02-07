@@ -25,10 +25,12 @@
 		height: 100px; 
 	}
 	.navbar a{
-		font-size: 1.6em;
+		font-size: 1.3em;
 		line-height: 1.425em;
 		margin-top: 0;
 		margin-bottom: 0;
+		padding-left: .4em;
+		padding-right: .4em;
 	}
 	.navbar_avoid_padding{
 		padding-top: 60px; /* Note: Keep the save as  navbar height */
@@ -110,7 +112,7 @@
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive {
-		height: 380px; 
+		height: 330px; 
 		width: 100%;
 		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
@@ -141,7 +143,6 @@
 	}
 	ul.nav_list.responsive li a {
 		display: block;
-		text-align: left;
 		padding-top: .1em;
 	}
 	.navbar li {
