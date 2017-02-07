@@ -231,7 +231,7 @@
 		margin: 1.1vh;
 	}
 	.third li{
-		font-size: 1em;
+		font-size: .8em;
 		line-height: 1.5em; /* was 1.3em */
 		margin-top: 0; /* was 1.3em */
 		margin-bottom: 0;
