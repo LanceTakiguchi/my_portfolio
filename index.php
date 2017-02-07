@@ -91,10 +91,10 @@ Version Date: 02/03/2017 Time: 10:59
 	</div>
 	<nav class="navbar">
 		<ul class="nav_list" id="top_nav">
-			<li id="nav_home"> <a href="#"> Home </a> </li>
-			<li> <a href="#applications"> Applications </a> </li>
-			<li> <a href="#skills"> Skills </a> </li>
-			<li> <a href="#contact"> Contact </a> </li>
+			<li id="nav_home"> <a href="#" onclick="respon_js()"> Home </a> </li>
+			<li> <a href="#applications" onclick="respon_js()"> Applications </a> </li>
+			<li> <a href="#skills" onclick="respon_js()"> Skills </a> </li>
+			<li> <a href="#contact" onclick="respon_js()"> Contact </a> </li>
 			<li class="menu">
 				<a href="javascript:void(0);" onclick="respon_js()">☰</a>
 			</li>
