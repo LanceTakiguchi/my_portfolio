@@ -3,7 +3,6 @@
 	justify-content: space-between; 	
 	flex-wrap: wrap;
 }
-
 /* Circle */
 .app_hover figure {
 	position: relative;
@@ -114,7 +113,6 @@
 		opacity: 0;
 	}
 }
-
 /* Special Cases */
 .app_hover .see_link p { 
 	color: #EEE9D6; /* Solarized Base2 White */
