@@ -70,6 +70,16 @@ body{ /* Works on Quote */
   font-weight: bolder;
   margin: 0;
 }
+.scroll_active {
+  /*text-decoration: none;*/
+  color: #d5d6d2;
+  /*outline: 0 none;*/
+/*  -webkit-transition: linear 200ms;
+  -moz-transition: linear 200ms;
+  -o-transition: linear 200ms;
+  transition: linear 200ms;*/
+  text-shadow: -3px 3px 8px #ffc, 3px -3px 8px #fff;
+}
 a{
   color: #C94C16; /* Solarized Orange */
   text-decoration: none;

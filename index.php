@@ -30,6 +30,7 @@ Version Date: 02/03/2017 Time: 10:59
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script src="js/responsive.js"></script>
 	<script src="js/email_ajax.js"></script>
+	<!-- <script src="js/scroll.js"></script> -->
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -91,23 +92,23 @@ Version Date: 02/03/2017 Time: 10:59
 	</div>
 	<nav class="navbar">
 		<ul class="nav_list" id="top_nav">
-			<li id="nav_home"> <a href="#" onclick="respon_js()"> Home </a> </li>
-			<li> <a href="#applications" onclick="respon_js()"> Applications </a> </li>
-			<li> <a href="#skills" onclick="respon_js()"> Skills </a> </li>
-			<li> <a href="#contact" onclick="respon_js()"> Contact </a> </li>
+			<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js()"> Home </a> </li>
+			<li> <a href="#applications" id="n_applications" onclick="respon_js()"> Applications </a> </li>
+			<li> <a href="#skills" id="n_skills" onclick="respon_js()"> Skills </a> </li>
+			<li> <a href="#contact" id="n_contact" onclick="respon_js()"> Contact </a> </li>
 			<li class="menu">
 				<a href="javascript:void(0);" onclick="respon_js()">☰</a>
 			</li>
 		</ul>
 	</nav>
 	
-	<div id="home" class="set_height margin_center navbar_avoid_padding">
+	<div id="home" class="set_height margin_center navbar_avoid_padding scroll">
 		<div id="quote">
 			<p id="astronomy"> Astronomy compels the soul to look upward, and leads us from this world to another. </p>
 			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE. </span></p>
 		</div>
 	</div>
-	<div id="applications" class="set_height margin_center navbar_avoid_padding">
+	<div id="applications" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#applications"> Applications </a> </h2>
 		<div class="container">
 			<div class="app_hover app_light">
@@ -136,7 +137,7 @@ Version Date: 02/03/2017 Time: 10:59
 			</div>
 		</div>
 	</div>
-	<div id="skills" class="set_height margin_center navbar_avoid_padding">
+	<div id="skills" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
 		<div id="skill_box">
 			<div id="Experience" class="third">
@@ -171,7 +172,7 @@ Version Date: 02/03/2017 Time: 10:59
 			</div>
 		</div>	
 	</div>
-	<div id="contact" class="set_height margin_center navbar_avoid_padding">
+	<div id="contact" class="set_height margin_center navbar_avoid_padding scroll">
 		<div id="contact_bulletin">
 			<div>
 				<h4> </h4> 
