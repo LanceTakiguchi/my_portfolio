@@ -198,7 +198,11 @@ Version Date: 02/03/2017 Time: 10:59
 						<td><button id="form_submit" class="width_restrict" type="button">Submit</button></td>
 					</tr>
 					<tr>
-						<td><p id="contact_links"> <a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a> <a href="https://github.com/LanceTakiguchi" target="_blank"><i id="github" class="fa fa-github" aria-hidden="true"></i></a></p> </td>
+						<td><p id="contact_links">
+						 <a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						 <a href="https://github.com/LanceTakiguchi" target="_blank"><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
+						 <a href="assets/docs/LanceTakiguchiResume.pdf" target="_blank"><i id="resume" class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+						</p> </td>
 					</tr>
 				</table>
 			</form>

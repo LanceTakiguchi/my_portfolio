@@ -293,6 +293,8 @@ p{
   line-height: 1.625em;
   margin-top: 0.8125em;
   margin-bottom: 0;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
   color: #93A1A1; /* Solarized Grey */  
 }
 .width_restrict {
