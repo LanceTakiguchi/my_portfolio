@@ -149,6 +149,9 @@ p{
 #quote #plato {
   font-family: 'Crimson Text', Verdana, sans-serif;
 }
+#beauty {
+  border-radius: 50%;
+}
 /**
  * Skills
  */

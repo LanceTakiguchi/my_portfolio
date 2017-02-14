@@ -110,7 +110,7 @@ Version Date: 02/03/2017 Time: 10:59
 	</div>
 	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
-		<img src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
+		<img id="beauty" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
 		<div>
 			<p>
 				Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, Calfornia who loves tackling the puzzles hidden in the logic of code. 
