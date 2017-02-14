@@ -112,8 +112,14 @@ Version Date: 02/03/2017 Time: 10:59
 		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
 		<div>
 			<p>
-				There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning. The regret on our side is, they used to say years ago, we are reading about you in science class. Now they say, we are reading about you in history class. Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.
+				Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, Calfornia who loves tackling the puzzles hidden in the logic of code. 
 			</p>
+			<p>
+				I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a users attention. The behind the scenes action is where I like to daze the stargazers.  
+			</p>
+			<p>
+				I am currently avaliable for web developement work around Orange County area, as well as remote or freelance work.
+			</p> 
 		</div>
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding scroll">
