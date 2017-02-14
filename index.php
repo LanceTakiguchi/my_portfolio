@@ -108,6 +108,14 @@ Version Date: 02/03/2017 Time: 10:59
 			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE. </span></p>
 		</div>
 	</div>
+	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
+		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
+		<div>
+			<p>
+				There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning. The regret on our side is, they used to say years ago, we are reading about you in science class. Now they say, we are reading about you in history class. Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.
+			</p>
+		</div>
+	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#applications"> Applications </a> </h2>
 		<div class="container">
@@ -199,9 +207,9 @@ Version Date: 02/03/2017 Time: 10:59
 					</tr>
 					<tr>
 						<td><p id="contact_links">
-						 <a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-						 <a href="https://github.com/LanceTakiguchi" target="_blank"><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
-						 <a href="assets/docs/LanceTakiguchiResume.pdf" target="_blank"><i id="resume" class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://github.com/LanceTakiguchi" target="_blank"><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
+							<a href="assets/docs/LanceTakiguchiResume.pdf" target="_blank"><i id="resume" class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 						</p> </td>
 					</tr>
 				</table>
