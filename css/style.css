@@ -151,6 +151,14 @@ p{
 }
 #beauty {
   border-radius: 50%;
+  width: 16.6666667%;
+  /*margin-left: 4.16666667%;*/
+  max-width: 486px;
+  display: inline-block;
+
+}
+#about div{
+  display: inline;
 }
 /**
  * Skills
