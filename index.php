@@ -110,6 +110,7 @@ Version Date: 02/03/2017 Time: 10:59
 	</div>
 	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
+		<img src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
 		<div>
 			<p>
 				Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, Calfornia who loves tackling the puzzles hidden in the logic of code. 
@@ -129,7 +130,7 @@ Version Date: 02/03/2017 Time: 10:59
 				<div>
 					<a class="see_link" href="apps/sgt_app/" target="_blank"> 
 						<p> Student Grade Table </p>
-						<figure><img src="assets/images/apps/sgt_app.png" /></figure>
+						<figure><img src="assets/images/apps/sgt_app.png" alt="SGT"/></figure>
 					</a>
 				</div>
 			</div>
@@ -137,7 +138,7 @@ Version Date: 02/03/2017 Time: 10:59
 				<div>
 					<a class="see_link" href="apps/rogue_fighter/" target="_blank"> 
 						<p> Rogue Fighter </p>
-						<figure><img src="assets/images/apps/rebel_app.png" /></figure>
+						<figure><img src="assets/images/apps/rebel_app.png" alt="Rebels"/></figure>
 					</a>
 				</div>
 			</div>
@@ -145,7 +146,7 @@ Version Date: 02/03/2017 Time: 10:59
 				<div>
 					<a class="see_link" href="apps/calculator/" target="_blank"> 
 						<p> Calculator </p>
-						<figure><img src="assets/images/apps/calc_app.png" /></figure>
+						<figure><img src="assets/images/apps/calc_app.png" alt="Calculator"/></figure>
 					</a>
 				</div>
 			</div>
