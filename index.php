@@ -101,9 +101,8 @@ Version Date: 02/03/2017 Time: 10:59
 			</li>
 		</ul>
 	</nav>
-	
 	<div id="home" class="set_height margin_center navbar_avoid_padding scroll">
-		<div id="quote">
+		<div id="quote" class="text_shadow">
 			<p id="astronomy"> Astronomy compels the soul to look upward, and leads us from this world to another. </p>
 			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE. </span></p>
 		</div>
@@ -111,14 +110,15 @@ Version Date: 02/03/2017 Time: 10:59
 	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
 		<img id="beauty" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
-		<div>
-			<p>
+		<div class="text_shadow">
+			<br>
+			<p class="indent">
 				Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, Calfornia who loves tackling the puzzles hidden in the logic of code. 
-			</p>
-			<p>
+			</p> <br>
+			<p class="indent">
 				I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a users attention. The behind the scenes action is where I like to daze the stargazers.  
-			</p>
-			<p>
+			</p> <br>
+			<p class="indent">
 				I am currently avaliable for web developement work around Orange County area, as well as remote or freelance work.
 			</p> 
 		</div>
