@@ -27,9 +27,11 @@ Version Date: 02/03/2017 Time: 10:59
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script src="js/responsive.js"></script>
 	<script src="js/email_ajax.js"></script>
+	<!-- <script src="js/about.js"></script> -->
 	<!-- <script src="js/scroll.js"></script> -->
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -93,6 +95,7 @@ Version Date: 02/03/2017 Time: 10:59
 	<nav class="navbar">
 		<ul class="nav_list" id="top_nav">
 			<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js()"> Home </a> </li>
+			<li> <a href="#about" id="n_about" onclick="respon_js()"> About </a> </li>
 			<li> <a href="#applications" id="n_applications" onclick="respon_js()"> Applications </a> </li>
 			<li> <a href="#skills" id="n_skills" onclick="respon_js()"> Skills </a> </li>
 			<li> <a href="#contact" id="n_contact" onclick="respon_js()"> Contact </a> </li>
@@ -109,7 +112,7 @@ Version Date: 02/03/2017 Time: 10:59
 	</div>
 	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
 		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
-		<img id="beauty" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
+		<img id="NERD" class="warp" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
 		<div class="text_shadow">
 			<br>
 			<p class="indent">

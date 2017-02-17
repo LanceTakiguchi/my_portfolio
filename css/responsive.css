@@ -105,7 +105,7 @@
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive {
-		height: 330px; 
+		height: 360px; 
 		width: 100%;
 		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
@@ -255,7 +255,7 @@
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive{
-		height: 380px; 
+		height: 480px; 
 		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */

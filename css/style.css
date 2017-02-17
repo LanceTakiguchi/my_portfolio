@@ -156,13 +156,12 @@ p{
  * About
  */
  #about {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
-#beauty {
+#NERD {
   border-radius: 50%;
-  width: 25%;
-  /*margin-left: 4.16666667%;*/
+  width: 33.3333333%;
   max-width: 486px;
   float: left;
   display: inline-block;
