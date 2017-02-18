@@ -58,7 +58,6 @@
 		margin-bottom: 0;
 	}
 	#quote p {
-		/*font-size: 33px;*/
 		font-size: 1.6em;
 		line-height: 1.625em;
 		margin-top: 0.8125em;
@@ -327,83 +326,77 @@
 		font-size: 14px;
 	}
 }
-/* for desktop up. 1366x768. 1280x1024, 1280 x 800, 1280 x 720 */
-/*@media only screen and (min-width: 1200px) {
-	}*/
-	/* for big desktops up. 1920x1080, 2048 x 1536*/
-/*@media only screen and (min-width: 1800px) {
-	}*/
-	/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
-	@media only screen and (min-width: 2100px) {
-		.navbar{
-			height: 200px; 
-		}
-		.navbar_avoid_padding{
-			padding-top: 200px; /* Note: Keep the save as  navbar height */
-		}
-		.navbar ul {
-			margin-top: 2em;
-		}
-		/* Fonts & Text */
-		.navbar a {
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0.5em;
-			margin-bottom: 0.5em;
-		}
-		.third {
-			padding: 1.6em;
-			margin: .8125em;
-		}
-		.third h4 {
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0.5em;
-			margin-bottom: 0.5em;
-		}
-		.third li{
-			font-size: 1.6em;
-			line-height: 1.625em;
-			margin-top: 0.8125em;
-			margin-bottom: 0;
-		}
-		.title{
-			font-size: 4.25em;
-			line-height: 1.22352941em;
-			margin-top: 0.30588235em;
-			margin-bottom: 0.6117647em;
-		}
-		html{
-		}
-		#quote p{
-		}
-		body .app_hover .see_link p { 
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0;
-			margin-bottom: 0.5em;
-		}
-		.width_restrict {
-			max-width: 900px;
-			margin: auto;
-		}
-		#contact form input {
-			height: 1.8em;
-		}
-		#contact form input, #contact form textarea {
-			font-size: 1.3em;
-		}
-		#contact form #form_submit {
-			font-size: 1.6em;
-			line-height: 1.625em;
-			margin-top: 0.8125em;
-			margin-bottom: 0;
-			height: 1.8em;
-		}
-		#contact_links a {
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0.5em;
-			margin-bottom: 0.5em;
-		}
+/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
+@media only screen and (min-width: 2100px) {
+	.navbar{
+		height: 200px; 
 	}
+	.navbar_avoid_padding{
+		padding-top: 200px; /* Note: Keep the save as  navbar height */
+	}
+	.navbar ul {
+		margin-top: 2em;
+	}
+	/* Fonts & Text */
+	.navbar a {
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	.third {
+		padding: 1.6em;
+		margin: .8125em;
+	}
+	.third h4 {
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	.third li{
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
+	}
+	.title{
+		font-size: 4.25em;
+		line-height: 1.22352941em;
+		margin-top: 0.30588235em;
+		margin-bottom: 0.6117647em;
+	}
+	html{
+	}
+	#quote p{
+	}
+	body .app_hover .see_link p { 
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
+	.width_restrict {
+		max-width: 900px;
+		margin: auto;
+	}
+	#contact form input {
+		height: 1.8em;
+	}
+	#contact form input, #contact form textarea {
+		font-size: 1.3em;
+	}
+	#contact form #form_submit {
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
+		height: 1.8em;
+	}
+	#contact_links a {
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+}
