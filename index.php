@@ -101,13 +101,13 @@ Version Date: 02/10/2017 Time:
 			</li>
 		</ul>
 	</nav>
-	<div id="home" class="set_height margin_center navbar_avoid_padding scroll">
+	<div id="home" class="set_height margin_center navbar_avoid_padding">
 		<div id="quote" class="text_shadow">
 			<p id="astronomy"> Astronomy compels the soul to look upward, and leads us from this world to another. </p>
 			<p id="plato"> - <span class="italic">Plato</span>, The Republic, <span class="italic"> 343 BCE. </span></p>
 		</div>
 	</div>
-	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
+	<div id="about" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title text_shadow"> <a href="#about"> Lance Takiguchi </a> </h2>
 		<img id="NERD" class="warp" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
 		<div class="text_shadow">
@@ -123,7 +123,7 @@ Version Date: 02/10/2017 Time:
 			</p> 
 		</div>
 	</div>
-	<div id="applications" class="set_height margin_center navbar_avoid_padding scroll">
+	<div id="applications" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title text_shadow"> <a href="#applications"> Applications </a> </h2>
 		<div class="container">
 			<div class="app_hover app_light">
@@ -152,7 +152,7 @@ Version Date: 02/10/2017 Time:
 			</div>
 		</div>
 	</div>
-	<div id="skills" class="set_height margin_center navbar_avoid_padding scroll">
+	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title text_shadow"> <a href="#skills"> Skills </a> </h2>
 		<div id="skill_box">
 			<div id="Experience" class="third">
@@ -187,7 +187,7 @@ Version Date: 02/10/2017 Time:
 			</div>
 		</div>	
 	</div>
-	<div id="contact" class="set_height margin_center navbar_avoid_padding scroll">
+	<div id="contact" class="set_height margin_center navbar_avoid_padding">
 		<div id="contact_bulletin">
 			<div>
 				<h4> </h4> 
