@@ -125,7 +125,6 @@ a:hover{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: center;
-  text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
 }
 html{ /* Works on Quote */
   font-family: 'Crimson Text', Verdana, sans-serif;

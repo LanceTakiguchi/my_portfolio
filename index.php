@@ -17,7 +17,7 @@ Version Date: 02/10/2017 Time:
 	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
 	<meta name="author" content="Lance Takiguchi">
 	<meta name="description" content="Lance Takiguchi's Portfolio Website">
-	<meta name="date" content="01/11/17, January 11, 2017">
+	<meta name="date" content="02/18/17, February 18, 2017">
 	<link rel="icon" href="assets/images/sun_icon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
@@ -27,7 +27,6 @@ Version Date: 02/10/2017 Time:
 	<link rel="stylesheet" type="text/css" href="css/background.css">
 	<link rel="stylesheet" type="text/css" href="css/planets.css">
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
-	<link rel="stylesheet" type="text/css" href="css/about.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script src="js/responsive.js"></script>
 	<script src="js/email_ajax.js"></script>
@@ -36,18 +35,17 @@ Version Date: 02/10/2017 Time:
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
 	ga('create', 'UA-88376823-1', 'auto');
 	ga('send', 'pageview');
 	</script>
-	<title> Lance Takiguchi | Portfolio </title>
+	<title text_shadow> Lance Takiguchi | Portfolio </title text_shadow>
 </head>
 <body>
 	<!-- The Background -->
 	<div class="stars"></div>
 	<div class="twinkling"></div>
 	<div id="solar_system">
-		<div id="sun" class="planetoid_body">  </div>
+		<div id="sun" class="planetoid_body"></div>
 		<div id="mercury" class="planetoid planetoid_satellite"> 
 			<div class="planetoid_body"></div>
 		</div>	
@@ -90,6 +88,7 @@ Version Date: 02/10/2017 Time:
 			<div class="planetoid_body"></div>
 		</div>
 	</div>
+	<!-- Main Page -->
 	<nav class="navbar">
 		<ul class="nav_list" id="top_nav">
 			<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js()"> Home </a> </li>
@@ -109,7 +108,7 @@ Version Date: 02/10/2017 Time:
 		</div>
 	</div>
 	<div id="about" class="set_height margin_center navbar_avoid_padding scroll">
-		<h2 class="title"> <a href="#about"> Lance Takiguchi </a> </h2>
+		<h2 class="title text_shadow"> <a href="#about"> Lance Takiguchi </a> </h2>
 		<img id="NERD" class="warp" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer"/>
 		<div class="text_shadow">
 			<br>
@@ -125,7 +124,7 @@ Version Date: 02/10/2017 Time:
 		</div>
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding scroll">
-		<h2 class="title"> <a href="#applications"> Applications </a> </h2>
+		<h2 class="title text_shadow"> <a href="#applications"> Applications </a> </h2>
 		<div class="container">
 			<div class="app_hover app_light">
 				<div>
@@ -154,7 +153,7 @@ Version Date: 02/10/2017 Time:
 		</div>
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding scroll">
-		<h2 class="title"> <a href="#skills"> Skills </a> </h2>
+		<h2 class="title text_shadow"> <a href="#skills"> Skills </a> </h2>
 		<div id="skill_box">
 			<div id="Experience" class="third">
 				<h4> Experience </h4>
@@ -197,7 +196,7 @@ Version Date: 02/10/2017 Time:
 				<h5>  </h5>
 			</div>
 		</div>
-		<h2 class="title"> <a href="#contact"> Contacts </a> </h2>
+		<h2 class="title text_shadow"> <a href="#contact"> Contacts </a> </h2>
 		<div>
 			<form name="contact_form">
 				<table>
@@ -218,7 +217,7 @@ Version Date: 02/10/2017 Time:
 							<a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank"> <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 							<a href="https://github.com/LanceTakiguchi" target="_blank"><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
 							<a href="assets/docs/LanceTakiguchiResume.pdf" target="_blank"><i id="resume" class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-						</p> </td>
+						</p></td>
 					</tr>
 				</table>
 			</form>
