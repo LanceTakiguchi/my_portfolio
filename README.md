@@ -5,7 +5,7 @@
 ## Live Link
 * http://lancetakiguchi.com/
 
-## Version v1.9d
+## Version v2.0
 * Date: 2017/02/10
 * Description: Finalized Released. 
 ** Updated README to have links, a screenshot, a planned addtions section, learning section.
