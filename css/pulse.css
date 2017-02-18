@@ -16,7 +16,6 @@
 	position: absolute;
 	top: 40%;
 	left: 25%;
-	/*font-size: 20px;*/
 	z-index: 1;
 }
 .app_hover div p:hover + figure img { /* Clears up img when hover over text */
@@ -29,14 +28,13 @@
 	-moz-animation: circle 0s;
 	animation: circle 0s;
 }
-.app_hover.app_light div p:hover + figure img{ /* Clears up img when hover over text. For light imgs */
+.app_hover.app_light div p:hover + figure img { /* Clears up img when hover over text. For light imgs */
 	-webkit-filter: blur(0) brightness(80%); /* Safari */
 	filter: blur(0) brightness(80%);
 }
-.app_hover img{
+.app_hover img {
 	height: 21.17vw;
 	width: 21.17vw;
-
 	-webkit-filter: blur(5px) brightness(120%); /* Safari */
 	filter: blur(5px) brightness(120%);
 	-webkit-transition: .3s ease-in-out;
@@ -45,7 +43,7 @@
 	transition: .3s ease-in-out;
 	cursor: pointer;
 }
-.app_hover img:hover{
+.app_hover img:hover {
 	-webkit-filter: blur(0) brightness(170%); /* Safari */
 	filter: blur(0) brightness(170%);
 }
