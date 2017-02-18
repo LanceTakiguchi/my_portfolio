@@ -46,7 +46,7 @@
     }
 }else{ // Ajax failed
     email_status("Email failed to send",
-     "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
+       "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
 }
 } // End of email_result function
 $(document).ready(function(){
@@ -68,3 +68,4 @@ $(document).ready(function(){
             }
         });
     });
+});
