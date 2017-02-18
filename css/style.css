@@ -223,10 +223,10 @@ html {
   width: 100%;
   display: inline-block;
 }
-#contact form input:hover{
+#contact form input:hover {
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
-#contact form input:focus{
+#contact form input:focus {
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 #contact form input::-webkit-input-placeholder {
@@ -252,17 +252,14 @@ html {
 #contact form textarea:-moz-placeholder { /* Firefox 18- */
  color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
-
 }
 #contact form textarea::-moz-placeholder {  /* Firefox 19+ */
  color: #93A1A1; /* Solarized Grey */
  font-family: 'Raleway', Verdana, sans-serif;
-
 }
 #contact form textarea:-ms-input-placeholder {  
  color: #93A1A1; /* Solarized Grey */  
  font-family: 'Raleway', Verdana, sans-serif;
-
 }
 #contact form textarea {
  font-family: 'Raleway', Verdana, sans-serif;
@@ -279,7 +276,7 @@ html {
   width: 100%;
   height: 30vh;
 }
-#contact form table{
+#contact form table {
   width: 100%
 }
 #contact form #form_submit { /* Submit button */
@@ -305,7 +302,7 @@ html {
   margin-top: 5vh; 
   margin-bottom: 3vh;
 }
-#contact_links a{
+#contact_links a {
   font-size: 1.6em;
   line-height: 1.625em;
   margin-top: 0.8125em;
@@ -323,7 +320,7 @@ html {
 }
 /* Font/Text Special */
 /* a tags that are not links. Therefore should be unclickable */
-.not_link a:hover{
+.not_link a:hover {
   color: #93A1A1; /* Solarized Grey */
   -webkit-transition: none;
   -moz-transition: none;
