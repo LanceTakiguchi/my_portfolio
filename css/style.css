@@ -145,6 +145,9 @@ html {
 .text_shadow {
   text-shadow: 0 0 10px #201F1D , 0 0 20px #201F1D , 0 0 30px #201F1D , 0 0 40px #201F1D , 0 0 70px #201F1D , 0 0 80px #201F1D , 0 0 100px #201F1D ;
 }
+.text_shadow_light {
+  text-shadow: -1px 1px 12px #000, 1px -1px 12px #000;
+}
 /**
  * About
  */

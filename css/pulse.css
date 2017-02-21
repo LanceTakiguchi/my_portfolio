@@ -11,18 +11,45 @@
 .app_hover div{
 	position: relative;
 }
-.app_hover div p {
+/*.app_hover div p {
 	cursor: pointer;
 	position: absolute;
-	top: 40%;
-	left: 25%;
+	top: 40%; 
 	z-index: 1;
+}*/
+.app_hover .app_text { /* TODO: Make this selector work; */
+	position: absolute;
+	top: 35%;
+	z-index: 1;
+	text-align: center;
+	width: 100%; /* For text-align */
 }
-.app_hover div p:hover + figure img { /* Clears up img when hover over text */
+.app_hover .app_text h3 {
+	font-size: 1.6em;
+	line-height: 1.625em;
+	margin-top: 0.8125;
+	margin-bottom: 0;
+}
+.app_hover .app_text h3 a{
+	color: #EEE9D6; /* Solarized Base2 White */
+}
+.app_hover .app_text h3 a:hover{
+	text-decoration: none;
+	text-shadow: -1px 1px 12px #000, 1px -1px 12px #000;
+}
+.app_hover .app_text p {
+	display: inline-block;
+	top: 75%;
+}
+.app_hover .app_text:hover + figure img { /* Clears up img when hover over text */
+	-webkit-filter: blur(0) brightness(80%); /* Safari */
+	filter: blur(0) brightness(80%);
+}
+.app_hover.dark_pulse .app_text:hover + figure img { /* Clears up img when hover over text */
 	-webkit-filter: blur(0) brightness(170%); /* Safari */
 	filter: blur(0) brightness(170%);
 }
-.app_hover div p:hover + figure::before { /* stop pulsing when hover over text */
+.app_hover .app_text:hover + figure::before { /* stop pulsing when hover over text */
 	pointer-events: none;
 	-webkit-animation: circle 0s;
 	-moz-animation: circle 0s;
@@ -35,8 +62,8 @@
 .app_hover img {
 	height: 21.17vw;
 	width: 21.17vw;
-	-webkit-filter: blur(5px) brightness(120%); /* Safari */
-	filter: blur(5px) brightness(120%);
+	-webkit-filter: blur(5px) brightness(30%); /* Safari */
+	filter: blur(5px) brightness(30%);
 	-webkit-transition: .3s ease-in-out;
 	-moz-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
@@ -44,6 +71,10 @@
 	cursor: pointer;
 }
 .app_hover img:hover {
+	-webkit-filter: blur(0) brightness(80%); /* Safari */
+	filter: blur(0) brightness(80%);
+}
+.app_hover.dark_pulse img:hover {
 	-webkit-filter: blur(0) brightness(170%); /* Safari */
 	filter: blur(0) brightness(170%);
 }
