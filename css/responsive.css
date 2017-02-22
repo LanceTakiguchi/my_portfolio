@@ -58,7 +58,6 @@
 		margin-bottom: 0;
 	}
 	#quote p {
-		/*font-size: 33px;*/
 		font-size: 1.6em;
 		line-height: 1.625em;
 		margin-top: 0.8125em;
@@ -94,7 +93,7 @@
 		column-gap: 10vw;
 		padding-left: 8vw;
 	}
-	body .app_hover .see_link p { 
+	body .app_hover .app_text h3 { 
 		font-size: 1em;
 		line-height: 1.3em;
 		margin-top: 0;
@@ -105,7 +104,7 @@
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive {
-		height: 330px; 
+		height: 360px; 
 		width: 100%;
 		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
@@ -171,7 +170,7 @@
 		height: 40vh;
 		width: 40vh;
 	}
-	body .app_hover .see_link p {
+	body .app_hover .app_text h3 {
 		font-size: 1em !important;
 		line-height: 1.3em !important;
 		margin-top: 0 !important;
@@ -247,7 +246,7 @@
 		column-count: 2;
 		column-gap: 10vw;
 	}
-	body .app_hover .see_link p { 
+	body .app_hover .app_text h3 { 
 		font-size: 1.3em;
 		line-height: 1.3em;
 		margin-top: 0;
@@ -255,7 +254,7 @@
 	}
 	/* Mobile Nav Bar Menu */
 	.navbar .responsive{
-		height: 380px; 
+		height: 480px; 
 		background: -webkit-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
@@ -314,7 +313,7 @@
 		margin-top: .2em;
 		margin-bottom: 0;
 	}
-	body .app_hover .see_link p { 
+	body .app_hover .app_text h3 { 
 		font-size: 1.3em;
 		line-height: 1.3em;
 		margin-top: 0;
@@ -327,83 +326,82 @@
 		font-size: 14px;
 	}
 }
-/* for desktop up. 1366x768. 1280x1024, 1280 x 800, 1280 x 720 */
-/*@media only screen and (min-width: 1200px) {
-	}*/
-	/* for big desktops up. 1920x1080, 2048 x 1536*/
-/*@media only screen and (min-width: 1800px) {
-	}*/
-	/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
-	@media only screen and (min-width: 2100px) {
-		.navbar{
-			height: 200px; 
-		}
-		.navbar_avoid_padding{
-			padding-top: 200px; /* Note: Keep the save as  navbar height */
-		}
-		.navbar ul {
-			margin-top: 2em;
-		}
-		/* Fonts & Text */
-		.navbar a {
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0.5em;
-			margin-bottom: 0.5em;
-		}
-		.third {
-			padding: 1.6em;
-			margin: .8125em;
-		}
-		.third h4 {
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0.5em;
-			margin-bottom: 0.5em;
-		}
-		.third li{
-			font-size: 1.6em;
-			line-height: 1.625em;
-			margin-top: 0.8125em;
-			margin-bottom: 0;
-		}
-		.title{
-			font-size: 4.25em;
-			line-height: 1.22352941em;
-			margin-top: 0.30588235em;
-			margin-bottom: 0.6117647em;
-		}
-		html{
-		}
-		#quote p{
-		}
-		body .app_hover .see_link p { 
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0;
-			margin-bottom: 0.5em;
-		}
-		.width_restrict {
-			max-width: 900px;
-			margin: auto;
-		}
-		#contact form input {
-			height: 1.8em;
-		}
-		#contact form input, #contact form textarea {
-			font-size: 1.3em;
-		}
-		#contact form #form_submit {
-			font-size: 1.6em;
-			line-height: 1.625em;
-			margin-top: 0.8125em;
-			margin-bottom: 0;
-			height: 1.8em;
-		}
-		#contact_links a {
-			font-size: 2.6em;
-			line-height: 1em;
-			margin-top: 0.5em;
-			margin-bottom: 0.5em;
-		}
+/* for extremely big desktops up. 2560 x 1440, 2560 x 1600*/
+@media only screen and (min-width: 2100px) {
+	.navbar{
+		height: 200px; 
 	}
+	.navbar_avoid_padding{
+		padding-top: 200px; /* Note: Keep the save as  navbar height */
+	}
+	.navbar ul {
+		margin-top: 2em;
+	}
+	/* Fonts & Text */
+	.navbar a {
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	.third {
+		padding: 1.6em;
+		margin: .8125em;
+	}
+	.third h4 {
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	.third li{
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
+	}
+	.title{
+		font-size: 4.25em;
+		line-height: 1.22352941em;
+		margin-top: 0.30588235em;
+		margin-bottom: 0.6117647em;
+	}
+	p{
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0em;
+	}
+	body .app_hover .app_text h3 { 
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
+	body .app_hover .app_text p { 
+		font-size: 1.6em;
+	}
+	.width_restrict {
+		max-width: 900px;
+		margin: auto;
+	}
+	#contact form input {
+		height: 1.8em;
+	}
+	#contact form input, #contact form textarea {
+		font-size: 1.3em;
+	}
+	#contact form #form_submit {
+		font-size: 1.6em;
+		line-height: 1.625em;
+		margin-top: 0.8125em;
+		margin-bottom: 0;
+		height: 1.8em;
+	}
+	#contact_links a {
+		font-size: 2.6em;
+		line-height: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+}

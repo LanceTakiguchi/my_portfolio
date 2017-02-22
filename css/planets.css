@@ -1,10 +1,11 @@
-#solar_system{
+/* IMPORTANT TODO: Fix animation for Apple Safari and iPhones (Even iPhone Google Chrome); */
+#solar_system {
 	height: 100%; /* fit in margins */
 	width: 100%; /* fit in margins */
 	position: fixed;
 	z-index: -1;
 }
-.planetoid{
+.planetoid {
 	position: absolute;
 	top: 50%;
 	left: 50%;
