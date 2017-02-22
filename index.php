@@ -10,15 +10,20 @@ Version Date: 02/10/2017 Time:
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
 <head>
+	<title text_shadow> Lance Takiguchi | Portfolio </title text_shadow>
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
 	<meta name="author" content="Lance Takiguchi">
 	<meta name="description" content="Lance Takiguchi's Portfolio Website">
 	<meta name="date" content="02/18/17, February 18, 2017">
+	<meta property="og:title" content="Lance Takiguchi | Portfolio"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="assets/images/profile_pic.jpg" />
 	<link rel="icon" href="assets/images/sun_icon.png">
+	<link rel="image_src" href="assets/images/profile_pic.jpg"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
@@ -38,7 +43,6 @@ Version Date: 02/10/2017 Time:
 	ga('create', 'UA-88376823-1', 'auto');
 	ga('send', 'pageview');
 	</script>
-	<title text_shadow> Lance Takiguchi | Portfolio </title text_shadow>
 	</head>
 	<body>
 		<!-- The Background -->
