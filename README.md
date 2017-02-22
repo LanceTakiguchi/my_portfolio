@@ -12,7 +12,7 @@
 ** Added Github Links to Projects
 ** Remove code that is still in development.
 
-![alt tag](/assets/images/website_v2.0.jpg?raw=true "Lance Takiguchi Portfolio Website v2.0")
+![alt tag](http://lancetakiguchi.com/assets/images/website_v2.0.JPG?raw=true "Lance Takiguchi Portfolio Website v2.0")
 
 ## The Learning Experince
 One of the first things I realized is, I am far from having
