@@ -58,7 +58,7 @@ p {
 /* Spacing Classes */
 /* Class to give each section a default 100vh */
 .set_height {
-  height: 100vh;
+  min-height: 100vh;
 }
 /* Sets a margin for each section */
 .margin_center {

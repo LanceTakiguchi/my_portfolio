@@ -35,6 +35,9 @@
 	.navbar_avoid_padding{
 		padding-top: 60px; /* Note: Keep the save as  navbar height */
 	}
+	#about {
+		width: 83.33%;
+	}
 	/* app arrangement */
 	#applications .container {
 		display: block;
@@ -64,7 +67,10 @@
 		margin-bottom: 0;
 	}
 	#NERD { /* AKA: My picture */
-		width: 100%;
+		width: 83.33%; /* Just a little smaller than 100% looks better */
+		float: none;
+		display: block;
+		margin: auto;
 	}
 	.third {
 		min-width: 250px; /* So that it automaticly wraps into just one skill box per row */

@@ -22,6 +22,8 @@
 * Email Form: UI [D: 1 Im: 1] - Even spacing between name email and message
 * Email Form: UX [D: 2 Im: 2] - Disable submit button unless all fields are filled
 * Body: UX & UI [D: 1 Im: 1] - Change heights to min vh instead (So it will grow when need to responsively)
+* Body: Responsive - [D: 3, Im: 2] Fix the ability to scroll horizontally on small, mobile screens
+* Body: Responsive - [D: 1, Im: 1] Make About me width 100% on small, mobile screens. Center and enlarge profile picture.
 * Background: Responsive [D: 2 Im: 1] - Freeze planets on mobile (screen shot)
 * Background: Responsive (Optional) [D: 3 Im: 3] - Use user agent property to figure when safari to change to screen shot (As animation still does not work in Safari)
 
