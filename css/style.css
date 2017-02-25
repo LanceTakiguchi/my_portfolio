@@ -178,7 +178,7 @@ html {
   flex-wrap: wrap;  
 }
 .third {
-  height: 58vh;
+  min-height: 58vh;
   width: 28%;
   display: inline-block;
   background-color: rgb(7, 53, 66); /* Solarized Base02 mid dark */ 

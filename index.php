@@ -170,26 +170,33 @@ Version Date: 02/24/2017 Time: 17:59
 						<li> UC Irvine: Informatics </li>
 					</ul>
 				</div>
-				<div id="Web Development" class="third">
-					<h4> Web Development </h4>
+				<div id="Languages" class="third">
+					<h4> Programming Languages </h4>
 					<ul>
 						<li> HTML </li>
 						<li> CSS </li>
 						<li> JavaScript </li>
 						<li> jQuery </li>
-						<li> git </li>
 						<li> AngularJS </li>
 						<li> Firebase </li>
 						<li> Bootstrap </li>
 						<li> PHP </li>
+						<li> Python </li>
 					</ul>
 				</div>
-				<div id="Development Tools" class="third">
+				<div id="Tools" class="third">
 					<h4> Development Tools </h4>
 					<ul>
 						<li> phpStorm </li>
 						<li> Sublime </li>
 						<li> Visual Studio </li>
+						<li> Git </li>
+						<li> Github </li>
+						<li> Chrome DevTools </li>
+						<li> Postman </li>
+						<li> MAMP </li>
+						<li> MeisterTask </li>
+						<li> Slack </li>
 					</ul>
 				</div>
 			</div>	
