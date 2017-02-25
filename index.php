@@ -117,13 +117,13 @@ Version Date: 02/24/2017 Time: 17:59
 			<div class="text_shadow_light">
 				<br>
 				<p class="indent">
-					Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, Calfornia who loves tackling the puzzles hidden in the logic of code. 
+					Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, California who loves tackling the puzzles hidden in code. 
 				</p> <br>
 				<p class="indent">
-					I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a users attention. The behind the scenes action is where I like to daze the stargazers.  
+					I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a user's attention, the behind the scenes action is where I like to fascinate the star-gazer.  
 				</p> <br>
 				<p class="indent">
-					I am currently avaliable for web developement work around Orange County area, as well as remote or freelance work.
+					I am currently avaliable for web development work around Orange County area, as well as remote or freelance work.
 				</p> 
 			</div>
 		</div>
