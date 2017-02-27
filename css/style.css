@@ -210,9 +210,10 @@ html {
   text-align: center;
   height: 12vh; 
   min-height: 12vh;
+  padding-top: 1em;
 }
 #contact {
-  height: 90vh;
+  min-height: 90vh;
 }
 #contact form input, #contact form textarea {
   font-size: 20px;
