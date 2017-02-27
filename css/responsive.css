@@ -21,7 +21,35 @@
 /* for phone only. 480 x 854, 480 x 800, 540 x 960, 320 x 480, 480, x 320*/
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (max-width: 599px) {
-	.background
+	body #solar_system {
+		z-index: -4;
+	}
+	body .twinkling {
+		z-index:-4;
+		-moz-animation: none;
+		-ms-animation: none;
+		-o-animation: none;
+		-webkit-animation: none;
+		animation: none;
+	}
+	body .stars {
+		background:#000 url(../assets/images/planets.JPG) repeat top center;
+		z-index:-3;
+		background-attachment: fixed; /* Holds background in place */
+		vertical-align: middle;
+	}
+	body .planetoid {
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+	-webkit-animation: none; /* Safari 4+ */
+	-moz-animation: none;
+	animation: none;
+	animation-name: none;
+	animation-iteration-count: none;
+	animation-timing-function: none; 
+}
 	.navbar {
 		height: 100px; 
 	}
