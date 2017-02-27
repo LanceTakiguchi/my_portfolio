@@ -185,9 +185,6 @@
 		margin-top: 0 !important;
 		margin-bottom: 0 !important;
 	}
-	#skills {
-		height: 125vw;
-	}
 	body .third {
 		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
 		height: 35vw;
