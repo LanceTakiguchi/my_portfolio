@@ -46,9 +46,9 @@ Version Date: 02/24/2017 Time: 17:59
 	</head>
 	<body>
 		<!-- The Background -->
-		<div class="stars"></div>
-		<div class="twinkling"></div>
-		<div id="solar_system">
+		<div class="stars background"></div>
+		<div class="twinkling background"></div>
+		<div id="solar_system background">
 			<div id="sun" class="planetoid_body"></div>
 			<div id="mercury" class="planetoid planetoid_satellite"> 
 				<div class="planetoid_body"></div>
