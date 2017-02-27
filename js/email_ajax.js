@@ -40,7 +40,7 @@
             for(error_index in error_log){
                 reasons += error_log[error_index] + " ";
             }
-            reasons += ". Please fix the errored and input try again or email me at lancetakiguchi@gmail.com";
+            reasons += ". Please fix the errored input and try again or email me at lancetakiguchi@gmail.com";
             email_status("Email failed to send", reasons);
         }  
     }
