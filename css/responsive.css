@@ -21,6 +21,35 @@
 /* for phone only. 480 x 854, 480 x 800, 540 x 960, 320 x 480, 480, x 320*/
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (max-width: 599px) {
+	body #solar_system {
+		z-index: -4;
+	}
+	body .twinkling {
+		z-index:-4;
+		-moz-animation: none;
+		-ms-animation: none;
+		-o-animation: none;
+		-webkit-animation: none;
+		animation: none;
+	}
+	body .stars {
+		background:#000 url(../assets/images/planets.JPG) repeat top center;
+		z-index:-3;
+		background-attachment: fixed; /* Holds background in place */
+		vertical-align: middle;
+	}
+	body .planetoid {
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		-webkit-animation: none; /* Safari 4+ */
+		-moz-animation: none;
+		animation: none;
+		animation-name: none;
+		animation-iteration-count: none;
+		animation-timing-function: none; 
+	}
 	.navbar {
 		height: 100px; 
 	}
@@ -34,6 +63,12 @@
 	}
 	.navbar_avoid_padding{
 		padding-top: 60px; /* Note: Keep the save as  navbar height */
+	}
+	#about {
+		width: 83.33%;
+	}
+	.indent {
+		text-indent: 2.5em;
 	}
 	/* app arrangement */
 	#applications .container {
@@ -63,6 +98,17 @@
 		margin-top: 0.8125em;
 		margin-bottom: 0;
 	}
+	#NERD { /* AKA: My picture */
+		width: 83.33%; /* Just a little smaller than 100% looks better */
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	#app_info {
+		width: 100%;
+		min-width: 0;
+		margin-top: 1.6em;
+	}
 	.third {
 		min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
 		height: 28vh;
@@ -77,7 +123,7 @@
 	}
 	.third li{
 		margin: 1vh;
-		font-size: .6em;
+		font-size: .8em;
 		line-height: 1.5em;
 		margin-top: 0;
 		margin-bottom: 0;
@@ -156,9 +202,6 @@
 	}
 	#contact form #form_submit {
 		font-size: 14px;
-		line-height: 1.3em;
-		margin-top: 1.3em;
-		margin-bottom: 0;
 	}
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape){
@@ -175,9 +218,6 @@
 		line-height: 1.3em !important;
 		margin-top: 0 !important;
 		margin-bottom: 0 !important;
-	}
-	#skills {
-		height: 125vw;
 	}
 	body .third {
 		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
@@ -220,6 +260,13 @@
 		margin-top: -.1em; /* was 0.5 em */
 		margin-bottom: 0.5em;
 	}
+	#about {
+		width: 83.33%;
+	}
+	#app_info {
+		width: 100%;
+		min-width: 0;
+	}
 	.third {
 		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
 		height: 27vh;
@@ -230,7 +277,7 @@
 		margin: 1.1vh;
 	}
 	.third li{
-		font-size: .8em;
+		font-size: 1em;
 		line-height: 1.5em; /* was 1.3em */
 		margin-top: 0; /* was 1.3em */
 		margin-bottom: 0;

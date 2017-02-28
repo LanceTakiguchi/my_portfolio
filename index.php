@@ -4,45 +4,46 @@ File Name: index.php
 Author: Lance Takiguchi
 Created: 11/02/2016 Time: 16:23 
 Objective: My online portfolio. Displays my web developement skils through projects I have completed
-Version: v2.0
-Version Objective: Adding in final portfolio minimum requirements
-Version Date: 02/10/2017 Time: 
+Version: v2.1
+Version Objective: Implement changes suggested by LFZ. Required to be approved for job hunting.
+Version Date: 02/24/2017 Time: 17:59
 *********** -->
 <!-- To my inspecting introter. Hello! If you have any critisims about my code here please email me at lancetakiguchi@gmail.com. I would love to know where I could improve! -->
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
 <head>
 	<title text_shadow> Lance Takiguchi | Portfolio </title text_shadow>
-	<meta charset="utf-8"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
-	<meta name="author" content="Lance Takiguchi">
-	<meta name="description" content="Lance Takiguchi's Portfolio Website">
-	<meta name="date" content="02/18/17, February 18, 2017">
-	<meta property="og:title" content="Lance Takiguchi | Portfolio"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="assets/images/profile_pic.jpg" />
-	<link rel="icon" href="assets/images/sun_icon.png">
-	<link rel="image_src" href="assets/images/profile_pic.jpg"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/background.css">
-	<link rel="stylesheet" type="text/css" href="css/planets.css">
-	<link rel="stylesheet" type="text/css" href="css/pulse.css">
-	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-	<script src="js/responsive.js"></script>
-	<script src="js/email_ajax.js"></script>
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-88376823-1', 'auto');
-	ga('send', 'pageview');
-	</script>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
+		<meta name="author" content="Lance Takiguchi">
+		<meta name="description" content="Lance Takiguchi's Portfolio Website">
+		<meta name="date" content="02/18/17, February 18, 2017">
+		<meta property="og:title" content="Lance Takiguchi | Portfolio"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="assets/images/profile_pic.jpg" />
+		<link rel="icon" href="assets/images/sun_icon.png">
+		<link rel="image_src" href="assets/images/profile_pic.jpg"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/background.css">
+		<link rel="stylesheet" type="text/css" href="css/planets.css">
+		<link rel="stylesheet" type="text/css" href="css/pulse.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+		<script src="js/app_info.js"></script>
+		<script src="js/responsive.js"></script>
+		<script src="js/email_ajax.js"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-88376823-1', 'auto');
+		ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<!-- The Background -->
@@ -95,13 +96,13 @@ Version Date: 02/10/2017 Time:
 		<!-- Main Page -->
 		<nav class="navbar">
 			<ul class="nav_list" id="top_nav">
-				<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js()"> Home </a> </li>
+				<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js_home()"> Home </a> </li>
 				<li> <a href="#about" id="n_about" onclick="respon_js()"> About </a> </li>
 				<li> <a href="#applications" id="n_applications" onclick="respon_js()"> Applications </a> </li>
 				<li> <a href="#skills" id="n_skills" onclick="respon_js()"> Skills </a> </li>
 				<li> <a href="#contact" id="n_contact" onclick="respon_js()"> Contact </a> </li>
 				<li class="menu">
-					<a href="javascript:void(0);" onclick="respon_js()">☰</a>
+					<a id="hamburger" href="javascript:void(0);" onclick="respon_js()">☰</a>
 				</li>
 			</ul>
 		</nav>
@@ -117,20 +118,20 @@ Version Date: 02/10/2017 Time:
 			<div class="text_shadow_light">
 				<br>
 				<p class="indent">
-					Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, Calfornia who loves tackling the puzzles hidden in the logic of code. 
+					Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, California who loves tackling the puzzles hidden in code. 
 				</p> <br>
 				<p class="indent">
-					I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a users attention. The behind the scenes action is where I like to daze the stargazers.  
+					I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a user's attention, the behind the scenes action is where I like to fascinate the star-gazer.  
 				</p> <br>
 				<p class="indent">
-					I am currently avaliable for web developement work around Orange County area, as well as remote or freelance work.
+					I am currently avaliable for web development work around Orange County area, as well as remote or freelance work.
 				</p> 
 			</div>
 		</div>
 		<div id="applications" class="set_height margin_center navbar_avoid_padding">
 			<h2 class="title text_shadow"> <a href="#applications"> Applications </a> </h2>
 			<div class="container">
-				<div class="app_hover">
+				<div class="app_hover" id="app_sgt">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/sgt_app/" target="_blank"> Student Grade Table </a> </h3>
@@ -139,7 +140,7 @@ Version Date: 02/10/2017 Time:
 						<figure><img src="assets/images/apps/sgt_app.png" alt="SGT"/></figure>
 					</div>
 				</div>
-				<div class="app_hover dark_pulse">
+				<div class="app_hover dark_pulse" id="app_swrf">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/rogue_fighter/" target="_blank"> Rogue Fighter </a> </h3>
@@ -148,7 +149,7 @@ Version Date: 02/10/2017 Time:
 						<figure><img src="assets/images/apps/rebel_app.png" alt="Rebels"/></figure>
 					</div>
 				</div>
-				<div class="app_hover">
+				<div class="app_hover" id="app_calc">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/calculator/" target="_blank"> Calculator </a> </h3>
@@ -158,11 +159,14 @@ Version Date: 02/10/2017 Time:
 					</div>
 				</div>
 			</div>
+			<div id="app_info" class="milky_blue">
+				<p> Hover over an app to see it's description </p> <!-- Keep it the same as in app_info.js -->
+			</div>
 		</div>
 		<div id="skills" class="set_height margin_center navbar_avoid_padding">
 			<h2 class="title text_shadow"> <a href="#skills"> Skills </a> </h2>
 			<div id="skill_box">
-				<div id="Experience" class="third">
+				<div id="Experience" class="third milky_blue">
 					<h4> Experience </h4>
 					<ul>
 						<li> LearningFuze: Web Development </li>
@@ -170,26 +174,33 @@ Version Date: 02/10/2017 Time:
 						<li> UC Irvine: Informatics </li>
 					</ul>
 				</div>
-				<div id="Web Development" class="third">
-					<h4> Web Development </h4>
+				<div id="Languages" class="third milky_blue">
+					<h4> Programming Languages </h4>
 					<ul>
 						<li> HTML </li>
 						<li> CSS </li>
 						<li> JavaScript </li>
 						<li> jQuery </li>
-						<li> git </li>
 						<li> AngularJS </li>
 						<li> Firebase </li>
 						<li> Bootstrap </li>
 						<li> PHP </li>
+						<li> Python </li>
 					</ul>
 				</div>
-				<div id="Development Tools" class="third">
+				<div id="Tools" class="third milky_blue">
 					<h4> Development Tools </h4>
 					<ul>
 						<li> phpStorm </li>
 						<li> Sublime </li>
 						<li> Visual Studio </li>
+						<li> Git </li>
+						<li> Github </li>
+						<li> Chrome DevTools </li>
+						<li> Postman </li>
+						<li> MAMP </li>
+						<li> MeisterTask </li>
+						<li> Slack </li>
 					</ul>
 				</div>
 			</div>	

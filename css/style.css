@@ -58,7 +58,7 @@ p {
 /* Spacing Classes */
 /* Class to give each section a default 100vh */
 .set_height {
-  height: 100vh;
+  min-height: 100vh;
 }
 /* Sets a margin for each section */
 .margin_center {
@@ -170,6 +170,25 @@ html {
   text-indent: 3em;
 }
 /**
+ * Apps
+ */
+ #app_info {
+  text-align: center;
+  width: 50%;
+  min-width: 650px;
+  margin: auto;
+  margin-top: 5em;
+  min-height: 8.33vh;
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
+/*  padding-left: 1em;
+  padding-right: 1em;*/
+}
+ #app_info p{
+  margin-right: 1em; 
+  margin-left: 1em;
+}
+/**
  * Skills
  */
  #skill_box {
@@ -177,13 +196,15 @@ html {
   justify-content: center;
   flex-wrap: wrap;  
 }
-.third {
-  height: 58vh;
-  width: 28%;
-  display: inline-block;
+.milky_blue {
   background-color: rgb(7, 53, 66); /* Solarized Base02 mid dark */ 
   background-color: rgba(7, 53, 66, 0.5); /* Solarized Base02 mid dark */ 
-  border-radius: 4px;
+  border-radius: 0.25em;
+}
+.third {
+  min-height: 58vh;
+  width: 28%;
+  display: inline-block;
   padding: .40625em;
   margin: .40625em;
   min-width: 200px;
@@ -210,9 +231,10 @@ html {
   text-align: center;
   height: 12vh; 
   min-height: 12vh;
+  padding-top: 1em;
 }
 #contact {
-  height: 90vh;
+  min-height: 90vh;
 }
 #contact form input, #contact form textarea {
   font-size: 20px;
@@ -225,6 +247,7 @@ html {
   height: 30px;
   width: 100%;
   display: inline-block;
+  margin-top: 0.5em;
 }
 #contact form input:hover {
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
@@ -267,7 +290,7 @@ html {
 #contact form textarea {
  font-family: 'Raleway', Verdana, sans-serif;
  resize: none;
- margin-top: 1.5%;
+ margin-top: 0.5em;
 }
 #contact form textarea:hover {
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
@@ -285,7 +308,7 @@ html {
 #contact form #form_submit { /* Submit button */
   font-size: 1em;
   line-height: 1.3em;
-  margin-top: 1.3em;
+  margin-top: 0.5em;
   margin-bottom: 0;
   color: #073542; /* Solarized base02 dark */ 
   background-color: #EEE9D6; /* Solarized Base2 White */

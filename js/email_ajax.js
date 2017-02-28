@@ -40,7 +40,7 @@
             for(error_index in error_log){
                 reasons += error_log[error_index] + " ";
             }
-            reasons += ". Please fix the errored and input try again or email me at lancetakiguchi@gmail.com";
+            reasons += ". Please fix the errored input and try again or email me at lancetakiguchi@gmail.com";
             email_status("Email failed to send", reasons);
         }  
     }
@@ -49,16 +49,27 @@
        "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
 }
 } // End of email_result function
+/**
+ * Adds an escape for special characters
+ * @param  {[string]} str [A string that may have special characters that need to be escaped]
+ * @return {[string]}     [A string with all special characters having an escape before it]
+ */
+function escapeRegExp(str) {
+  return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
 $(document).ready(function(){
     $('#form_submit').click(function(){
+        var san_name = escapeRegExp($("#form_name").val());
+        var san_email = $("#form_email").val();
+        var san_message = escapeRegExp($("#form_message").val());
         $.ajax({
             url: 'php_mailer/mail_handler.php',
             type: "POST",
             dataType: 'json',
             data: {
-                name: $("#form_name").val(),
-                email: $("#form_email").val(),
-                message: $("#form_message").val()
+                name: san_name,
+                email: san_email,
+                message: san_message
             },
             success: function(result) {
                 email_result(true, result.success, result.messages);

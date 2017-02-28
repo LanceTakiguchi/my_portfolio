@@ -59,8 +59,10 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Name you entered does not appear to be valid.<br />';
  
   }
+
+  $san_message = filter_var($message, FILTER_SANITIZE_STRING)
  
-  if(strlen($message) < 2) {
+  if(strlen($san_message) < 2) {
  
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
  
@@ -90,7 +92,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Email: ".clean_string($email_from)."\n";
  
-    $email_message .= "Comments: ".clean_string($message)."\n";
+    $email_message .= "Comments: ".clean_string($san_message)."\n";
  
      
  
