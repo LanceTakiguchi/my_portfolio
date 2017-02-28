@@ -14,7 +14,6 @@
 
 #### HTML & CSS
 * About: Spelling & Grammar [D: 1 Im: 1] - Check
-* Nav: Animation [D: 2 Im: 3] - Animation Navbar hamburger
 * Skills: Add [D: 2 Im: 2] - Git & Github as development tools. As well as Chrome dev tools, Postman, MAMP, Python
 * Skills: Edit [D: 1 Im: 2] - Rename Web Dev to Languages and Frameworks
 * Apps: Add [D: 2 Im: 2] - Add a description (on:hover) (on tap)
@@ -77,3 +76,5 @@ I needed to learn to move on and accept coming back to it later.
 * Add a lay of star parallax
 * Trying hotjar to track user interaction
 * Trigger App description hovers only over the circle
+* Animation Navbar hamburger
+
