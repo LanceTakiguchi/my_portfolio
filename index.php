@@ -101,7 +101,7 @@ Version Date: 02/24/2017 Time: 17:59
 				<li> <a href="#skills" id="n_skills" onclick="respon_js()"> Skills </a> </li>
 				<li> <a href="#contact" id="n_contact" onclick="respon_js()"> Contact </a> </li>
 				<li class="menu">
-					<a href="javascript:void(0);" onclick="respon_js()">☰</a>
+					<a id="hamburger" href="javascript:void(0);" onclick="respon_js()">☰</a>
 				</li>
 			</ul>
 		</nav>
