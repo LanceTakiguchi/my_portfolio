@@ -75,4 +75,4 @@ I needed to learn to move on and accept coming back to it later.
 * Fix the mobile responsiveness shifting on scroll
 * Add a lay of star parallax
 * Trying hotjar to track user interaction
-* More precise app hover description
+* Trigger App description hovers only over the circle
