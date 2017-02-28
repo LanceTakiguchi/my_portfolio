@@ -17,6 +17,6 @@ function respon_js_home() {
     var x = document.getElementById("top_nav");
     // Add or remove responsive and nav_list class
     if (x.className === "nav_list responsive") {
-        x.className += "nav_list";
+        x.className = "nav_list";
     }
 }
