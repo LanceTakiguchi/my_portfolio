@@ -95,7 +95,7 @@ Version Date: 02/24/2017 Time: 17:59
 		<!-- Main Page -->
 		<nav class="navbar">
 			<ul class="nav_list" id="top_nav">
-				<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js()"> Home </a> </li>
+				<li id="nav_home"> <a href="#" id="n_home" onclick="respon_js_home()"> Home </a> </li>
 				<li> <a href="#about" id="n_about" onclick="respon_js()"> About </a> </li>
 				<li> <a href="#applications" id="n_applications" onclick="respon_js()"> Applications </a> </li>
 				<li> <a href="#skills" id="n_skills" onclick="respon_js()"> Skills </a> </li>
