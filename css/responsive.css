@@ -67,6 +67,9 @@
 	#about {
 		width: 83.33%;
 	}
+	.indent {
+		text-indent: 2.5em;
+	}
 	/* app arrangement */
 	#applications .container {
 		display: block;
@@ -256,6 +259,9 @@
 		line-height: 1em;
 		margin-top: -.1em; /* was 0.5 em */
 		margin-bottom: 0.5em;
+	}
+	#about {
+		width: 83.33%;
 	}
 	#app_info {
 		width: 100%;
