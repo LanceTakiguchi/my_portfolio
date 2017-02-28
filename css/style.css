@@ -180,6 +180,13 @@ html {
   margin-top: 5em;
   min-height: 8.33vh;
   padding-top: 1.6em;
+  padding-bottom: 1.6em;
+/*  padding-left: 1em;
+  padding-right: 1em;*/
+}
+ #app_info p{
+  margin-right: 1em; 
+  margin-left: 1em;
 }
 /**
  * Skills

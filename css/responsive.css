@@ -39,17 +39,17 @@
 		vertical-align: middle;
 	}
 	body .planetoid {
-	-moz-transform: none;
-	-ms-transform: none;
-	-o-transform: none;
-	transform: none;
-	-webkit-animation: none; /* Safari 4+ */
-	-moz-animation: none;
-	animation: none;
-	animation-name: none;
-	animation-iteration-count: none;
-	animation-timing-function: none; 
-}
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		-webkit-animation: none; /* Safari 4+ */
+		-moz-animation: none;
+		animation: none;
+		animation-name: none;
+		animation-iteration-count: none;
+		animation-timing-function: none; 
+	}
 	.navbar {
 		height: 100px; 
 	}
@@ -100,6 +100,11 @@
 		float: none;
 		display: block;
 		margin: auto;
+	}
+	#app_info {
+		width: 100%;
+		min-width: 0;
+		margin-top: 1.6em;
 	}
 	.third {
 		min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
@@ -251,6 +256,10 @@
 		line-height: 1em;
 		margin-top: -.1em; /* was 0.5 em */
 		margin-bottom: 0.5em;
+	}
+	#app_info {
+		width: 100%;
+		min-width: 0;
 	}
 	.third {
 		min-width: 350px; /* So that it automaticly wraps into just one skill box per row */
