@@ -170,6 +170,18 @@ html {
   text-indent: 3em;
 }
 /**
+ * Apps
+ */
+ #app_info {
+  text-align: center;
+  width: 50%;
+  min-width: 650px;
+  margin: auto;
+  margin-top: 5em;
+  min-height: 8.33vh;
+  padding-top: 1.6em;
+}
+/**
  * Skills
  */
  #skill_box {
@@ -177,13 +189,15 @@ html {
   justify-content: center;
   flex-wrap: wrap;  
 }
+.milky_blue {
+  background-color: rgb(7, 53, 66); /* Solarized Base02 mid dark */ 
+  background-color: rgba(7, 53, 66, 0.5); /* Solarized Base02 mid dark */ 
+  border-radius: 0.25em;
+}
 .third {
   min-height: 58vh;
   width: 28%;
   display: inline-block;
-  background-color: rgb(7, 53, 66); /* Solarized Base02 mid dark */ 
-  background-color: rgba(7, 53, 66, 0.5); /* Solarized Base02 mid dark */ 
-  border-radius: 4px;
   padding: .40625em;
   margin: .40625em;
   min-width: 200px;

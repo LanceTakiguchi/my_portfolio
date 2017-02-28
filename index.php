@@ -13,36 +13,36 @@ Version Date: 02/24/2017 Time: 17:59
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
 <head>
 	<title text_shadow> Lance Takiguchi | Portfolio </title text_shadow>
-	<meta charset="utf-8"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
-	<meta name="author" content="Lance Takiguchi">
-	<meta name="description" content="Lance Takiguchi's Portfolio Website">
-	<meta name="date" content="02/18/17, February 18, 2017">
-	<meta property="og:title" content="Lance Takiguchi | Portfolio"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="assets/images/profile_pic.jpg" />
-	<link rel="icon" href="assets/images/sun_icon.png">
-	<link rel="image_src" href="assets/images/profile_pic.jpg"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/background.css">
-	<link rel="stylesheet" type="text/css" href="css/planets.css">
-	<link rel="stylesheet" type="text/css" href="css/pulse.css">
-	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-	<script src="js/responsive.js"></script>
-	<script src="js/email_ajax.js"></script>
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-88376823-1', 'auto');
-	ga('send', 'pageview');
-	</script>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
+		<meta name="author" content="Lance Takiguchi">
+		<meta name="description" content="Lance Takiguchi's Portfolio Website">
+		<meta name="date" content="02/18/17, February 18, 2017">
+		<meta property="og:title" content="Lance Takiguchi | Portfolio"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="assets/images/profile_pic.jpg" />
+		<link rel="icon" href="assets/images/sun_icon.png">
+		<link rel="image_src" href="assets/images/profile_pic.jpg"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/background.css">
+		<link rel="stylesheet" type="text/css" href="css/planets.css">
+		<link rel="stylesheet" type="text/css" href="css/pulse.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+		<script src="js/responsive.js"></script>
+		<script src="js/email_ajax.js"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-88376823-1', 'auto');
+		ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<!-- The Background -->
@@ -158,11 +158,14 @@ Version Date: 02/24/2017 Time: 17:59
 					</div>
 				</div>
 			</div>
+			<div id="app_info" class="milky_blue">
+				<p> A grading application for teachers to input student grades </p>
+			</div>
 		</div>
 		<div id="skills" class="set_height margin_center navbar_avoid_padding">
 			<h2 class="title text_shadow"> <a href="#skills"> Skills </a> </h2>
 			<div id="skill_box">
-				<div id="Experience" class="third">
+				<div id="Experience" class="third milky_blue">
 					<h4> Experience </h4>
 					<ul>
 						<li> LearningFuze: Web Development </li>
@@ -170,7 +173,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<li> UC Irvine: Informatics </li>
 					</ul>
 				</div>
-				<div id="Languages" class="third">
+				<div id="Languages" class="third milky_blue">
 					<h4> Programming Languages </h4>
 					<ul>
 						<li> HTML </li>
@@ -184,7 +187,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<li> Python </li>
 					</ul>
 				</div>
-				<div id="Tools" class="third">
+				<div id="Tools" class="third milky_blue">
 					<h4> Development Tools </h4>
 					<ul>
 						<li> phpStorm </li>
