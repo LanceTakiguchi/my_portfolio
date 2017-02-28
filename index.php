@@ -33,6 +33,7 @@ Version Date: 02/24/2017 Time: 17:59
 		<link rel="stylesheet" type="text/css" href="css/planets.css">
 		<link rel="stylesheet" type="text/css" href="css/pulse.css">
 		<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+		<script src="js/app_info.js"></script>
 		<script src="js/responsive.js"></script>
 		<script src="js/email_ajax.js"></script>
 		<script>
@@ -130,7 +131,7 @@ Version Date: 02/24/2017 Time: 17:59
 		<div id="applications" class="set_height margin_center navbar_avoid_padding">
 			<h2 class="title text_shadow"> <a href="#applications"> Applications </a> </h2>
 			<div class="container">
-				<div class="app_hover">
+				<div class="app_hover" id="app_sgt">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/sgt_app/" target="_blank"> Student Grade Table </a> </h3>
@@ -139,7 +140,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<figure><img src="assets/images/apps/sgt_app.png" alt="SGT"/></figure>
 					</div>
 				</div>
-				<div class="app_hover dark_pulse">
+				<div class="app_hover dark_pulse" id="app_swrf">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/rogue_fighter/" target="_blank"> Rogue Fighter </a> </h3>
@@ -148,7 +149,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<figure><img src="assets/images/apps/rebel_app.png" alt="Rebels"/></figure>
 					</div>
 				</div>
-				<div class="app_hover">
+				<div class="app_hover" id="app_calc">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/calculator/" target="_blank"> Calculator </a> </h3>
@@ -159,7 +160,7 @@ Version Date: 02/24/2017 Time: 17:59
 				</div>
 			</div>
 			<div id="app_info" class="milky_blue">
-				<p> A grading application for teachers to input student grades </p>
+				<p> Hover over an app to see it's description </p> <!-- Keep it the same as in app_info.js -->
 			</div>
 		</div>
 		<div id="skills" class="set_height margin_center navbar_avoid_padding">
