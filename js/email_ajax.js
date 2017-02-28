@@ -50,33 +50,70 @@
 }
 } // End of email_result function
 /**
+ * [regex_val Tests to see if name and email are valid. If not send a DOM message and return false]
+ * @param  {[string]} name  [A name that should be only the english alphabet]
+ * @param  {[string]} email [An email that should only have email related char]
+ * @return {[bool]}       [Whether or not the name and email were valid or if one was invalid]
+ */
+function regex_val(name, email){
+    if(!name_val(name)){
+        email_status("Invalid Input", "Invalid Email: Please enter an valid email address or email me at lancetakiguchi@gmail.com");  
+        return false;
+    }else if(!email_val(email)){
+        email_status("Invalid Input", "Invalid Email: Please enter in a name with letters between A and Z or email me at lancetakiguchi@gmail.com");  
+        return false;
+    }
+    return true;
+} // End of regex_val function
+/**
  * Adds an escape for special characters
  * @param  {[string]} str [A string that may have special characters that need to be escaped]
  * @return {[string]}     [A string with all special characters having an escape before it]
  */
-function escapeRegExp(str) {
+ function escapeRegExp(str) {
   return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
+/**
+ * [name_val A regex to see if an name is valid]
+ * @param  {[string]} name [A user inputed name]
+ * @return {[bool]}      [Whether or not the param name was valid]
+ */
+function name_val(name){
+    var patt = new RegExp("/^[A-Za-z .'-]+$/");
+    return patt.test(name);
+}
+/**
+ * [email_val A regex to see if an email is valid]
+ * @param  {[string]} email [A user inputed email address]
+ * @return {[bool]}       [Whether or not the param email was valid]
+ */
+ function email_val(email){
+    var patt = new RegExp("/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/");
+    return patt.test(email);
 }
 $(document).ready(function(){
     $('#form_submit').click(function(){
         var san_name = escapeRegExp($("#form_name").val());
         var san_email = $("#form_email").val();
         var san_message = escapeRegExp($("#form_message").val());
-        $.ajax({
-            url: 'php_mailer/mail_handler.php',
-            type: "POST",
-            dataType: 'json',
-            data: {
-                name: san_name,
-                email: san_email,
-                message: san_message
-            },
-            success: function(result) {
-                email_result(true, result.success, result.messages);
-            },
-            error: function(result) {
-                email_result(false, result.success, result.messages);
-            }
-        });
+        // If the name and email are deemed valid by js regex, make the AJAX call
+        if(regex_val(san_name, san_email)){
+            $.ajax({
+                url: 'php_mailer/mail_handler.php',
+                type: "POST",
+                dataType: 'json',
+                data: {
+                    name: san_name,
+                    email: san_email,
+                    message: san_message
+                },
+                success: function(result) {
+                    email_result(true, result.success, result.messages);
+                },
+                error: function(result) {
+                    email_result(false, result.success, result.messages);
+                }
+            });
+        }
     });
 });
