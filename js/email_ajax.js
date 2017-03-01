@@ -46,7 +46,7 @@
     }
 }else{ // Ajax failed
     email_status("Email failed to send",
-       "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
+     "Unknown Error: Please email me at lancetakiguchi@gmail.com. Sorry for the inconvenience.");
 }
 } // End of email_result function
 /**
@@ -57,10 +57,10 @@
  */
  function regex_val(name, email){
     if(!name_val(name)){
-        email_status("Invalid Input", "Invalid Email: Please enter an valid email address or email me at lancetakiguchi@gmail.com");  
+        email_status("Invalid Input", "Invalid Name: Please enter in a name with letters between A and Z or email me at lancetakiguchi@gmail.com");  
         return false;
     }else if(!email_val(email)){
-        email_status("Invalid Input", "Invalid Email: Please enter in a name with letters between A and Z or email me at lancetakiguchi@gmail.com");  
+        email_status("Invalid Input", "Invalid Email: Please enter an valid email address or email me at lancetakiguchi@gmail.com");  
         return false;
     }
     return true;
@@ -91,35 +91,85 @@
     var patt = new RegExp("/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/");
     return patt.test(email);
 }
+// function disabled_submit_in(){
+//     email_status("Input Required", "All inputs, name, email address, and message are required. Or email me at lancetakiguchi@gmail.com");  
+// }
+// function disabled_submit_out(){
+//     email_status("", "");  
+// }
 $(document).ready(function(){
+    $("#form_submit").mouseover(function(event) {
+        var submit_classes = $(this).attr("class").split(' ');
+        for (index in submit_classes) {
+            if(submit_classes[index] == "disabled"){
+               email_status("Input Required", "All inputs, name, email address, and message are required. Or email me at lancetakiguchi@gmail.com"); 
+           }
+       }
+   });
+    $("#form_submit").mouseout(function(){
+        var submit_classes = $(this).attr("class").split(' ');
+        for (index in submit_classes) {
+            if(submit_classes[index] == "disabled"){
+               email_status("", "");  
+           }
+       }
+   });
     /**
      * [Check to see that all the inputs are filled in, else keep the submit button disabled]
      */
-   $('body').on("keyup", function(){
-    var empty = false;
-    if ($("#form_name").val() == '') {
-        empty = true;
-    } else if($("#form_email").val() == ''){
-        empty = true;
-    }
-    else if ($("#form_message").val() == '') {
-        empty = true;
-    }
-    if (empty) {
-        $('#form_submit').attr('disabled', 'disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
-    } else {
-        $('#form_submit').removeAttr('disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
-    }
-});
+     $('body').on("keyup", function(){
+        var empty = false;
+        if ($("#form_name").val() == '') {
+            empty = true;
+        } else if($("#form_email").val() == ''){
+            empty = true;
+        }
+        else if ($("#form_message").val() == '') {
+            empty = true;
+        }
+        var x = document.getElementById("form_submit");
+        if (!empty) {
+            if (x.className === "width_restrict disabled") {
+                x.className = "width_restrict";
+                console.log("testing");
+            }
+        }else{
+            if (x.className !== "width_restrict disabled") {
+                x.className = "width_restrict disabled";
+            }
+        }
+        //     var has_disabled = false;
+        //     var submit_classes = $(this).attr("class").split(' ');
+        //     for (index in submit_classes) {
+        //         if(submit_classes[index] == "disabled"){
+        //             has_disabled = true;
+        //         }
+        //     }
+        //     if(!has_disabled){
+        //         $('#form_submit').addClass = " disabled"; 
+        //     }
+        // } else {
+        //     $('#form_submit').removeClass = "disabled";
+        // }
+    });
    /**
     * [Run email form validity tests upon submission]
     */
-   $('#form_submit').click(function(){
-    var san_name = escapeRegExp($("#form_name").val());
-    var san_email = $("#form_email").val();
-    var san_message = escapeRegExp($("#form_message").val());
+    $('#form_submit').click(function(){
+        // Check for input validity
+        var san_name = $("#form_name").val();
+        var san_email = $("#form_email").val();
+        var san_message = escapeRegExp($("#form_message").val());
+        // If submit is disabled
+        var submit_disabled = false;
+        var submit_classes = $(this).attr("class").split(' ');
+        for (index in submit_classes) {
+            if(submit_classes[index] == "disabled"){
+                submit_disabled = true;
+            }
+        }
         // If the name and email are deemed valid by js regex, make the AJAX call
-        if(regex_val(san_name, san_email)){
+        if(!submit_disabled && regex_val(san_name, san_email)){
             $.ajax({
                 url: 'php_mailer/mail_handler.php',
                 type: "POST",

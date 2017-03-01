@@ -319,11 +319,11 @@ padding-right: 1em;*/
   border: none;
   border-radius: 4px;
 }
-#contact form #form_submit:disabled {
+#contact form #form_submit.disabled {
   background-color: rgba( 147, 161, 161, 0.4);
   color: #B51442; /* Adjacent Pink */
 }
-#contact form #form_submit:disabled:hover {
+#contact form #form_submit.disabled:hover {
   box-shadow: -1px 1px 8px #CE3561, 1px -1px 8px #B51442; /* Adjacent Pink */
 }
 #contact form #form_submit:hover {

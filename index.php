@@ -228,7 +228,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<td><textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea></td>
 						</tr>
 						<tr>
-							<td><button id="form_submit" class="width_restrict" type="button" disabled>Submit</button></td>
+							<td><button id="form_submit" class="width_restrict disabled" type="button">Submit</button></td>
 						</tr>
 						<tr>
 							<td><p id="contact_links">
