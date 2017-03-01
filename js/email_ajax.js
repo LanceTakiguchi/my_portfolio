@@ -55,7 +55,7 @@
  * @param  {[string]} email [An email that should only have email related char]
  * @return {[bool]}       [Whether or not the name and email were valid or if one was invalid]
  */
-function regex_val(name, email){
+ function regex_val(name, email){
     if(!name_val(name)){
         email_status("Invalid Input", "Invalid Email: Please enter an valid email address or email me at lancetakiguchi@gmail.com");  
         return false;
@@ -78,7 +78,7 @@ function regex_val(name, email){
  * @param  {[string]} name [A user inputed name]
  * @return {[bool]}      [Whether or not the param name was valid]
  */
-function name_val(name){
+ function name_val(name){
     var patt = new RegExp("/^[A-Za-z .'-]+$/");
     return patt.test(name);
 }
@@ -92,10 +92,32 @@ function name_val(name){
     return patt.test(email);
 }
 $(document).ready(function(){
-    $('#form_submit').click(function(){
-        var san_name = escapeRegExp($("#form_name").val());
-        var san_email = $("#form_email").val();
-        var san_message = escapeRegExp($("#form_message").val());
+    /**
+     * [Check to see that all the inputs are filled in, else keep the submit button disabled]
+     */
+   $('body').on("keyup", function(){
+    var empty = false;
+    if ($("#form_name").val() == '') {
+        empty = true;
+    } else if($("#form_email").val() == ''){
+        empty = true;
+    }
+    else if ($("#form_message").val() == '') {
+        empty = true;
+    }
+    if (empty) {
+        $('#form_submit').attr('disabled', 'disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+    } else {
+        $('#form_submit').removeAttr('disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+    }
+});
+   /**
+    * [Run email form validity tests upon submission]
+    */
+   $('#form_submit').click(function(){
+    var san_name = escapeRegExp($("#form_name").val());
+    var san_email = $("#form_email").val();
+    var san_message = escapeRegExp($("#form_message").val());
         // If the name and email are deemed valid by js regex, make the AJAX call
         if(regex_val(san_name, san_email)){
             $.ajax({
