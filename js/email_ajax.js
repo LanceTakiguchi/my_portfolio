@@ -79,7 +79,7 @@
  * @return {[bool]}      [Whether or not the param name was valid]
  */
  function name_val(name){
-    var patt = new RegExp("/^[A-Za-z .'-]+$/");
+    var patt = new RegExp("^[A-Za-z .'-]+$");
     return patt.test(name);
 }
 /**
@@ -88,7 +88,7 @@
  * @return {[bool]}       [Whether or not the param email was valid]
  */
  function email_val(email){
-    var patt = new RegExp("/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/");
+    var patt = new RegExp("^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$");
     return patt.test(email);
 }
 // function disabled_submit_in(){
@@ -128,29 +128,16 @@ $(document).ready(function(){
             empty = true;
         }
         var x = document.getElementById("form_submit");
+        // If the inputs are all filled, unlock the submit button, else keep it locked
         if (!empty) {
             if (x.className === "width_restrict disabled") {
                 x.className = "width_restrict";
-                console.log("testing");
             }
         }else{
             if (x.className !== "width_restrict disabled") {
                 x.className = "width_restrict disabled";
             }
         }
-        //     var has_disabled = false;
-        //     var submit_classes = $(this).attr("class").split(' ');
-        //     for (index in submit_classes) {
-        //         if(submit_classes[index] == "disabled"){
-        //             has_disabled = true;
-        //         }
-        //     }
-        //     if(!has_disabled){
-        //         $('#form_submit').addClass = " disabled"; 
-        //     }
-        // } else {
-        //     $('#form_submit').removeClass = "disabled";
-        // }
     });
    /**
     * [Run email form validity tests upon submission]
