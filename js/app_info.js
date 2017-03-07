@@ -18,6 +18,18 @@ $(document).ready(function() {
 	$("#app_calc").mouseout(function(){
 		description(reset); // Keep it the same as the hardcoded HTML")
 });
+	$("#app_ttwars").mouseover(function(event) {
+		description("A hackathon Tic Tac Toe Game");
+	});
+	$("#app_ttwars").mouseout(function(){
+		description(reset); // Keep it the same as the hardcoded HTML")
+});
+	$("#app_nfl").mouseover(function(event) {
+		description("A API hackathon NFL app that displays game schedule, scores, twitter, YouTube, and weather");
+	});
+	$("#app_nfl").mouseout(function(){
+		description(reset); // Keep it the same as the hardcoded HTML")
+});
 	$("#app_ship").mouseover(function(event) {
 		description("A jQuery/Javascript app that calculates shipping cost and arrival of a package");
 	});
