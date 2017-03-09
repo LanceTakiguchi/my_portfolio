@@ -131,7 +131,7 @@ Version Date: 02/24/2017 Time: 17:59
 		<div id="applications" class="set_height margin_center navbar_avoid_padding">
 			<h2 class="title text_shadow"> <a href="#applications"> Applications </a> </h2>
 			<div class="container">
-				<div class="app_hover app_margin_bot" id="app_sgt">
+				<div class="app_hover app_margin_bot resp_rt" id="app_sgt">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/sgt_app/" target="_blank"> Student Grade Table </a> </h3>
@@ -149,7 +149,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<figure><img src="assets/images/apps/rebel_app.png" alt="Rebels"/></figure>
 					</div>
 				</div>
-				<div class="app_hover app_margin_bot" id="app_calc">
+				<div class="app_hover app_margin_bot resp_rt" id="app_calc">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/calculator/" target="_blank"> Calculator </a> </h3>
@@ -158,7 +158,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<figure><img src="assets/images/apps/calc_app.png" alt="Calculator"/></figure>
 					</div>
 				</div>
-				<div class="app_hover" id="app_ttwars">
+				<div class="app_hover resp_marg" id="app_ttwars">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/tictacwars/" target="_blank"> Tic Tac Wars </a> </h3>
@@ -167,7 +167,7 @@ Version Date: 02/24/2017 Time: 17:59
 						<figure><img src="assets/images/apps/ttwars_app.png" alt="TicTacWars"/></figure>
 					</div>
 				</div>
-				<div class="app_hover" id="app_nfl">
+				<div class="app_hover resp_rt sm_resp_marg" id="app_nfl">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="apps/nfl_now/" target="_blank"> NFL Now </a> </h3>

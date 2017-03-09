@@ -8,13 +8,13 @@
 		width: 40vw;
 	}
 	body #applications {
-		height: 150vw;
+		min-height: 150vw;
 	}
 	body #skills {
-		height: 120vw;
+		min-height: 120vw;
 	}
 	body .third {
-		height: 30vw;
+		min-height: 30vw;
 		width: 100%;
 	}
 }
@@ -74,6 +74,15 @@
 	#applications .container {
 		display: block;
 	}
+	.container .resp_marg {
+		margin-bottom: 8.33vh;
+	}
+	.container .resp_rt {
+		margin-right: 0;
+	}
+	.sm_resp_marg {
+		margin-bottom: 8.33vh;
+	}
 	.app_hover {
 		text-align: center;
 	}
@@ -99,7 +108,7 @@
 		margin-bottom: 0;
 	}
 	#NERD { /* AKA: My picture */
-		width: 83.33%; /* Just a little smaller than 100% looks better */
+		width: 66.67%;
 		float: none;
 		display: block;
 		margin: auto;
@@ -111,7 +120,7 @@
 	}
 	.third {
 		min-width: 250px; /* So that it automaticly wraps into just one skill box per row */
-		height: 28vh;
+		min-height: 28vh;
 		width: 100%;
 	}
 	.third h4 {
@@ -243,13 +252,19 @@
 /* TODO: Create Mobile Nav bar; */
 @media only screen and (min-width: 600px) and (max-width: 899px){
 	.container .app_hover {
-		height: 40vw;
-		width: 40vw;
+		height: 30vw;
+		width: 30vw;
 		margin: auto;
 	}
+	.container .resp_marg {
+		margin-bottom: 8.33vh;
+	}
+	.container .resp_rt {
+		margin-right: 8.33vw;
+	}
 	.app_hover figure img {
-		height: 40vw;
-		width: 40vw;
+		height: 30vw;
+		width: 30vw;
 	}
 	.navbar_avoid_padding{
 		padding-top: 80px; /* Note: Keep the save as  navbar height */
