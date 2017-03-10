@@ -112,10 +112,6 @@ a:hover {
   transition: linear 200ms;
   text-shadow: -3px 3px 8px #ffc, 3px -3px 8px #fff;
 }
-.disabled {
-   pointer-events: none;
-   cursor: default;
-}
 .title {
   color: #C94C16; /* Solarized Orange */
   font-family: 'Poiret One',  Verdana, serif;
@@ -329,6 +325,9 @@ padding-right: 1em;*/
 }
 #contact form #form_submit.disabled:hover {
   box-shadow: -1px 1px 8px #CE3561, 1px -1px 8px #B51442; /* Adjacent Pink */
+}
+#contact form #form_submit.disabled:focus {
+  outline: none;
 }
 #contact form #form_submit:hover {
  box-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
