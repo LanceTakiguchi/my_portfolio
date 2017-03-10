@@ -31,6 +31,7 @@
         if(success){
             email_status("Email sent, thank you!");
             email_clear();
+            document.getElementById("form_submit").className = "width_restrict disabled"; /* Disable Submit Button */
         }else{
             // Never connected to server
             if(error_log[0] === "SMTP connect() failed."){
