@@ -364,3 +364,16 @@ padding-right: 1em;*/
   transition: none;
   text-shadow: none;
 }
+
+footer div {
+  position: fixed;
+  min-width: 5vw;
+  min-height: 5vw;
+  /* border-radius: 50%; */
+  bottom: 2vw;
+  right: 2vw;
+  z-index: 3;
+  background-color: red;
+  text-align: center;
+  line-height: 5vw;
+}

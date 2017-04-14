@@ -268,5 +268,8 @@ Version Date: 02/24/2017 Time: 17:59
 				</form>
 			</div>
 		</div>
+		<footer>
+			<div> Animation </div>
+		</footer>
 	</body>	
 	</html>
