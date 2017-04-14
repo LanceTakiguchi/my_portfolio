@@ -36,6 +36,7 @@ Version Date: 02/24/2017 Time: 17:59
 		<script src="js/app_info.js"></script>
 		<script src="js/responsive.js"></script>
 		<script src="js/email_ajax.js"></script>
+		<script src="js/background.js"></script>
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -269,7 +270,7 @@ Version Date: 02/24/2017 Time: 17:59
 			</div>
 		</div>
 		<footer>
-			<div> Animation </div>
+			<div> Twinkle little stars </div>
 		</footer>
 	</body>	
 	</html>

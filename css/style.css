@@ -367,13 +367,21 @@ padding-right: 1em;*/
 
 footer div {
   position: fixed;
-  min-width: 5vw;
+  min-width: 8vw;
   min-height: 5vw;
-  /* border-radius: 50%; */
   bottom: 2vw;
   right: 2vw;
   z-index: 3;
-  background-color: red;
   text-align: center;
   line-height: 5vw;
+  padding: 0 1em;
+  border-radius: 0.25em;
+  background-color: rgb(7, 53, 66);
+  background-color: rgba(7, 53, 66, 0.5);
+  transition: background-color 0.5s ease; 
+}
+footer div:hover {
+  background-color: rgba(7, 53, 66, 1)!important; /* jQuery CSS manipulation affects this otherwise */
+  cursor: pointer;
+  box-shadow: -1px 1px 16px #ffc, 1px -1px 16px #fff;
 }
