@@ -8,6 +8,13 @@
 
 ![alt tag](http://lancetakiguchi.com/assets/images/website_v2.0.JPG?raw=true "Lance Takiguchi Portfolio Website v2.0")
 
+## Version v2.2
+* Date: 2017/04/14
+* Description: LFZ Round 2 Fixes. Create background button, default background to still
+
+#### HTML & CSS
+* Background: UX & UI [D: 2 Im: 1] - By default have a still background and animate if they press a button
+
 ## Version v2.1
 * Date: 2017/02/24
 * Description: LFZ Round 1 Fixes. Small UI, UX fixes before LFZ approves of my main website.
