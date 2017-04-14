@@ -41,4 +41,5 @@ body{
   -webkit-animation:move-twink-back 500s linear infinite;
   animation:move-twink-back 500s linear infinite;
   background-attachment: fixed; /* Holds background in place */
+  animation-play-state: paused;
 }

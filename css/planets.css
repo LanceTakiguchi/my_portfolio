@@ -20,6 +20,7 @@
 	animation-name: orbit;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear; 
+	animation-play-state: paused;
 }
 .planetoid_body{
 	width: 5vh;
@@ -154,7 +155,7 @@
 #io {
 	width: 7vh; /* main orbit distance */
 	animation-duration: .72s; /* orbit of 365 earth days */
-	animation-delay: -.1s; /* starting position */
+	animation-delay: -.7s; /* starting position */
 }
 #io > .planetoid_body{
 	background: yellow; /* For browsers that do not support gradients */
