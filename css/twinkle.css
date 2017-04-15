@@ -1,0 +1,45 @@
+/* Twinkling Star Background */
+/* How it works: There is a star background with
+ a repeated sploched black overlay that moves
+ continously over the background from top right
+ to bottom left, giving the impression of twinkling */
+body{
+  background-color: black; /* Default & when scrolling on mobile (iPhone 6s) bottom of screen */
+}
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.stars, .twinkling {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  background-attachment: fixed; /* Holds background in place */
+}
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:-3;
+  background-attachment: fixed; /* Holds background in place */
+}
+.twinkling {
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:-2;
+  -moz-animation:move-twink-back 500s linear infinite;
+  -ms-animation:move-twink-back 500s linear infinite;
+  -o-animation:move-twink-back 500s linear infinite;
+  -webkit-animation:move-twink-back 500s linear infinite;
+  animation:move-twink-back 500s linear infinite;
+  background-attachment: fixed; /* Holds background in place */
+  animation-play-state: paused;
+}
