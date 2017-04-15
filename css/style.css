@@ -365,23 +365,126 @@ padding-right: 1em;*/
   text-shadow: none;
 }
 
-footer div {
-  position: fixed;
-  min-width: 8vw;
-  min-height: 5vw;
-  bottom: 2vw;
-  right: 2vw;
+/* Animation Run & Pause */
+footer {
+    height: 8vw;
+    width: 8vw;
+    margin-right: 0;
+    margin-left: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#sun_play {
+  position: absolute;
+  height: 8vw;
+  width: 8vw;
+  bottom: 4vw;
+  right: 4vw;
   z-index: 3;
   text-align: center;
-  line-height: 5vw;
-  padding: 0 1em;
-  border-radius: 0.25em;
-  background-color: rgb(7, 53, 66);
-  background-color: rgba(7, 53, 66, 0.5);
+  line-height: 8vw;
+  border-radius: 50%;
   transition: background-color 0.5s ease; 
+  box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 11px rgba(255, 203, 0, 0.13);
+  background:radial-gradient(circle at center, #ffd000 1%,#f9b700 39%,#f9b700 39%,#e06317 100%);
+  text-shadow: 0 0 10px #201F1D, 0 0 20px #201F1D, 0 0 30px #201F1D, 0 0 40px #201F1D, 0 0 70px #201F1D, 0 0 80px #201F1D, 0 0 100px #201F1D;
+  background: radial-gradient(circle at center, rgba(255, 208, 0, 0.8) 1%,rgba(249, 183, 0, 0.8) 39%,rgba(249, 183, 0, 0.8) 39%,rgba(224, 99, 23, 0.8) 100%);
+  -webkit-animation: circle 1s infinite;
+  -moz-animation: sun 1s infinite;
+  animation: sun 1s infinite;
+  animation-play-state: paused;
 }
-footer div:hover {
-  background-color: rgba(7, 53, 66, 1)!important; /* jQuery CSS manipulation affects this otherwise */
+#sun_play:hover {
   cursor: pointer;
-  box-shadow: -1px 1px 16px #ffc, 1px -1px 16px #fff;
+  animation-play-state: running;
+}
+@-webkit-keyframes sun {
+  0% {
+    opacity: 0.85;
+  }
+  44% {
+    opacity: 1;
+    box-shadow: 0 0 20px 12px rgba(255, 107, 0, 0.4), 0 0 33px 22px rgba(255, 203, 0, 0.13);
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+@keyframes sun {
+  0% {
+    opacity: 0.85;
+  }
+  44% {
+    opacity: 1;
+    box-shadow: 0 0 20px 12px rgba(255, 107, 0, 0.4), 0 0 33px 22px rgba(255, 203, 0, 0.13);
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+#orbit_play {
+  width: 14vw; /* main orbit distance */
+  animation-duration: 14s; /* orbit of 88 earth days */
+  animation-delay: -12s; /* starting position */
+}
+#orbit_play > .playoid{
+  background: #9f5e26; 
+  box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 1px rgba(255, 203, 0, 0.13);
+  height: 1vh; /* planet size */
+  width: 1vh;
+}
+
+.playoid {
+  position: absolute;
+  /*bottom: 5.5vw;*/
+  /*right: -4.5vw;*/
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: infinite orbit linear; /* Safari 4+ */
+  -moz-animation: infinite orbit linear;
+  animation:       infinite orbit linear;
+  animation-name: orbit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /*animation-play-state: paused;*/
+}
+.playoid_body{
+  width: 1.2vw;
+  height: 1.2vw;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%; /* keep it in the rotating rectangle */
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(0%,-50%);
+  background: #cf3921; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+  /* For Opera 11.6 to 12.0 */
+  background: -o-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+  /* For Firefox 3.6 to 15 */
+  background: -moz-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+  /* Standard syntax */
+  background: repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+  box-shadow: 0 0 10px 2px rgba(233, 78, 19, 0.4), 0 0 22px 2px rgba(255, 203, 0, 0.13);
+}
+
+.playoid_satellite {
+  -webkit-transform: rotate(330deg) translateX(100px);
+  -ms-transform: rotate(330deg) translateX(100px);
+  -o-transform: rotate(330deg) translateX(100px);
+  -moz-transform: rotate(330deg) translateX(100px);
+  transform: rotate(330deg) translateX(100px);
+  margin: 0 auto;
+  /*height: 5vh;*/
 }

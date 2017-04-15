@@ -270,7 +270,10 @@ Version Date: 02/24/2017 Time: 17:59
 			</div>
 		</div>
 		<footer>
-			<div> Twinkle little stars </div>
+			<div id="sun_play"> Orbit </div>
+			<div id="orbit_play" class="playoid playoid_satellite"> 
+				<div class="playoid_body"></div>
+			</div>	
 		</footer>
 	</body>	
 	</html>
