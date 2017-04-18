@@ -139,7 +139,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<h3> <a class="see_link text_shadow_light" href="apps/sgt_app/" target="_blank"> Student Grade Table </a> </h3>
 							<p class="text_shadow_light"> <a class="see_link" href="apps/sgt_app/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_SGT" target="_blank"> Github </a> </p>	
 						</div>
-						<figure><img src="assets/images/apps/sgt_app.png" alt="SGT"/></figure>
+						<figure class="stop_pulse"><img src="assets/images/apps/sgt_app.png" alt="SGT"/></figure>
 					</div>
 				</div>
 				<div class="app_hover dark_pulse app_margin_bot" id="app_swrf">
@@ -148,7 +148,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<h3> <a class="see_link text_shadow_light" href="apps/rogue_fighter/" target="_blank"> Rogue Fighter </a> </h3>
 							<p class="text_shadow_light"> <a class="see_link" href="apps/rogue_fighter/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_Rogue_Fighter" target="_blank"> Github </a> </p>	
 						</div>
-						<figure><img src="assets/images/apps/rebel_app.png" alt="Rebels"/></figure>
+						<figure class="stop_pulse"><img src="assets/images/apps/rebel_app.png" alt="Rebels"/></figure>
 					</div>
 				</div>
 				<div class="app_hover app_margin_bot resp_rt" id="app_calc">
@@ -157,7 +157,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<h3> <a class="see_link text_shadow_light" href="apps/calculator/" target="_blank"> Calculator </a> </h3>
 							<p class="text_shadow_light"> <a class="see_link" href="apps/calculator/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_calculator" target="_blank"> Github </a> </p>	
 						</div>
-						<figure><img src="assets/images/apps/calc_app.png" alt="Calculator"/></figure>
+						<figure class="stop_pulse"><img src="assets/images/apps/calc_app.png" alt="Calculator"/></figure>
 					</div>
 				</div>
 				<div class="app_hover resp_marg" id="app_ttwars">
@@ -166,7 +166,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<h3> <a class="see_link text_shadow_light" href="apps/tictacwars/" target="_blank"> Tic Tac Wars </a> </h3>
 							<p class="text_shadow_light"> <a class="see_link" href="apps/tictacwars/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_tictacwars/" target="_blank"> Github </a> </p>	
 						</div>
-						<figure><img src="assets/images/apps/ttwars_app.png" alt="TicTacWars"/></figure>
+						<figure class="stop_pulse"><img src="assets/images/apps/ttwars_app.png" alt="TicTacWars"/></figure>
 					</div>
 				</div>
 				<div class="app_hover resp_rt sm_resp_marg" id="app_nfl">
@@ -175,7 +175,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<h3> <a class="see_link text_shadow_light" href="apps/nfl_now/" target="_blank"> NFL Now </a> </h3>
 							<p class="text_shadow_light"> <a class="see_link" href="apps/nfl_now/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_nfl_now/" target="_blank"> Github </a> </p>	
 						</div>
-						<figure><img src="assets/images/apps/nfl_app.png" alt="NFL"/></figure>
+						<figure class="stop_pulse"><img src="assets/images/apps/nfl_app.png" alt="NFL"/></figure>
 					</div>
 				</div>
 				<div class="app_hover" id="app_ship">
@@ -184,7 +184,7 @@ Version Date: 02/24/2017 Time: 17:59
 							<h3> <a class="see_link text_shadow_light disabled" href="apps/shipping_calc/" target="_blank"> Shipping Calculator </a> </h3>
 							<p class="text_shadow_light"> <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_shipping_calculator/" target="_blank"> Github </a> </p>	
 						</div>
-						<figure><img src="assets/images/apps/ship_app.png" alt="ShippingCalculator"/></figure>
+						<figure class="stop_pulse"><img src="assets/images/apps/ship_app.png" alt="ShippingCalculator"/></figure>
 					</div>
 				</div>
 			</div>

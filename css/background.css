@@ -1,12 +1,13 @@
 /* Animation Run & Pause */
 footer {
-    height: 8vw;
-    width: 8vw;
-    margin-right: 0;
-    margin-left: auto;
-    position: fixed;
-    bottom: 0;
-    right: 0;
+  height: 8vw;
+  width: 8vw;
+  margin-right: 0;
+  margin-left: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
 }
 #sun_play {
   position: absolute;
@@ -67,7 +68,6 @@ footer {
   height: 1vh; /* planet size */
   width: 1vh;
 }
-
 .playoid {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
@@ -81,7 +81,7 @@ footer {
   animation-name: orbit;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
-  /*animation-play-state: paused;*/
+  animation-play-state: paused;
 }
 .playoid_body{
   width: 1.2vw;
