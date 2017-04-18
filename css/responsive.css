@@ -212,6 +212,9 @@
 	#contact form #form_submit {
 		font-size: 14px;
 	}
+	#sun_play {
+		display: none;
+	}
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape){
 	body .container .app_hover {
