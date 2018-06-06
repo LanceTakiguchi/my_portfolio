@@ -4,9 +4,7 @@
 * Description: My website to showcase my Web Development skills and applications
 
 ## Live Link
-* http://lancetakiguchi.com/
-
-![alt tag](http://lancetakiguchi.com/assets/images/website_v2.0.JPG?raw=true "Lance Takiguchi Portfolio Website v2.0")
+* https://lancetakiguchi.github.io/portfolio/
 
 ## Version v2.2
 * Date: 2017/04/14
