@@ -128,7 +128,7 @@ html {
 .italic {
   font-style: italic;
 }
-#quote p {
+#quotation p {
   text-align: center;
   font-family: 'Crimson Text', Verdana, sans-serif;
   font-size: 4.25em;
@@ -137,7 +137,7 @@ html {
   margin-bottom: 0.6117647em;
   padding-top: 8.33%;
 }
-#quote #plato {
+#quotation #credit {
   font-family: 'Crimson Text', Verdana, sans-serif;
 }
 /* dark shadow to allow to display better over the sun and planets in the background */
