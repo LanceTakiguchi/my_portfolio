@@ -22,38 +22,56 @@
 // var template = Handlebars.compile(source);
 // var context = {title: "My New Post", body: "This is my first post!"};
 // var html    = template(context);
-$(document).ready(function(){
-    var source = $("#some-template").html();
-    var template = Handlebars.compile(source); 
-    var data = { 
-        users: [ { 
-            person: {
-                firstName: "Garry", 
-                lastName: "Finch"
-            },
-            jobTitle: "Front End Technical Lead",
-            twitter: "gazraa" 
-        }, {
-            person: {
-                firstName: "Garry", 
-                lastName: "Finch"
-            }, 
-            jobTitle: "Photographer",
-            twitter: "photobasics"
-        }, {
-            person: {
-                firstName: "Garry", 
-                lastName: "Finch"
-            }, 
-            jobTitle: "LEGO Geek",
-            twitter: "minifigures"
-        } ]
-    }; 
+// $(document).ready(function(){
+//     var source = $("#some-template").html();
+//     var template = Handlebars.compile(source); 
+//     var data = { 
+//         users: [ { 
+//             person: {
+//                 firstName: "Garry", 
+//                 lastName: "Finch"
+//             },
+//             jobTitle: "Front End Technical Lead",
+//             twitter: "gazraa" 
+//         }, {
+//             person: {
+//                 firstName: "Garry", 
+//                 lastName: "Finch"
+//             }, 
+//             jobTitle: "Photographer",
+//             twitter: "photobasics"
+//         }, {
+//             person: {
+//                 firstName: "Garry", 
+//                 lastName: "Finch"
+//             }, 
+//             jobTitle: "LEGO Geek",
+//             twitter: "minifigures"
+//         } ]
+//     }; 
 
-    Handlebars.registerHelper('fullName', function(person) {
-    return person.firstName + " " + person.lastName;
+//     Handlebars.registerHelper('fullName', function(person) {
+//     return person.firstName + " " + person.lastName;
+//     });
+
+//     $('body').append(template(data));
+//     console.log("Do you hear me?");
+// });
+
+
+$(document).ready(function(){
+    $("#testing").click(function(){
+        $(this).hide();
     });
 
-    $('body').append(template(data));
-    console.log("Do you hear me?");
+
+    var source   = $("#hb_apps").html();
+    var template = Handlebars.compile(source);
+    var context = {testing: "This is dynamic message 123"};
+    var html    = template(context);
+
+    // Add the compiled html to the page
+    $("#testing").append(html);
+
 });
+console.log("jQuery Test")

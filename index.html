@@ -35,7 +35,7 @@ Version Date: 02/24/2017 Time: 17:59
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
 	<link rel="stylesheet" type="text/css" href="css/twinkle.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
 	<script src="js/app_info.js"></script>
 	<script src="js/responsive.js"></script>
 	<script src="js/email_ajax.js"></script>
@@ -153,9 +153,19 @@ Version Date: 02/24/2017 Time: 17:59
 				I am currently avaliable for web development work around Orange County area, as well as remote or freelance work.
 			</p>
 		</div>
-
+		<br>
 		<div> Wait here </div>
-		<h1>Handlebars JS Example</h1>
+		<div id="testing"> Click me away </div>
+
+		<script id="hb_apps" type="text/x-handlebars-template">
+			<h2> 
+				Normal next withing Handlebars
+			</h2> 
+			<h3>
+				{{testing}}
+			</h3>
+		</script>
+		<!-- <h1>Handlebars JS Example</h1>
 		<script id="some-template" type="text/x-handlebars-template"> <table>
 			<thead> 
 				<th>Name</th> 
@@ -172,7 +182,7 @@ Version Date: 02/24/2017 Time: 17:59
 				{{/users}} 
 			</tbody> 
 		</table> 
-		</script>
+		</script> -->
 
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
