@@ -76,10 +76,10 @@
 	.container .resp_marg {
 		margin-bottom: 8.33vh;
 	}
-	.container .resp_rt {
+	.container .app_hover:nth-child(even) {
 		margin-right: 0;
 	}
-	.sm_resp_marg {
+	.app_hover:nth-child(5) {
 		margin-bottom: 8.33vh;
 	}
 	.app_hover {
@@ -261,7 +261,7 @@
 	.container .resp_marg {
 		margin-bottom: 8.33vh;
 	}
-	.container .resp_rt {
+	.container .app_hover:nth-child(even) {
 		margin-right: 8.33vw;
 	}
 	.app_hover figure img {

@@ -125,33 +125,35 @@ Version Date: 02/24/2017 Time: 17:59
 	</div>
 	<div id="about" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title text_shadow">
-			<a href="#about"> Lance Takiguchi </a>
+			<a href="#about"> {{me.name}} </a>
 		</h2>
 		<img id="NERD" class="warp" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer" />
 		<div class="text_shadow_light">
+			{{#each me.about}}
 			<br>
 			<p class="indent">
-				Hello! The name is Lance, and welcome to my portfolio. I am a web developer in Irvine, California who loves tackling the
-				puzzles hidden in code.
+				{{this}}
 			</p>
-			<br>
-			<p class="indent">
-				I am always looking for jobs to feed my restless thoughts. I enjoy implementing designs that capture a user's attention,
-				the behind the scenes action is where I like to fascinate the star-gazer.
-			</p>
-			<br>
-			<p class="indent">
-				I am currently avaliable for web development work around Orange County area, as well as remote or freelance work.
-			</p>
+			{{/each}}
 		</div>
 	</div>
 	<div id="applications" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title text_shadow">
-			<a href="#applications"> {{testing}} </a>
+			<a href="#applications" class="capitalize"> {{navBar.applications}} </a>
 		</h2>
-
 			<div class="container">
-				<div class="app_hover app_margin_bot resp_rt" id="app_sgt">
+				{{#each apps}}
+				<div class="app_hover app_margin_bot resp_rt" id="app_{{this.ref}}">
+					<div>
+						<div class="app_text">
+							<h3> <a class="see_link text_shadow_light" href="" target="_blank"> {{this.name}} </a> </h3>
+							<p class="text_shadow_light"> <a class="see_link" href="{{this.liveLink}}" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="{{this.GithubLink}}" target="_blank"> Github </a> </p>
+						</div>
+						<figure class="stop_pulse"><img src="assets/images/apps/{{this.ref}}_app.png" alt="{{this.name}}" /></figure>
+					</div>
+				</div>
+				{{/each}}
+				<!-- <div class="app_hover app_margin_bot resp_rt" id="app_sgt">
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="" target="_blank"> Student Grade Table </a> </h3>
@@ -204,7 +206,7 @@ Version Date: 02/24/2017 Time: 17:59
 						</div>
 						<figure class="stop_pulse"><img src="assets/images/apps/ship_app.png" alt="ShippingCalculator" /></figure>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		<div id="app_info" class="milky_blue">
 			<p> Hover over an app to see it's description </p>
@@ -213,7 +215,7 @@ Version Date: 02/24/2017 Time: 17:59
 	</div>
 	<div id="skills" class="set_height margin_center navbar_avoid_padding">
 		<h2 class="title text_shadow">
-			<a href="#skills"> Skills </a>
+			<a href="#skills" class="capitalize"> {{navBar.skills}} </a>
 		</h2>
 		<div id="skill_box">
 			<div id="Experience" class="third milky_blue">
@@ -265,30 +267,30 @@ Version Date: 02/24/2017 Time: 17:59
 			</div>
 		</div>
 		<h2 class="title text_shadow">
-			<a href="#contact"> Contacts </a>
+			<a href="#contact" class="capitalize"> {{navBar.contact}} </a>
 		</h2>
 		<div>
 			<form name="contact_form">
 				<table>
 					<tr>
 						<td>
-							<input id="form_name" class="width_restrict" type="text" name="name" maxlength="50" size="30" placeholder=" Name" required="required">
+							<input id="form_name" class="width_restrict" type="text" name="name" maxlength="50" size="30" placeholder=" {{contact.form.name}}" required="required">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<input id="form_email" class="width_restrict" type="text" name="email" maxlength="80" size="30" placeholder=" Email"
+							<input id="form_email" class="width_restrict" type="text" name="email" maxlength="80" size="30" placeholder=" {{contact.form.email}}"
 							 required="required">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" Message" required="required"></textarea>
+							<textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" {{contact.form.message}}" required="required"></textarea>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<button id="form_submit" class="width_restrict disabled" type="button">Submit</button>
+							<button id="form_submit" class="width_restrict disabled" type="button">{{contact.submit}}</button>
 						</td>
 					</tr>
 					<tr>
@@ -317,7 +319,7 @@ Version Date: 02/24/2017 Time: 17:59
 		</div>
 	</footer>
 	</script>
-	
+
 </body>
 
 </html>

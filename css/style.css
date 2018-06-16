@@ -113,6 +113,9 @@ a:hover {
   transition: linear 200ms;
   text-shadow: -3px 3px 8px #ffc, 3px -3px 8px #fff;
 }
+.capitalize {
+  text-transform: capitalize;
+}
 .title {
   color: #C94C16; /* Solarized Orange */
   font-family: 'Poiret One',  Verdana, serif;
