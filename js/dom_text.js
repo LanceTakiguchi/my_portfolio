@@ -52,6 +52,50 @@ var domText = {
             liveLink: ""
         }
     },
+    skills: {
+        experince: {
+            name: "Experience",
+            ref: "experience",
+            list: [
+                "LearningFuze: Web Development",
+                "LearningFuze: Code Reviewer",
+                "UC Irvine: Informatics"
+            ]
+        },
+        languages: {
+            name: "Programming Languages",
+            ref: "languages",
+            list: [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Handlebars",
+                "AngularJS",
+                "Firebase",
+                "Bootstrap",
+                "PHP",
+                "Python"
+            ]
+        },
+        tools: {
+            name: "Development Tool",
+            ref: "languages",
+            list: [
+                "phpStorm",
+                "Visual Studio",
+                "Sublime",
+                "Git",
+                "Github",
+                "Chrome DevTools",
+                "MAMP",
+                "Jira",
+                "MeisterTask",
+                "Slack",
+                "Postman"                
+            ]
+        }
+    },
     contact: {
         form: {
             name: "Name",

@@ -218,15 +218,16 @@ Version Date: 02/24/2017 Time: 17:59
 			<a href="#skills" class="capitalize"> {{navBar.skills}} </a>
 		</h2>
 		<div id="skill_box">
-			<div id="Experience" class="third milky_blue">
-				<h4> Experience </h4>
+			{{#each skills}}
+			<div id="this.ref" class="third milky_blue">
+				<h4> {{this.name}} </h4>
 				<ul>
-					<li> LearningFuze: Web Development </li>
-					<li> LearningFuze: Code Reviewer </li>
-					<li> UC Irvine: Informatics </li>
+					{{#each this.list}}
+					<li> {{this}} </li>
+					{{/each}}
 				</ul>
 			</div>
-			<div id="Languages" class="third milky_blue">
+			<!-- <div id="Languages" class="third milky_blue">
 				<h4> Programming Languages </h4>
 				<ul>
 					<li> HTML </li>
@@ -254,7 +255,8 @@ Version Date: 02/24/2017 Time: 17:59
 					<li> MeisterTask </li>
 					<li> Slack </li>
 				</ul>
-			</div>
+			</div> -->
+			{{/each}}
 		</div>
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
