@@ -19,12 +19,12 @@ Version Date: 02/24/2017 Time: 17:59
 	<meta name="keywords" content="PHP, CSS, HTML, JS, Javascript, firebase, bootstrap, angular.js, home, Lance Takiguchi, portfolio, resume, projects, index, website, homepage, landing page, web development, learning fuze, application, apps, website, webpage, code, coding, LearningFuze, bootcamp">
 	<meta name="author" content="Lance Takiguchi">
 	<meta name="description" content="Lance Takiguchi's Portfolio Website">
-	<meta name="date" content="02/18/17, February 18, 2017">
+	<meta name="date" content="07/27/18, July 27, 2018">
 	<meta property="og:title" content="Lance Takiguchi | Portfolio" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="assets/images/profile_pic.jpg" />
+	<meta property="og:image" content="https://media.licdn.com/dms/image/C5603AQGQ2whLWp1i4Q/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=gcsEDjsO6b8NeT_ho31DG7fwwfVQ5GxZlC0EALlnED4" />
 	<link rel="icon" href="assets/images/sun_icon.png">
-	<link rel="image_src" href="assets/images/profile_pic.jpg" />
+	<link rel="image_src" href="https://media.licdn.com/dms/image/C5603AQGQ2whLWp1i4Q/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=gcsEDjsO6b8NeT_ho31DG7fwwfVQ5GxZlC0EALlnED4" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Raleway" rel="stylesheet">
@@ -117,9 +117,9 @@ Version Date: 02/24/2017 Time: 17:59
 	</nav>
 	<div id="home" class="set_height margin_center navbar_avoid_padding">
 		<div id="quotation" class="text_shadow">
-			<p id="quote"> Who made the Bear and Orion, the Pleiades and the chambers of the south </p>
+			<p id="quote"> {{landing.quote}} </p>
 			<p id="credit"> -
-				<span class="italic"> Job 9:9 </span>
+				<span class="italic"> {{landing.credit}} </span>
 			</p>
 		</div>
 	</div>
@@ -127,7 +127,7 @@ Version Date: 02/24/2017 Time: 17:59
 		<h2 class="title text_shadow">
 			<a href="#about"> {{me.name}} </a>
 		</h2>
-		<img id="NERD" class="warp" src="assets/images/profile_pic.jpg" alt="Just imagine a really handsome web developer" />
+		<img id="NERD" class="warp" src="{{pictures.profile}}" alt="{{me.profileAlt}}" />
 		<div class="text_shadow_light">
 			{{#each me.about}}
 			<br>
@@ -147,69 +147,15 @@ Version Date: 02/24/2017 Time: 17:59
 					<div>
 						<div class="app_text">
 							<h3> <a class="see_link text_shadow_light" href="" target="_blank"> {{this.name}} </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="{{this.liveLink}}" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="{{this.GithubLink}}" target="_blank"> Github </a> </p>
+							<p class="text_shadow_light"> {{#if this.liveLink}}<a class="see_link" href="{{this.liveLink}}" target="_blank"> &nbsp; &nbsp; Live </a> | {{/if}}<a class="see_link" href="{{this.GithubLink}}" target="_blank"> Github </a> </p>
 						</div>
 						<figure class="stop_pulse"><img src="assets/images/apps/{{this.ref}}_app.png" alt="{{this.name}}" /></figure>
 					</div>
 				</div>
 				{{/each}}
-				<!-- <div class="app_hover app_margin_bot resp_rt" id="app_sgt">
-					<div>
-						<div class="app_text">
-							<h3> <a class="see_link text_shadow_light" href="" target="_blank"> Student Grade Table </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_SGT" target="_blank"> Github </a> </p>
-						</div>
-						<figure class="stop_pulse"><img src="assets/images/apps/sgt_app.png" alt="SGT" /></figure>
-					</div>
-				</div>
-				<div class="app_hover dark_pulse app_margin_bot" id="app_swrf">
-					<div>
-						<div class="app_text">
-							<h3> <a class="see_link text_shadow_light" href="apps/rogue_fighter/" target="_blank"> Rogue Fighter </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="apps/rogue_fighter/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_Rogue_Fighter" target="_blank"> Github </a> </p>
-						</div>
-						<figure class="stop_pulse"><img src="assets/images/apps/rebel_app.png" alt="Rebels" /></figure>
-					</div>
-				</div>
-				<div class="app_hover app_margin_bot resp_rt" id="app_calc">
-					<div>
-						<div class="app_text">
-							<h3> <a class="see_link text_shadow_light" href="apps/calculator/" target="_blank"> Calculator </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="apps/calculator/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_calculator" target="_blank"> Github </a> </p>
-						</div>
-						<figure class="stop_pulse"><img src="assets/images/apps/calc_app.png" alt="Calculator" /></figure>
-					</div>
-				</div>
-				<div class="app_hover resp_marg" id="app_ttwars">
-					<div>
-						<div class="app_text">
-							<h3> <a class="see_link text_shadow_light" href="apps/tictacwars/" target="_blank"> Tic Tac Wars </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="apps/tictacwars/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_tictacwars/" target="_blank"> Github </a> </p>
-						</div>
-						<figure class="stop_pulse"><img src="assets/images/apps/ttwars_app.png" alt="TicTacWars" /></figure>
-					</div>
-				</div>
-				<div class="app_hover resp_rt sm_resp_marg" id="app_nfl">
-					<div>
-						<div class="app_text">
-							<h3> <a class="see_link text_shadow_light" href="apps/nfl_now/" target="_blank"> NFL Now </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="apps/nfl_now/" target="_blank"> &nbsp; &nbsp; Live </a> | <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_nfl_now/" target="_blank"> Github </a> </p>
-						</div>
-						<figure class="stop_pulse"><img src="assets/images/apps/nfl_app.png" alt="NFL" /></figure>
-					</div>
-				</div>
-				<div class="app_hover" id="app_ship">
-					<div>
-						<div class="app_text">
-							<h3> <a class="see_link text_shadow_light disabled" href="apps/shipping_calc/" target="_blank"> Shipping Calculator </a> </h3>
-							<p class="text_shadow_light"> <a class="see_link" href="https://github.com/LanceTakiguchi/portfolio_shipping_calculator/" target="_blank"> Github </a> </p>
-						</div>
-						<figure class="stop_pulse"><img src="assets/images/apps/ship_app.png" alt="ShippingCalculator" /></figure>
-					</div>
-				</div> -->
 			</div>
 		<div id="app_info" class="milky_blue">
-			<p> Hover over an app to see it's description </p>
+			<p> {{appsInfo}} </p>
 			<!-- Keep it the same as in app_info.js -->
 		</div>
 	</div>
@@ -227,39 +173,11 @@ Version Date: 02/24/2017 Time: 17:59
 					{{/each}}
 				</ul>
 			</div>
-			<!-- <div id="Languages" class="third milky_blue">
-				<h4> Programming Languages </h4>
-				<ul>
-					<li> HTML </li>
-					<li> CSS </li>
-					<li> JavaScript </li>
-					<li> jQuery </li>
-					<li> AngularJS </li>
-					<li> Firebase </li>
-					<li> Bootstrap </li>
-					<li> PHP </li>
-					<li> Python </li>
-				</ul>
-			</div>
-			<div id="Tools" class="third milky_blue">
-				<h4> Development Tools </h4>
-				<ul>
-					<li> phpStorm </li>
-					<li> Sublime </li>
-					<li> Visual Studio </li>
-					<li> Git </li>
-					<li> Github </li>
-					<li> Chrome DevTools </li>
-					<li> Postman </li>
-					<li> MAMP </li>
-					<li> MeisterTask </li>
-					<li> Slack </li>
-				</ul>
-			</div> -->
 			{{/each}}
 		</div>
 	</div>
 	<div id="contact" class="set_height margin_center navbar_avoid_padding">
+		<!-- For messages regarding email status -->
 		<div id="contact_bulletin">
 			<div>
 				<h4> </h4>
@@ -298,13 +216,13 @@ Version Date: 02/24/2017 Time: 17:59
 					<tr>
 						<td>
 							<p id="contact_links">
-								<a href="https://www.linkedin.com/in/lancetakiguchi" target="_blank">
+								<a href="{{contact.links.linkedin}}" target="_blank">
 									<i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i>
 								</a>
-								<a href="https://github.com/LanceTakiguchi" target="_blank">
+								<a href="{{contact.links.github}}" target="_blank">
 									<i id="github" class="fa fa-github" aria-hidden="true"></i>
 								</a>
-								<a href="assets/docs/LanceTakiguchiResume.pdf" target="_blank">
+								<a href="{{contact.links.resume}}" target="_blank">
 									<i id="resume" class="fa fa-file-pdf-o" aria-hidden="true"></i>
 								</a>
 							</p>
@@ -315,13 +233,11 @@ Version Date: 02/24/2017 Time: 17:59
 		</div>
 	</div>
 	<footer>
-		<div id="sun_play"> Orbit </div>
+		<div id="sun_play"> {{planets.orbit}} </div>
 		<div id="orbit_play" class="playoid playoid_satellite">
 			<div class="playoid_body"></div>
 		</div>
 	</footer>
 	</script>
-
 </body>
-
 </html>
