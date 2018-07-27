@@ -10,6 +10,7 @@ footer {
   z-index: 4;
 }
 #sun_play {
+  display: none;
   position: absolute;
   height: 8vw;
   width: 8vw;
