@@ -159,13 +159,16 @@ html {
   width: 50%;
   margin: auto;
 }
-#NERD { /* AKA: My picture */
+#NERD { /* AKA: My profile picture */
   border-radius: 50%;
   width: 33.3333333%;
   max-width: 486px;
   float: left;
   display: inline-block;
   margin-right: 2em; 
+  box-shadow: 0 0 40px 10px rgba(255, 107, 0, 0.4), 0 0 30px 20px rgba(255, 203, 0, 0.13);
+  background: radial-gradient(circle at center, #ffd000 1%,#f9b700 39%,#f9b700 39%,#e06317 100%);
+  text-shadow: 0 0 10px #201F1D, 0 0 20px #201F1D, 0 0 30px #201F1D, 0 0 40px #201F1D, 0 0 70px #201F1D, 0 0 80px #201F1D, 0 0 100px #201F1D;
 }
 #about div {
   display: inline;
