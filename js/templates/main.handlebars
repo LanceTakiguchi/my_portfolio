@@ -1,0 +1,135 @@
+<nav class="navbar">
+		<ul class="nav_list" id="top_nav">
+			{{#each navBar}}
+			<li id="nav_home">
+				<a href="#{{this}}" id="n_{{this}}" class="firstUpper" onclick="respon_js_home()"> {{this}} </a>
+			</li>
+			{{/each}}
+			<li class="menu">
+				<a id="hamburger" href="javascript:void(0);" onclick="respon_js()">☰</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="home" class="set_height margin_center navbar_avoid_padding">
+		<div id="quotation" class="text_shadow">
+			<p id="quote"> {{landing.quote}} </p>
+			<p id="credit"> -
+				<span class="italic"> {{landing.credit}} </span>
+			</p>
+		</div>
+	</div>
+	<div id="about" class="set_height margin_center navbar_avoid_padding">
+		<h2 class="title text_shadow">
+			<a href="#about"> {{me.name}} </a>
+		</h2>
+		<img id="NERD" class="warp" src="{{pictures.profile}}" alt="{{me.profileAlt}}" />
+		<div class="text_shadow_light">
+			{{#each me.about}}
+			<br>
+			<p class="indent">
+				{{this}}
+			</p>
+			{{/each}}
+		</div>
+	</div>
+	<div id="applications" class="set_height margin_center navbar_avoid_padding">
+		<h2 class="title text_shadow">
+			<a href="#applications" class="capitalize"> {{navBar.applications}} </a>
+		</h2>
+			<div class="container">
+				{{#each apps}}
+				<div class="app_hover app_margin_bot resp_rt" id="app_{{this.ref}}">
+					<div>
+						<div class="app_text">
+							<h3> <a class="see_link text_shadow_light" href="" target="_blank"> {{this.name}} </a> </h3>
+							<p class="text_shadow_light"> {{#if this.liveLink}}<a class="see_link" href="{{this.liveLink}}" target="_blank"> &nbsp; &nbsp; Live </a> | {{/if}}<a class="see_link" href="{{this.githubLink}}" target="_blank"> Github </a> </p>
+						</div>
+						<figure class="stop_pulse"><img src="assets/images/apps/{{this.ref}}_app.png" alt="{{this.name}}" /></figure>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		<div id="app_info" class="milky_blue">
+			<p> {{appsInfo}} </p>
+			<!-- Keep it the same as in app_info.js -->
+		</div>
+	</div>
+	<div id="skills" class="set_height margin_center navbar_avoid_padding">
+		<h2 class="title text_shadow">
+			<a href="#skills" class="capitalize"> {{navBar.skills}} </a>
+		</h2>
+		<div id="skill_box">
+			{{#each skills}}
+			<div id="this.ref" class="third milky_blue">
+				<h4> {{this.name}} </h4>
+				<ul>
+					{{#each this.list}}
+					<li> {{this}} </li>
+					{{/each}}
+				</ul>
+			</div>
+			{{/each}}
+		</div>
+	</div>
+	<div id="contact" class="set_height margin_center navbar_avoid_padding">
+		<!-- For messages regarding email status -->
+		<div id="contact_bulletin">
+			<div>
+				<h4> </h4>
+			</div>
+			<div>
+				<h5> </h5>
+			</div>
+		</div>
+		<h2 class="title text_shadow">
+			<a href="#contact" class="capitalize"> {{navBar.contact}} </a>
+		</h2>
+		<div>
+			<form name="contact_form">
+				<table>
+					<tr>
+						<td>
+							<input id="form_name" class="width_restrict" type="text" name="name" maxlength="50" size="30" placeholder=" {{contact.form.name}}" required="required">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="form_email" class="width_restrict" type="text" name="email" maxlength="80" size="30" placeholder=" {{contact.form.email}}"
+							 required="required">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<textarea id="form_message" class="width_restrict" name="message" maxlength="1000" placeholder=" {{contact.form.message}}" required="required"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button id="form_submit" class="width_restrict disabled" type="button">{{contact.submit}}</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="contact_links">
+								<a href="{{contact.links.linkedin}}" target="_blank">
+									<i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a href="{{contact.links.github}}" target="_blank">
+									<i id="github" class="fa fa-github" aria-hidden="true"></i>
+								</a>
+								<a href="{{contact.links.resume}}" target="_blank">
+									<i id="resume" class="fa fa-file-pdf-o" aria-hidden="true"></i>
+								</a>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div id="sun_play"> {{planets.orbit}} </div>
+		<div id="orbit_play" class="playoid playoid_satellite">
+			<div class="playoid_body"></div>
+		</div>
+	</footer>

@@ -35,12 +35,14 @@ Version Date: 02/24/2017 Time: 17:59
 	<link rel="stylesheet" type="text/css" href="css/pulse.css">
 	<link rel="stylesheet" type="text/css" href="css/twinkle.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
 	<script src="js/app_info.js"></script>
 	<script src="js/responsive.js"></script>
 	<script src="js/email_ajax.js"></script>
 	<script src="js/background.js"></script>
 	<script src="js/dom_text.js"></script>
+	<script src="js/handlebars.runtime.js"></script>
+	<script src="js/templates/templates.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script> -->
 	<!-- <script>
 		(function (i, s, o, g, r, a, m) {
 		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -101,8 +103,10 @@ Version Date: 02/24/2017 Time: 17:59
 			<div class="planetoid_body"></div>
 		</div>
 	</div>
-	<script id="hBars" type="text/x-handlebars-template">
 	<!-- Main Page -->
+	<script>
+		var template = Handlebars.templates['main'];
+	</script>
 	<nav class="navbar">
 		<ul class="nav_list" id="top_nav">
 			{{#each navBar}}
