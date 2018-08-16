@@ -1,7 +1,11 @@
-// var run_animation = "Heavens move";
-// var pause_animation = "Be still";
-$(document).ready(function(){
-	$("footer div").click(function(){
+$(document).ready(function () {
+    var source = $("#hBars").html();
+    var template = Handlebars.compile(source);
+    var html = template(domText);
+
+    // Add the compiled html to the page
+    $("body").append(html);	
+    $("footer div").click(function(){
 		if($(".twinkling").css("animation-play-state") == "paused"){
 			$(".twinkling").css("animation-play-state", "running");
 			$(".playoid").css("animation-play-state", "running");
