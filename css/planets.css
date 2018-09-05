@@ -68,10 +68,11 @@
 	animation-delay: -12s; /* starting position */
 }
 #mercury > .planetoid_body{
-	background: #9f5e26;
-	box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4), 0 0 22px 1px rgba(255, 203, 0, 0.13);
-	height: 1vh;
-	width: 1vh;
+	background: rgba(160,160,160,1);
+	background: radial-gradient(circle, rgba(20,20,20,1) 0%, rgba(160,160,160,1) 16%, rgba(168,168,168,1) 77%, rgba(157,157,157,1) 100%);
+    box-shadow: 0 0 10px 2px rgba(105, 105, 105, 0.88), 0 0 22px 1px rgba(255, 255, 255, 0.13);
+    height: 1vh;
+    width: 1vh;
 }
 #venus {
 	width: 19vh; /* main orbit distance */
@@ -79,10 +80,11 @@
 	animation-delay: -23.5s; /* starting position */
 }
 #venus > .planetoid_body{
-	background:#BEB768;
-	box-shadow: 0 0 10px 2px rgba(180, 88, 22, 0.4), 0 0 22px 4px rgba(255, 203, 0, 0.13);
-	height: 1.9vh;
-	width: 1.9vh;
+	background: rgb(168,97,25);
+	background: radial-gradient(circle, rgba(168,97,25,1) 0%, rgba(211,151,59,1) 20%, rgba(167,93,21,1) 77%, rgba(131,66,14,1) 100%);
+    box-shadow: 0 0 10px 2px rgba(180, 88, 22, 0.67), 0 0 22px 4px rgba(255, 203, 0, 0.13);
+    height: 1.9vh;
+    width: 1.9vh;
 }
 #earth {
 	width: 28vh; /* main orbit distance */
@@ -92,13 +94,13 @@
 #earth > .planetoid_body{
 	background: #11abe9; /* For browsers that do not support gradients */
 	/* For Safari 5.1 to 6.0 */
-	background: -webkit-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	background: -webkit-repeating-radial-gradient(#FFF 0%, #11abe9 39%, #11abe9 89%);
 	/* For Opera 11.6 to 12.0 */
-	background: -o-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	background: -o-repeating-radial-gradient(#FFF 0%, #11abe9 39%, #11abe9 89%);
 	/* For Firefox 3.6 to 15 */
-	background: -moz-repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+	background: -moz-repeating-radial-gradient(#FFF 0%, #11abe9 39%, #11abe9 89%);
 	/* Standard syntax */
-	background: repeating-radial-gradient(#FFF 1%, #11abe9 28%, #11abe9 67%);
+    background: repeating-radial-gradient(#fff 0%, #11abe9 39%, #11abe9 89%);
 	box-shadow: 0 0 10px 2px rgba(153, 171, 236, 0.4), 0 0 4px 11px rgba(85, 137, 172, 0.13);
 	height: 2.2vh;
 	width: 2.2vh;
@@ -109,8 +111,8 @@
 	animation-delay: -3.1s; /* starting position */
 }
 #moon > .planetoid_body{
-	background: grey; /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
+	background: rgb(90,90,90);
+	background: radial-gradient(circle, rgba(90,90,90,1) 0%, rgba(95,95,95,1) 15%, rgba(121,121,121,1) 47%, rgba(246,246,246,1) 100%);
 	height: .9vh;
 	width: .9vh;
 }
@@ -120,15 +122,8 @@
 	animation-delay: -62s; /* starting position */
 }
 #mars > .planetoid_body{
-	background: #cf3921; /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	background: -webkit-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-	/* For Opera 11.6 to 12.0 */
-	background: -o-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-	/* For Firefox 3.6 to 15 */
-	background: -moz-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-	/* Standard syntax */
-	background: repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
+	background: rgba(207,115,66,1);
+	background: radial-gradient(circle, rgba(247,243,244,1) 0%, rgba(207,115,66,1) 13%, rgba(213,118,67,1) 62%, rgba(186,101,66,1) 84%, rgba(148,77,65,1) 100%);
 	box-shadow: 0 0 10px 2px rgba(233, 78, 19, 0.4), 0 0 22px 2px rgba(255, 203, 0, 0.13);
 	height: 1.5vh;
 	width: 1.5vh;
@@ -158,8 +153,8 @@
 	animation-delay: -.7s; /* starting position */
 }
 #io > .planetoid_body{
-	background: yellow; /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
+	background: rgb(213,174,118);
+	background: radial-gradient(circle, rgba(213,174,118,1) 0%, rgba(218,194,192,1) 21%, rgba(223,198,138,1) 49%, rgba(219,176,92,1) 81%, rgba(213,116,48,1) 100%);
 	height: .8vh;
 	width: .8vh;
 }
@@ -169,8 +164,8 @@
 	animation-delay: -.35s; /* starting position */
 }
 #europa > .planetoid_body{
-	background: orange; /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
+	background: rgb(157,115,77);
+	background: radial-gradient(circle, rgba(157,115,77,1) 0%, rgba(191,170,127,1) 74%, rgba(171,177,174,1) 100%);
 	height: .75vh;
 	width: .75vh;
 }
@@ -180,8 +175,8 @@
 	animation-delay: -.3s; /* starting position */
 }
 #ganymede > .planetoid_body{
-	background: grey; /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
+	background: rgb(91,78,61);
+	background: radial-gradient(circle, rgba(91,78,61,1) 0%, rgba(78,61,53,1) 26%, rgba(208,192,188,1) 74%, rgba(245,232,235,1) 100%);
 	height: 1.2vh;
 	width: 1.2vh;
 }
@@ -191,7 +186,8 @@
 	animation-delay: -3s; /* starting position */
 }
 #callisto > .planetoid_body{
-	background: grey;
+	background: rgb(78,73,54);
+	background: radial-gradient(circle, rgba(78,73,54,1) 0%, rgba(224,185,121,1) 24%, rgba(115,110,88,1) 41%, rgba(224,185,121,1) 74%, rgba(49,50,34,1) 100%);
 	height: 1.1vh;
 	width: 1.1vh;
 }
@@ -201,15 +197,8 @@
 	animation-delay: -370s; /* starting position */
 }
 #saturn > .planetoid_body{
-	background: #e7c194; /* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	background: -webkit-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
-	/* For Opera 11.6 to 12.0 */
-	background: -o-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
-	/* For Firefox 3.6 to 15 */
-	background: -moz-repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
-	/* Standard syntax */
-	background: repeating-radial-gradient(#c3a992 1%, #e7c194 31%, #e7c194 71%);
+	background: rgba(236,198,135,1);
+	background: radial-gradient(circle, rgba(96,114,100,1) 0%, rgba(135,148,124,1) 11%, rgba(167,155,111,1) 15%, rgba(236,198,135,1) 66%, rgba(251,226,164,1) 100%);
 	border: .7vh solid rgb(0, 0, 0);
 	box-shadow: 0 0 0 2px rgb(219, 132, 68),
 	0 0 0 .6vh rgba(205, 162, 41, 0.01),
@@ -227,7 +216,8 @@
 	animation-delay: -2850s; /* starting position */
 }
 #uranus > .planetoid_body{
-	background: #b5e3e3;
+	background: rgb(149,205,254);
+	background: radial-gradient(circle, rgba(149,205,254,1) 0%, rgba(105,153,202,1) 90%, rgba(59,66,82,1) 100%);
 	box-shadow: 0 0 10px 2px rgba(0, 149, 255, 0.4), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 3.1vh;
 	width: 3.1vh;
@@ -238,7 +228,8 @@
 	animation-delay: -4550s; /* starting position */
 }
 #neptune > .planetoid_body{
-	background: #175e9e;
+	background: rgb(74,123,254);
+	background: radial-gradient(circle, rgba(74,123,254,1) 0%, rgba(59,95,231,1) 87%, rgba(47,59,139,1) 100%);
 	box-shadow: 0 0 10px 2px rgba(0, 55, 255, 0.59), 0 0 22px 5px rgba(255, 203, 0, 0.13);
 	height: 3vh;
 	width: 3vh;

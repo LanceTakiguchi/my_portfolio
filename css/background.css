@@ -98,16 +98,8 @@ footer {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(0%,-50%);
-  background: #cf3921; /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  background: -webkit-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-  /* For Opera 11.6 to 12.0 */
-  background: -o-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-  /* For Firefox 3.6 to 15 */
-  background: -moz-repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-  /* Standard syntax */
-  background: repeating-radial-gradient(#FFF 1%, #cf3921 31%, #cf3921 71%);
-  box-shadow: 0 0 10px 2px rgba(233, 78, 19, 0.4), 0 0 22px 2px rgba(255, 203, 0, 0.13);
+  background: rgba(207,115,66,1);
+  background: radial-gradient(circle, rgba(247,243,244,1) 0%, rgba(207,115,66,1) 13%, rgba(213,118,67,1) 62%, rgba(186,101,66,1) 84%, rgba(148,77,65,1) 100%);
 }
 .playoid_satellite {
   -webkit-transform: rotate(330deg) translateX(100px);
