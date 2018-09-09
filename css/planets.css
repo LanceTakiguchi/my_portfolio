@@ -64,8 +64,10 @@
 }
 #mercury {
 	width: 12vh; /* main orbit distance */
-	animation-duration: 14s; /* orbit of 88 earth days */
-	animation-delay: -12s; /* starting position */
+	/* animation-duration: 14s; orbit of 88 earth days */
+	/* animation-delay: -12s; starting position */
+	animation-duration: 14.45106835957072s; /* orbit of 87.969 earth days */
+	animation-delay: -6.494952390495951s; /* starting position on 1/1/1970*/
 }
 #mercury > .planetoid_body{
 	background: #9f5e26;

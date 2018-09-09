@@ -67,6 +67,7 @@ p {
 /* Used to compensate the nav jumping to sections. Otherwise the navbar would cover over the titles of the sections */
 .navbar_avoid_padding {
   padding-top: 120px; /* Note: Keep the save as navbar height */
+  display: none;
 }
 /* Fonts & Text */
 body {
