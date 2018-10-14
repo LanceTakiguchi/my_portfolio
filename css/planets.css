@@ -20,7 +20,7 @@
 	animation-name: orbit;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear; 
-	animation-play-state: paused;
+	animation-play-state: running;
 }
 .planetoid_body{
 	width: 5vh;
