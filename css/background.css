@@ -27,7 +27,7 @@ footer {
   -webkit-animation: circle 1s infinite;
   -moz-animation: sun 1s infinite;
   animation: sun 1s infinite;
-  animation-play-state: paused;
+  animation-play-state: running;
 }
 #sun_play:hover {
   cursor: pointer;
@@ -81,7 +81,7 @@ footer {
   animation-name: orbit;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
-  animation-play-state: paused;
+  animation-play-state: running;
 }
 .playoid_body{
   width: 1.2vw;
