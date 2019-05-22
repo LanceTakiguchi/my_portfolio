@@ -8,6 +8,7 @@
  * https://www.desmos.com/calculator/3e7iypw4ow
  * https://theskylive.com/3dsolarsystem?obj=&h=00&m=00&date=1970-01-01
  * https://www.heavens-above.com/planets.aspx 
+ * https://nssdc.gsfc.nasa.gov/planetary/factsheet/
  */
 /**
  * CONSTANTS
@@ -93,27 +94,54 @@ var angle = function(x, y){
         }
     }
 }
-
-var startPosition = function(orbital_period, x, y){
-    var set_date = Date.now() / 86400000;
+/**
+ * This function calculates the position the planets should load when the webpage is loaded based on the current date
+ * @param {number} seconds_for_earth_to_orbit - How many seconds for the earth animation to orbit around sun once
+ * @param {number} orbital_period - The number of earth days it takes the planet to orbit the summer
+ * @param {number} x - Relative to the sun, where the planet was  on 1/1/1970
+ * @param {number} y - Relative to the sun, where the planet was vertically on 1/1/1970
+ */
+var startPosition = function(seconds_for_earth_to_orbit, orbital_period, earth_orbit, x, y){
+    let current_date = Date.now(); // in seconds
+    var days_since_start = current_date / 86400000; // divide to get days since start in days
     var start_angle = angle(x, y);
-    var total_animation = orbital_period * 60 / 365.2422;
+    var total_animation = orbital_period * seconds_for_earth_to_orbit / earth_orbit;
     var start_animation = start_angle / 360 * total_animation;
     /**
      * planet_orbital_today: How many days into it's orbit it is relative to the starting position today
      */
-    var planet_orbital_today = set_date % orbital_period;
+    var planet_orbital_today = days_since_start % orbital_period;
     return -((planet_orbital_today * total_animation / orbital_period + start_animation) % total_animation);
 }  
 
-mercury_start = startPosition(87.969, 0.2503749, 0.1982899);
-venus_start = startPosition(224.701, -0.0345935, -0.7259848);
-var earth_start = startPosition(365.2422, -0.1792011, 0.9668216);
-var mars_start = startPosition(686.971, 1.3283899, 0.4913167);
-var jupiter_start = startPosition(4332.59, -5.0073049, -2.1528642);
-var saturn_start = startPosition(10759.22, 7.2883808, 5.6450379);
-var uranus_start = startPosition(30688.5, -18.2095625, -1.9178999);
-var neptune_start = startPosition(60182, -15.7424490, -25.8830229);
+/**
+ * How many seconds for the planet animation to orbit
+ * @param {number} animation_time - How many seconds for earth animation to orbit around the sun
+ * @param {number} planet_orbit - How many days it takes the planet to orbit the Earth
+ * @return
+ */
+var orbit_in_seconds = function(animation_time, planet_orbit, earth_orbit){
+    return planet_orbit * animation_time / earth_orbit
+}
+const earth_animation_time = 60; //Seconds for the earth to orbit once
+
+const mercury_orbit = 87.969;
+const venus_orbit = 224.701;
+const earth_orbit = 365.2422;
+const mars_orbit = 686.980;
+const jupiter_orbit = 4332.589;
+const saturn_orbit = 10759.22;
+const uranus_orbit = 30685.4;
+const neptune_start = 60189;
+
+var mercury_start = startPosition(earth_animation_time, mercury_orbit, earth_orbit, 0.2503749, 0.1982899);
+var venus_start = startPosition(earth_animation_time, venus_orbit, earth_orbit, -0.0345935, -0.7259848);
+var earth_start = startPosition(earth_animation_time, earth_orbit, earth_orbit, -0.1792011, 0.9668216);
+var mars_start = startPosition(earth_animation_time, mars_orbit, earth_orbit, 1.3283899, 0.4913167);
+var jupiter_start = startPosition(earth_animation_time, jupiter_orbit, earth_orbit, -5.0073049, -2.1528642);
+var saturn_start = startPosition(earth_animation_time, saturn_orbit, earth_orbit, 7.2883808, 5.6450379);
+var uranus_start = startPosition(earth_animation_time, uranus_orbit, earth_orbit, -18.2095625, -1.9178999);
+var neptune_start = startPosition(earth_animation_time, neptune_start, earth_orbit, -15.7424490, -25.8830229);
 
 $(document).ready(function () {
     $("#mercury").css('animation-delay', mercury_start + "s");
@@ -124,4 +152,13 @@ $(document).ready(function () {
     $("#saturn").css('animation-delay', saturn_start + "s");
     $("#uranus").css('animation-delay', uranus_start + "s");
     $("#neptune").css('animation-delay', neptune_start + "s");
+
+    $("#mercury").css('animation-duration', orbit_in_seconds(earth_animation_time, mercury_orbit, earth_orbit) + "s");
+    $("#venus").css('animation-duration', orbit_in_seconds(earth_animation_time, venus_orbit, earth_orbit) + "s");
+    $("#earth").css('animation-duration', orbit_in_seconds(earth_animation_time, earth_orbit, earth_orbit) + "s");
+    $("#mars").css('animation-duration', orbit_in_seconds(earth_animation_time, mars_orbit, earth_orbit) + "s");
+    $("#jupiter").css('animation-duration', orbit_in_seconds(earth_animation_time, jupiter_orbit, earth_orbit) + "s");
+    $("#saturn").css('animation-duration', orbit_in_seconds(earth_animation_time, saturn_orbit, earth_orbit) + "s");
+    $("#uranus").css('animation-duration', orbit_in_seconds(earth_animation_time, uranus_orbit, earth_orbit) + "s");
+    $("#neptune").css('animation-duration', orbit_in_seconds(earth_animation_time, neptune_orbit, earth_orbit) + "s");
 });
