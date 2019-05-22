@@ -120,7 +120,7 @@ var domText = {
         links: {
             linkedin: "https://www.linkedin.com/in/lancetakiguchi",
             github: "https://github.com/LanceTakiguchi",
-            resume: "https://drive.google.com/open?id=1xNkA7XShgGez3t4Itl0NQk9VMNhnVuAf"
+            resume: "assets/docs/LanceTakiguchiResume.pdf"
         }
     }
 };
