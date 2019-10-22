@@ -82,4 +82,3 @@ I needed to learn to move on and accept coming back to it later.
 * Trying hotjar to track user interaction
 * Trigger App description hovers only over the circle
 * Animation Navbar hamburger
-
