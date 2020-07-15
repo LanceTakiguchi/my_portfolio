@@ -71,6 +71,7 @@ var domText = {
             name: "Experience",
             ref: "experience",
             list: [
+                "PriceSpider: Jr. Software Engineer",
                 "LearningFuze: Web Development",
                 "LearningFuze: Code Reviewer",
                 "UC Irvine: Informatics"
@@ -97,16 +98,18 @@ var domText = {
             ref: "languages",
             list: [
                 "phpStorm",
+                "Visual Studio Code",
                 "Visual Studio",
                 "Sublime",
                 "Git",
                 "Github",
+                "SmartGit",
                 "Chrome DevTools",
                 "Jira",
                 "MeisterTask",
                 "Slack",
                 "MAMP",
-                "Postman"                
+                "Postman"
             ]
         }
     },
